@@ -1,6 +1,6 @@
-title: Kaffee & Zeitung
-description: Tägliche Nachrichten, ruhig gelesen.
-lang: de
+title: Coffee & Newspaper
+description: Daily news, calmly read.
+lang: en
 baseurl: ""
 url: https://beard-knight.com
 permalink: /:year/:month/:day/:title/
