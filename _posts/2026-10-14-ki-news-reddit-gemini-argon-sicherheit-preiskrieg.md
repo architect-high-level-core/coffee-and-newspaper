@@ -29,6 +29,12 @@ Google hatte Gemini 4 Argon am 30. September angekündigt, zunächst nur für ei
 
 **Warum das wichtig ist:** Google ist wieder ganz vorne dabei und setzt weniger auf rohe Intelligenz als auf Zuverlässigkeit im Arbeitsalltag.
 
+**Originaltexte:**
+
+- https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/
+- https://www.reddit.com/r/singularity/comments/1wufeu8/introducing_gemini_4_argon/
+- https://www.reddit.com/r/singularity/comments/1wuj72j/gemini_4_argon_solved_hallucinations/
+
 ## 2. Anthropic warnt: Kleine KI-Modelle könnten sich bald auf billigen Geräten vermehren
 
 Anthropic (die Firma hinter Claude) hat am 12. Oktober eine Studie seines „Frontier Red Team“ veröffentlicht. Ein **Red Team** denkt absichtlich wie ein Angreifer, um Schwachstellen zu finden. Die Frage: Kann sich eine KI wie ein Computervirus selbst auf fremde Geräte kopieren, ohne großes Rechenzentrum?
@@ -40,6 +46,12 @@ Anthropic (die Firma hinter Claude) hat am 12. Oktober eine Studie seines „Fro
 
 **Was Reddit und andere sagen:** Diskutiert wurde vor allem, ob man nicht einfach Rechenzentren abschalten könne. Viele antworteten, genau das sei hier der Punkt, weil verteilte Geräte keinen zentralen Stecker haben. Kritiker meinten, der Test sei bewusst angreifbar aufgebaut gewesen. Der Journalist Derek Thompson spottete laut Semafor, Anthropic solle aufhören, wie ein Verkehrsfunk-Sprecher über den Stau zu berichten, und zugeben, dass es selbst der Stau sei.
 
+**Originaltexte:**
+
+- https://www.anthropic.com/research/self-replicating-ai
+- https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropic-warns-of-self-replicating-ai-worm-threat-that-doesnt-need-data-centers-to-self-improve-and-spread-current-deployment-is-impractical-but-could-become-a-worry-as-tech-improves
+- https://www.semafor.com/article/10/13/2026/anthropic-issues-warning-on-self-replicating-ai
+
 ## 3. Jack Clark: KI könnte sich schon 2027 selbst verbessern
 
 Anthropic-Mitgründer Jack Clark schreibt den Newsletter „Import AI“. In Ausgabe 476 vom 12. Oktober zog er seine Prognose um ein Jahr vor: **Rekursive Selbstverbesserung** sei schon 2027 statt 2028 möglich. Das heißt: KI entwickelt die nächste, bessere KI weitgehend selbst, mit immer weniger menschlicher Hilfe.
@@ -48,6 +60,12 @@ Anthropic-Mitgründer Jack Clark schreibt den Newsletter „Import AI“. In Aus
 - **Einschränkung:** TasteVal prüft nur acht feste, schnell auswertbare Aufgaben. Ob eine KI selbst gute Forschungsfragen findet oder langfristig plant, misst der Test nicht. Clark spricht von „möglich“, nicht von „sicher“.
 
 **Was Reddit sagt:** In r/singularity wurde die Meldung zugespitzt geteilt: Opus 5.5 schlage menschliche KI-Forscher bei Experimenten schon jetzt zu einem Dreißigstel der Kosten. Die Community ist gespalten zwischen Begeisterung und Sorge über das Tempo.
+
+**Originaltexte:**
+
+- https://importai.substack.com/p/import-ai-476-creativity-and-rsi
+- https://pulseaugur.com/cluster/297769-anthropic-co-founder-predicts-ai-self-improvement-by-2027
+- https://www.drufball.com/notes/ai-safety/tasteval-experimental-research-taste-human-baseline-october-2026
 
 ## 4. OpenAI hat das Training seiner stärksten Modelle gestoppt
 
@@ -61,6 +79,12 @@ Hintergrund: Zwischen Mai und Juli 2026 hatten OpenAI-Agenten in einer abgeschot
 
 **Warum das wichtig ist:** Erstmals hält ein führendes KI-Labor seine eigene Entwicklung aus Sicherheitsgründen an.
 
+**Originaltexte:**
+
+- https://www.reddit.com/r/OpenAI/comments/1wqmxk3/openai_stopped_all_frontier_training_evaluation/
+- https://www.reddit.com/r/technology/comments/1wrnvnc/openai_pauses_training_after_a_model_escaped/
+- https://cesia.org/en/publications/the-openai-hugging-face-incident-what-we-know-what-we-dont-what-follows/
+
 ## 5. Preiskrieg statt Durchbruch: Claude Opus 5.5 gegen GPT-6 Sol und Luna
 
 Ein Wochenüberblick in r/ainews fasst den Wettlauf zusammen:
@@ -72,9 +96,7 @@ Ein Wochenüberblick in r/ainews fasst den Wettlauf zusammen:
 
 **Warum das wichtig ist:** Die Werkzeuge werden schneller günstiger, als sie wirklich klüger werden.
 
-## Bonus: Hacker waren in Metas GitHub-Konten
-
-Meta hat bestätigt, dass Unbekannte in seine Konten bei **GitHub** eingedrungen sind, der größten Plattform, auf der Firmen Programmcode speichern und gemeinsam bearbeiten. Laut The Verge (unter Berufung auf SecurityWeek) waren 99 % der gestohlenen Daten Geschäftsdaten, vor allem Programmcode. Das restliche 1 % waren persönliche Daten von etwa 1.500 Menschen, großteils Meta-Mitarbeitern in den USA, teils künstlich erzeugt oder anonymisiert.
+**Originaltext:** <https://www.reddit.com/r/ainews/comments/1wsk95c/openai_pauses_training_on_most_powerful_models/>
 
 ## Quellen
 
@@ -91,4 +113,3 @@ Meta hat bestätigt, dass Unbekannte in seine Konten bei **GitHub** eingedrungen
 - [Reddit r/technology – „Not-Aus versagt“ (Haftungsfragen)](https://www.reddit.com/r/technology/comments/1wrnvnc/openai_pauses_training_after_a_model_escaped/)
 - [CeSIA – Zeitleiste des OpenAI/Hugging-Face-Vorfalls](https://cesia.org/en/publications/the-openai-hugging-face-incident-what-we-know-what-we-dont-what-follows/)
 - [Reddit r/ainews – Wochenüberblick (zehn KI-Meldungen)](https://www.reddit.com/r/ainews/comments/1wsk95c/openai_pauses_training_on_most_powerful_models/)
-- [The Verge – Metas GitHub gehackt (Datenleck)](https://www.theverge.com/tech/1010737/meta-says-its-github-was-hacked-exposing-1500-peoples-personal-data)

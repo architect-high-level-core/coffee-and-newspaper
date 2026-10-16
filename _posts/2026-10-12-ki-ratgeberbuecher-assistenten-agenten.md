@@ -18,11 +18,15 @@ In einem Blog-Beitrag vom 12. Juni 2026 zeigt Tim Ferriss mit eigenen Verkaufsza
 
 Er meint nicht, dass Bücher komplett sterben. Unter Druck steht vor allem reine Anleitungs-Information („die 5 Schritte zu X“). Eher bleiben echte Geschichten, Persönlichkeit und Inhalte, die Menschen wirklich verändern. Sein Rat: lieber für 10 000 echte Fans schreiben als für Millionen Kurzvideos, die man sofort vergisst.
 
+**Originaltext:** <https://tim.blog/2026/06/12/has-ai-already-killed-nonfiction/>
+
 ## 2. „Besser als kostenlos“: Unterscheidung im KI-Zeitalter
 
 Am 17. Juli 2026 hat Ferriss einen aktualisierten Essay von Kevin Kelly (Mitgründer von WIRED) veröffentlicht. Kerngedanke: Wenn KI Kopien und Varianten von Text, Bild, Musik und Rat fast kostenlos erzeugt, muss man Dinge anbieten, die sich nicht kopieren lassen. Kelly nennt acht solche Werte („generatives“): Sofortigkeit, Personalisierung, Deutung (Hilfe beim Verstehen), Echtheit, bequemer Zugriff, körperliches Erlebnis (z. B. ein Live-Auftritt), Unterstützung der Macher (Patronage) und Auffindbarkeit.
 
 Vertrauen, Beziehung und Kontext sind damit wertvoller als „noch ein KI-Text“. Als Beispiele werden u. a. Brandon Sanderson, Stratechery und Daily Stoic genannt, bei denen Fans für Erlebnis, Deutung oder Premium-Ausgaben zahlen.
+
+**Originaltext:** <https://tim.blog/2026/07/17/better-than-free/>
 
 ## 3. Podcast: Fei-Fei Li über räumliche Intelligenz (#839)
 
@@ -30,11 +34,15 @@ In Episode #839 (9. Dezember 2025) ist Dr. Fei-Fei Li zu Gast: Stanford-Professo
 
 Ihr aktueller Fokus ist **räumliche Intelligenz** (Spatial Intelligence): KI, die Raum, 3D und Zusammenhänge in der physischen Welt versteht, über reinen Text hinaus. Im Mittelpunkt stehen für sie die Menschen, die KI bauen, nutzen und von ihr betroffen sind.
 
+**Originaltext:** <https://tim.blog/2025/12/09/dr-fei-fei-li-the-godmother-of-ai/>
+
 ## 4. Podcast: Q&A zum „KI-Tsunami“ (#859)
 
 In der Q&A-Folge #859 (26. März 2026) beantwortet Ferriss Hörerfragen zur kommenden KI-Welle. Er wähle bei Technik oft die „stumpfe Kante“ statt der „blutenden Vorderkante“, also bewährte, stabile Werkzeuge statt jedes neuesten Experiments. Themen: was Menschen noch besser können als KI, wofür man KI nicht nutzen sollte, wie man in der Flut an KI-Inhalten sichtbar bleibt und wie sein Team intern KI einsetzt.
 
 Dazu kommen Karrierewechsel in Zeiten, in denen KI Jobs verändert, die Idee der 1 000 echten Fans (Kevin Kelly) und der „Offline-Vorteil“: Beziehungen und Präsenz, die kein Chat ersetzt.
+
+**Originaltext:** <https://tim.blog/2026/03/26/qa-with-tim-ai-tsunami/>
 
 ## 5. Podcast: Sebastian Mallaby über das Rennen um Superintelligenz (#870)
 
@@ -42,11 +50,15 @@ Episode #870 (17. Juni 2026) mit Autor Sebastian Mallaby über sein Buch *The In
 
 Es geht dabei um große Chancen und echte Risiken wie Täuschung, Kontrollverlust und die geopolitische Rivalität zwischen USA und China.
 
+**Originaltext:** <https://tim.blog/2026/06/17/sebastian-mallaby/>
+
 ## 6. Warum jede große KI-Firma der Assistent sein will
 
 Ein Artikel von Nick Wentz (Forward Future, 9. Oktober 2026): Früher ging es vor allem darum, welches Modell am schlauesten ist. Jetzt kämpfen OpenAI, Google, Microsoft, Anthropic, Meta und Grok Bot darum, der Arbeits-Assistent zu sein, also der Ort, an dem der Arbeitstag beginnt. Der Grund ist Kontext (Dateien, Kollegen, Vorlieben, Verlauf): Er macht einen Assistenten schwer austauschbar. Das nennt man **Lock-in** (Bindung an einen Anbieter).
 
 Statt E-Mail, Cloud-Speicher und **CRM** (Kundenverwaltungs-Software) einzeln zu öffnen, gibt man dem Assistenten einen Auftrag. Die Software darunter bleibt wichtig, aber die „Haustür“ zur Arbeit verschiebt sich. Wentz vergleicht sechs Strategien: OpenAI als unabhängige Schicht, Google mit Workspace-Kontext, Meta mit alltagsnahen Agenten, Microsoft für große Firmen, Anthropic für Power-User, Grok Bot als „einfach den Job geben“.
+
+**Originaltext:** <https://www.forwardfuture.ai/newsletter/originals/why-every-ai-company-wants-to-be-your-assistant>
 
 ## 7. Der neue Power-User managt KI-Arbeiter
 
@@ -54,11 +66,15 @@ Ebenfalls Nick Wentz, 4. Oktober 2026: Der große Produktivitätsunterschied lie
 
 Vier Fähigkeiten: delegieren (das Ergebnis klar beschreiben), Übergaben zwischen Agenten planen, Qualität vorab definieren und bei Fehlern das System verbessern statt nur das einzelne Ergebnis zu reparieren. Ziel ist **Management by Exception**: Routine läuft von selbst, eingegriffen wird nur bei Ausnahmen. Als Einstieg empfiehlt der Artikel, einen wiederkehrenden Ablauf (z. B. Wettbewerbsrecherche) so aufzubauen, dass man sich aus den meisten Schritten herausnimmt.
 
+**Originaltext:** <https://www.forwardfuture.ai/newsletter/originals/the-new-power-user-is-a-manager-of-ai-workers>
+
 ## 8. Sechs Erkenntnisse vom OpenAI DevDay
 
 Alex Salkever (2. Oktober 2026) über OpenAIs Entwickler-Konferenz: Agenten stehen im Zentrum. OpenAI nennt u. a. „Dots“ (persönliche Agenten mit eigener Cloud-Umgebung, GPT-6 Astra und vielen **Plugins**, also Erweiterungen) und spricht von rund 1,2 Milliarden wöchentlichen Nutzern als Reichweite.
 
 Weitere Punkte: Startups entdecken neuen Bedarf, große Anbieter folgen sehr schnell; Software-Firmen (Salesforce, Adobe, Figma …) werden über Marketplace und Plugins eingebunden statt ersetzt; Nutzer erwarten bald nahezu Echtzeit-Antworten; die Anbindung mehrerer E-Mail-Konten macht Agenten „persönlich“; und Mobilgeräte werden eher zur Fernbedienung für Agenten, die anderswo arbeiten.
+
+**Originaltext:** <https://www.forwardfuture.ai/newsletter/originals/six-takeaways-from-openai-s-big-devday>
 
 ## 9. Vibe CAD: KI entwirft Leiterplatten mit GPT-6 „Astra“
 
@@ -66,17 +82,23 @@ Aleksandar Kostovic, 1. Oktober 2026: „Vibe Coding“ bedeutete, Software in A
 
 Beispiele aus der Community: ein Bluetooth-Wearable in rund 30 Minuten und eine FPV-Drohnen-Platine, die sogar gefertigt wurde. Der Mensch bleibt wichtig für Spezifikation, Prüfung und Produktionstauglichkeit; die KI übernimmt zunehmend die Ausführung im CAD.
 
+**Originaltext:** <https://www.forwardfuture.ai/newsletter/originals/vibe-cad-engineering-with-gpt-6-astra>
+
 ## 10. Was Menschen wirklich mit OpenClaw machen: 25+ Anwendungsfälle
 
 Ein Guide von Forward Future (Stand Anfang Februar 2026): **OpenClaw** ist ein **Open-Source**-Agentensystem (frei verfügbarer Quellcode), mit dem Nutzer per Gespräch Automatisierungen steuern: E-Mail, CRM, Briefings, Entwicklung, Content, Smart Home. Gesammelt sind reale Einsätze wie Morgen-Briefings, Video-Pipelines, Programmieren vom Handy und Dashboards mit mehreren Agenten.
 
 Der Guide ist älter als die Oktober-Artikel, zeigt aber, was schon jetzt funktioniert. Empfohlener Einstieg: klein starten und dann erweitern.
 
+**Originaltext:** <https://www.forwardfuture.ai/p/what-people-are-actually-doing-with-openclaw-25-use-cases>
+
 ## Bonus: GPT-6 mit „Intelligent UI“ für fast alle ChatGPT-Nutzer
 
 Am 7. Oktober 2026 kündigte OpenAI an, dass nach den zahlenden Kunden eine GPT-6-Variante für die über 1,2 Milliarden wöchentlichen ChatGPT-Nutzer ausgerollt wird. Neu: Antworten können **interaktive Oberflächen** sein, also Diagramme, Buttons, Formulare und kleine Werkzeuge direkt im Chat.
 
 Außerdem können Antworten starten, während das Modell noch „denkt“; bei Websuche beginnt die Antwort laut OpenAI im Schnitt früher. Reihenfolge: zuerst Plus/Pro/Business/Enterprise, dann Free/Go.
+
+**Originaltext:** <https://openai.com/index/gpt-6-for-everyone/>
 
 ## Quellen
 
