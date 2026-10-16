@@ -2,7 +2,7 @@
 layout: default
 ---
 <article>
-{% if page.image %}<img class="header" src="{{ page.image | relative_url }}" alt="{{ page.image_alt | default: page.title }}">{% endif %}
+{% if page.image %}<figure class="header"><img class="header" src="{{ page.image | relative_url }}" alt="{{ page.image_alt | default: page.title }}">{% if page.image_credit %}<figcaption>{{ page.image_credit }}{% if page.image_license %} · Lizenz: {% if page.image_license_url %}<a href="{{ page.image_license_url }}" rel="license">{{ page.image_license }}</a>{% else %}{{ page.image_license }}{% endif %}{% endif %}</figcaption>{% endif %}</figure>{% endif %}
 <h1>{{ page.title }}</h1>
 <p class="meta">{{ page.date | date: "%d.%m.%Y" }}</p>
 {{ content }}
