@@ -1,0 +1,7 @@
+title: Kaffee & Zeitung
+description: Tägliche Nachrichten, ruhig gelesen.
+lang: de
+baseurl: /coffee-and-newspaper
+url: https://architect-high-level-core.github.io
+permalink: /:year/:month/:day/:title/
+timezone: Europe/Vienna
