@@ -6,7 +6,13 @@ body{font-family:Georgia,"Iowan Old Style","Times New Roman",serif;max-width:36r
 a{color:#2b2b2b}header a{text-decoration:none}h1,h2{font-weight:normal}
 .meta{color:#888;font-size:.9rem}img.header{width:100%;height:auto;margin:1rem 0 2rem}
 ul.posts{list-style:none;padding:0}ul.posts li{margin:1.2rem 0}footer{margin-top:4rem;color:#aaa;font-size:.85rem}
-</style></head><body>
+body.wide{max-width:76rem}
+.grid{columns:1;column-gap:1.6rem}@media(min-width:600px){.grid{columns:2}}@media(min-width:900px){.grid{columns:3}}@media(min-width:1200px){.grid{columns:4}}
+.tile{break-inside:avoid;display:block;margin:0 0 1.8rem;text-decoration:none}
+.tile img,.tile .ph{width:100%;height:auto;display:block;border-radius:14px;transition:opacity .3s}.tile:hover img{opacity:.85}
+.tile .ph{aspect-ratio:4/3;background:linear-gradient(135deg,#efebe3,#e4ded2)}
+.tile .cap{font-size:.85rem;color:#777;padding:.5rem .2rem 0}
+</style></head><body{% if page.wide %} class="wide"{% endif %}>
 <header><a href="{{ '/' | relative_url }}">{{ site.title }}</a></header>
 <main>{{ content }}</main>
 <footer>{{ site.description }}</footer>
