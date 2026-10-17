@@ -2,11 +2,15 @@
 <html lang="{{ site.lang | default: 'en' }}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}</title>
 <meta name="description" content="{{ site.description | escape }}">
+<meta name="color-scheme" content="light dark">
+<script>(function(){try{var t=localStorage.getItem("theme");if(t!=="light"&&t!=="dark"){t=window.matchMedia&&matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light"}document.documentElement.setAttribute("data-theme",t)}catch(e){document.documentElement.setAttribute("data-theme","light")}})();</script>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&family=Plus+Jakarta+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 <style>
-:root{--page:#faf8f7;--ink:#101010;--text:#2d2c29;--muted:#73716a;--line:#e7e2dd;--accent:#ff5033;--link:#70429a;--link-hover:#542873;
+:root{--page:#faf8f7;--ink:#101010;--text:#2d2c29;--muted:#73716a;--line:#e7e2dd;--accent:#ff5033;--link:#70429a;--link-hover:#542873;--ph-a:#f1eeeb;--ph-b:#e7e2dd;--hover-bg:#f3f0ec;--thumb-bg:#ece8e3;--placeholder:#a2a19b;--line-hover:#cfc9c2;--shadow:rgba(16,16,16,.06);
 --sans:"Plus Jakarta Sans",Arial,Helvetica,sans-serif;--mono:"IBM Plex Mono",Menlo,Consolas,monospace}
+html[data-theme="dark"]{--page:#0b0b0b;--ink:#f4f2ef;--text:#e8e6e3;--muted:#a19e97;--line:#2b2927;--link:#c7a6f0;--link-hover:#e0ccfa;--ph-a:#1a1918;--ph-b:#232120;--hover-bg:#181716;--thumb-bg:#1f1e1c;--placeholder:#7d7a74;--line-hover:#4a4744;--shadow:rgba(0,0,0,.5);color-scheme:dark}
+html[data-theme="light"]{color-scheme:light}
 *{box-sizing:border-box}
 html{background:var(--page)}
 body{margin:0;background:var(--page);color:var(--ink);font-family:var(--sans);font-weight:400;-webkit-font-smoothing:antialiased}
@@ -48,24 +52,24 @@ figure.header figcaption a{color:var(--muted)}
 .grid{columns:1;column-gap:1.75rem}@media(min-width:600px){.grid{columns:2}}@media(min-width:900px){.grid{columns:3}}@media(min-width:1200px){.grid{columns:4}}
 .tile{break-inside:avoid;display:block;margin:0 0 2.25rem;text-decoration:none}
 .tile img,.tile .ph{width:100%;height:auto;display:block;border-radius:2px;transition:opacity .3s}.tile:hover img{opacity:.88}
-.tile .ph{aspect-ratio:4/3;background:linear-gradient(135deg,#f1eeeb,#e7e2dd)}
+.tile .ph{aspect-ratio:4/3;background:linear-gradient(135deg,var(--ph-a),var(--ph-b))}
 .tile .t{display:block;font-family:var(--mono);font-weight:700;color:var(--accent);font-size:.9rem;line-height:1.4;margin-top:.75rem}
 .tile:hover .t{text-decoration:underline;text-underline-offset:.18em}
 .tile .d{display:block;font-family:var(--mono);font-size:.68rem;text-transform:uppercase;letter-spacing:.14em;color:var(--muted);margin-top:.4rem}
 .search{position:absolute;left:1.5rem;top:50%;transform:translateY(-50%);width:13rem;z-index:30}
 .search input{width:100%;box-sizing:border-box;font-family:var(--mono);font-size:.72rem;letter-spacing:.06em;color:var(--muted);background:transparent;border:0;border-bottom:1px solid var(--line);border-radius:0;padding:.35rem 0;outline:none;-webkit-appearance:none;appearance:none}
-.search input::placeholder{color:#a2a19b;opacity:1}
-.search input:hover{border-bottom-color:#cfc9c2}.search input:focus{border-bottom-color:var(--accent);color:var(--ink)}
+.search input::placeholder{color:var(--placeholder);opacity:1}
+.search input:hover{border-bottom-color:var(--line-hover)}.search input:focus{border-bottom-color:var(--accent);color:var(--ink)}
 .search input::-webkit-search-cancel-button{opacity:.4}
-.sr{position:absolute;top:calc(100% + .6rem);left:0;width:min(27rem,calc(100vw - 3rem));max-height:70vh;overflow:auto;background:var(--page);border:1px solid var(--line);box-shadow:0 8px 24px rgba(16,16,16,.06);padding:.4rem 0}
+.sr{position:absolute;top:calc(100% + .6rem);left:0;width:min(27rem,calc(100vw - 3rem));max-height:70vh;overflow:auto;background:var(--page);border:1px solid var(--line);box-shadow:0 8px 24px var(--shadow);padding:.4rem 0}
 .sr[hidden]{display:none}
 .sr-item{display:flex;gap:.8rem;align-items:center;padding:.55rem .9rem;text-decoration:none}
-.sr-item img,.sr-ph{flex:0 0 64px;width:64px;height:40px;object-fit:cover;border-radius:2px;background:#ece8e3}
+.sr-item img,.sr-ph{flex:0 0 64px;width:64px;height:40px;object-fit:cover;border-radius:2px;background:var(--thumb-bg)}
 .sr-txt{display:block;min-width:0}
 .sr-t{display:block;font-family:var(--mono);font-weight:700;font-size:.78rem;line-height:1.35;color:var(--ink)}
 .sr-d{display:block;font-family:var(--mono);font-size:.62rem;text-transform:uppercase;letter-spacing:.14em;color:var(--muted);margin-top:.2rem}
 .sr-item:hover .sr-t,.sr-item:focus .sr-t{color:var(--accent)}
-.sr-item:hover,.sr-item:focus{background:#f3f0ec;outline:none}
+.sr-item:hover,.sr-item:focus{background:var(--hover-bg);outline:none}
 .sr-none{margin:0;padding:.6rem .9rem;font-family:var(--mono);font-size:.72rem;color:var(--muted)}
 @media(max-width:600px){.site-header .inner{flex-wrap:wrap}.search{position:relative;left:auto;top:auto;transform:none;order:2;width:100%;margin-top:.7rem}.sr{width:100%}}
 .brandwrap{display:flex;flex-direction:column;align-items:center}
@@ -78,9 +82,21 @@ figure.header figcaption a{color:var(--muted)}
 .post-body img,.post-body video,.post-body iframe,.post-body svg,.post-body embed,.post-body object{max-width:100%;height:auto}
 .post-body pre{max-width:100%;overflow-x:auto;white-space:pre}
 .post-body code{overflow-wrap:anywhere}
+/* light/dark toggle */
+.theme-toggle{position:absolute;right:1.5rem;top:50%;transform:translateY(-50%);display:flex;border:1px solid #101010;border-radius:2px;overflow:hidden;z-index:31}
+html[data-theme="dark"] .theme-toggle{border-color:#f4f2ef}
+.theme-toggle button{all:unset;box-sizing:border-box;display:flex;align-items:center;justify-content:center;width:34px;height:30px;cursor:pointer;background:#101010;color:#f4f2ef;transition:background .2s,color .2s}
+.theme-toggle button svg{width:15px;height:15px;display:block}
+.theme-toggle button[aria-pressed="true"]{background:#fff;color:#101010}
+.theme-toggle button:not([aria-pressed="true"]):hover{background:#2a2a2a}
+.theme-toggle button:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
+@media(max-width:600px){.brandwrap{flex:0 0 100%}.site-header .search{flex:1 1 auto;width:auto;min-width:0}.theme-toggle{position:static;transform:none;order:3;flex:0 0 auto;margin:.7rem 0 0 .9rem;align-self:flex-end}.theme-toggle button{width:30px;height:28px}}
+.post-body th{color:var(--ink)}
+.post-body th,.post-body td{border-color:var(--line)}
 </style></head><body{% if page.wide %} class="wide"{% endif %}>
-<header class="site-header"><div class="inner">{% include search.html %}<div class="brandwrap"><a class="brand" href="{{ '/' | relative_url }}">{{ site.title }}</a><p class="tagline">{{ site.description }}</p></div></div></header>
+<header class="site-header"><div class="inner">{% include search.html %}<div class="brandwrap"><a class="brand" href="{{ '/' | relative_url }}">{{ site.title }}</a><p class="tagline">{{ site.description }}</p></div><div class="theme-toggle" role="group" aria-label="Colour theme"><button type="button" data-set-theme="light" aria-label="Light mode" aria-pressed="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.3 5.3l1.4 1.4M17.3 17.3l1.4 1.4M5.3 18.7l1.4-1.4M17.3 6.7l1.4-1.4"/></svg></button><button type="button" data-set-theme="dark" aria-label="Dark mode" aria-pressed="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" aria-hidden="true"><path d="M20 14.5A8 8 0 1 1 9.5 4a6.5 6.5 0 0 0 10.5 10.5z"/></svg></button></div></div></header>
 <main>{{ content }}</main>
 <footer class="site-footer">{{ site.description }}</footer>
+<script>(function(){var r=document.documentElement,b=document.querySelectorAll("[data-set-theme]");function sync(){var t=r.getAttribute("data-theme");for(var i=0;i<b.length;i++){b[i].setAttribute("aria-pressed",b[i].getAttribute("data-set-theme")===t?"true":"false")}}sync();for(var i=0;i<b.length;i++){b[i].addEventListener("click",function(){var t=this.getAttribute("data-set-theme");r.setAttribute("data-theme",t);try{localStorage.setItem("theme",t)}catch(e){}sync()})}})();</script>
 <script src="{{ '/assets/js/search.js' | relative_url }}" defer></script>
 </body></html>
