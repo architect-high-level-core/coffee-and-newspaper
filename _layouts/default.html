@@ -71,6 +71,8 @@ figure.header figcaption a{color:var(--muted)}
 .brandwrap{display:flex;flex-direction:column;align-items:center}
 .tagline{margin:.4rem 0 0;font-family:var(--mono);font-size:.64rem;line-height:1.3;text-transform:uppercase;letter-spacing:.16em;color:var(--muted);text-align:center}
 @media(max-width:600px){.tagline{font-size:.58rem;letter-spacing:.12em}}
+.post-body{overflow-wrap:break-word}
+.post-body table{display:block;max-width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch}
 </style></head><body{% if page.wide %} class="wide"{% endif %}>
 <header class="site-header"><div class="inner">{% include search.html %}<div class="brandwrap"><a class="brand" href="{{ '/' | relative_url }}">{{ site.title }}</a><p class="tagline">{{ site.description }}</p></div></div></header>
 <main>{{ content }}</main>

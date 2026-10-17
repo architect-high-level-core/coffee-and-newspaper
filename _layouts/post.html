@@ -4,7 +4,7 @@ layout: default
 <article>
 <h1 class="post-title">{{ page.title }}</h1>
 <p class="byline">{{ page.date | date: "%-d %b %Y" }}</p>
-{% if page.image %}<figure class="header"><img class="header" src="{{ page.image | relative_url }}" alt="{{ page.image_alt | default: page.title }}">{% if page.image_credit %}<figcaption>{{ page.image_credit }}{% if page.image_license %} · License: {% if page.image_license_url %}<a href="{{ page.image_license_url }}" rel="license">{{ page.image_license }}</a>{% else %}{{ page.image_license }}{% endif %}{% endif %}</figcaption>{% endif %}</figure>{% endif %}
+{% if page.image %}<figure class="header"><img class="header" src="{{ page.image | relative_url }}" alt="{{ page.image_alt | default: page.title }}">{% if page.image_credit %}<figcaption>{% if page.image_source_url %}<a href="{{ page.image_source_url }}" rel="nofollow noopener" target="_blank">{{ page.image_credit }}</a>{% else %}{{ page.image_credit }}{% endif %}{% if page.image_license %} · License: {% if page.image_license_url %}<a href="{{ page.image_license_url }}" rel="license">{{ page.image_license }}</a>{% else %}{{ page.image_license }}{% endif %}{% endif %}</figcaption>{% endif %}</figure>{% endif %}
 <div class="post-body">
 {{ content }}
 </div>
