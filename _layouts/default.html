@@ -1,19 +1,58 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: 'en' }}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&family=Plus+Jakarta+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 <style>
-body{font-family:Georgia,"Iowan Old Style","Times New Roman",serif;max-width:36rem;margin:3rem auto;padding:0 1.2rem;line-height:1.7;color:#2b2b2b;background:#fbfaf7}
-a{color:#2b2b2b}header a{text-decoration:none}h1,h2{font-weight:normal}
-.meta{color:#888;font-size:.9rem}figure.header{margin:1rem 0 2rem}img.header{width:100%;height:auto;display:block;border-radius:14px}figure.header figcaption{font-size:.75rem;color:#999;margin-top:.5rem;line-height:1.4;word-break:break-word}
-ul.posts{list-style:none;padding:0}ul.posts li{margin:1.2rem 0}footer{margin-top:4rem;color:#aaa;font-size:.85rem}
-body.wide{max-width:76rem}
-.grid{columns:1;column-gap:1.6rem}@media(min-width:600px){.grid{columns:2}}@media(min-width:900px){.grid{columns:3}}@media(min-width:1200px){.grid{columns:4}}
-.tile{break-inside:avoid;display:block;margin:0 0 1.8rem;text-decoration:none}
-.tile img,.tile .ph{width:100%;height:auto;display:block;border-radius:14px;transition:opacity .3s}.tile:hover img{opacity:.85}
-.tile .ph{aspect-ratio:4/3;background:linear-gradient(135deg,#efebe3,#e4ded2)}
-.tile .cap{font-size:.85rem;color:#777;padding:.5rem .2rem 0}
+:root{--page:#faf8f7;--ink:#101010;--text:#2d2c29;--muted:#73716a;--line:#e7e2dd;--accent:#ff5033;--link:#70429a;--link-hover:#542873;
+--sans:"Plus Jakarta Sans",Arial,Helvetica,sans-serif;--mono:"IBM Plex Mono",Menlo,Consolas,monospace}
+*{box-sizing:border-box}
+html{background:var(--page)}
+body{margin:0;background:var(--page);color:var(--ink);font-family:var(--sans);font-weight:400;-webkit-font-smoothing:antialiased}
+.site-header{border-bottom:1px solid var(--line);background:var(--page)}
+.site-header .inner{max-width:76rem;margin:0 auto;padding:1.1rem 1.5rem;display:flex;align-items:center;justify-content:center}
+.brand{font-family:var(--sans);font-weight:700;font-size:1.15rem;letter-spacing:-.02em;color:var(--ink);text-decoration:none;display:inline-flex;align-items:center;gap:.5rem}
+.brand::before{content:"";width:.95rem;height:.95rem;background:var(--accent);display:inline-block}
+main{max-width:52rem;margin:0 auto;padding:2.5rem 1.5rem 0}
+body.wide main{max-width:76rem}
+.site-footer{max-width:76rem;margin:5rem auto 0;padding:1.5rem;border-top:1px solid var(--line);font-family:var(--mono);font-size:.7rem;text-transform:uppercase;letter-spacing:.2em;color:var(--muted);text-align:center}
+/* post header */
+.post-title{font-family:var(--mono);font-weight:700;color:var(--accent);font-size:clamp(1.35rem,3vw,1.75rem);line-height:1.4;letter-spacing:-.01em;margin:.5rem 0 0;max-width:48rem;text-wrap:balance}
+.byline{margin:1.25rem 0 0;font-family:var(--mono);font-size:.75rem;text-transform:uppercase;letter-spacing:.14em;color:var(--ink)}
+figure.header{margin:2rem 0 0}
+img.header{width:100%;height:auto;display:block;border-radius:2px}
+figure.header figcaption{font-family:var(--mono);font-size:.68rem;letter-spacing:.02em;color:var(--muted);margin-top:.6rem;line-height:1.5;word-break:break-word}
+figure.header figcaption a{color:var(--muted)}
+/* article body (Forward Future "originals" body) */
+.post-body{font-family:var(--sans);font-size:1.125rem;line-height:1.78;font-weight:400;color:var(--text);margin-top:2rem}
+.post-body p,.post-body ul,.post-body ol{margin:1.25rem 0 0}
+.post-body ul,.post-body ol{padding-left:1.5rem}
+.post-body li+li{margin-top:.5rem}
+.post-body h1,.post-body h2,.post-body h3,.post-body h4,.post-body h5{font-family:var(--sans);font-weight:700;color:var(--ink)}
+.post-body h2{border-top:1px solid var(--line);letter-spacing:-.025em;margin:3.5rem 0 0;padding-top:1.25rem;font-size:clamp(1.75rem,4vw,2.25rem);line-height:1.08}
+.post-body h3{letter-spacing:-.015em;margin:2.5rem 0 0;font-size:clamp(1.35rem,3vw,1.65rem);line-height:1.18}
+.post-body h4,.post-body h5{margin:1.5rem 0 0;font-size:1.125rem;line-height:1.25}
+.post-body strong,.post-body b{font-weight:700;color:var(--ink)}
+.post-body em,.post-body i{font-family:Georgia,"Times New Roman",Times,serif;font-style:italic;color:var(--ink)}
+.post-body a{color:var(--link);text-decoration:underline;text-decoration-color:currentColor;text-decoration-thickness:.08em;text-underline-offset:.18em;word-break:break-word}
+.post-body a:hover{color:var(--link-hover)}
+.post-body blockquote{border-left:3px solid var(--accent);margin:1.5rem 0 0;padding-left:1rem;color:var(--muted)}
+.post-body hr{border:0;border-top:1px solid var(--line);margin:2rem 0}
+.post-body img{max-width:100%;height:auto;border-radius:0}
+.post-body code{font-family:var(--mono);font-size:.9em}
+.back{margin-top:3rem;font-family:var(--mono);font-size:.75rem;text-transform:uppercase;letter-spacing:.14em}
+.back a{color:var(--ink);text-decoration:none;border-bottom:1px solid var(--accent)}
+.back a:hover{color:var(--accent)}
+/* homepage grid */
+.grid{columns:1;column-gap:1.75rem}@media(min-width:600px){.grid{columns:2}}@media(min-width:900px){.grid{columns:3}}@media(min-width:1200px){.grid{columns:4}}
+.tile{break-inside:avoid;display:block;margin:0 0 2.25rem;text-decoration:none}
+.tile img,.tile .ph{width:100%;height:auto;display:block;border-radius:2px;transition:opacity .3s}.tile:hover img{opacity:.88}
+.tile .ph{aspect-ratio:4/3;background:linear-gradient(135deg,#f1eeeb,#e7e2dd)}
+.tile .t{display:block;font-family:var(--mono);font-weight:700;color:var(--accent);font-size:.9rem;line-height:1.4;margin-top:.75rem}
+.tile:hover .t{text-decoration:underline;text-underline-offset:.18em}
+.tile .d{display:block;font-family:var(--mono);font-size:.68rem;text-transform:uppercase;letter-spacing:.14em;color:var(--muted);margin-top:.4rem}
 </style></head><body{% if page.wide %} class="wide"{% endif %}>
-<header><a href="{{ '/' | relative_url }}">{{ site.title }}</a></header>
+<header class="site-header"><div class="inner"><a class="brand" href="{{ '/' | relative_url }}">{{ site.title }}</a></div></header>
 <main>{{ content }}</main>
-<footer>{{ site.description }}</footer>
+<footer class="site-footer">{{ site.description }}</footer>
 </body></html>
