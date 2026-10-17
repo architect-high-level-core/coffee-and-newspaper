@@ -73,6 +73,11 @@ figure.header figcaption a{color:var(--muted)}
 @media(max-width:600px){.tagline{font-size:.58rem;letter-spacing:.12em}}
 .post-body{overflow-wrap:break-word}
 .post-body table{display:block;max-width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch}
+/* mobile overflow guard: long URLs/words wrap, media and code never widen the page */
+.post-body a,.post-body li,.post-body p,figure.header figcaption,.post-title{overflow-wrap:anywhere}
+.post-body img,.post-body video,.post-body iframe,.post-body svg,.post-body embed,.post-body object{max-width:100%;height:auto}
+.post-body pre{max-width:100%;overflow-x:auto;white-space:pre}
+.post-body code{overflow-wrap:anywhere}
 </style></head><body{% if page.wide %} class="wide"{% endif %}>
 <header class="site-header"><div class="inner">{% include search.html %}<div class="brandwrap"><a class="brand" href="{{ '/' | relative_url }}">{{ site.title }}</a><p class="tagline">{{ site.description }}</p></div></div></header>
 <main>{{ content }}</main>
