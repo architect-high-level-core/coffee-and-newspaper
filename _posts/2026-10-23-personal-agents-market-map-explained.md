@@ -29,6 +29,16 @@ This article explains the map as a whole and what "personal agent" means. It the
 
 ## 1. The whole map at a glance
 
+<figure class="header market-map">
+  <a href="/assets/img/2026-10-23-personal-agents-market-map-desktop.png">
+    <picture>
+      <source media="(max-width: 700px)" srcset="/assets/img/2026-10-23-personal-agents-market-map-mobile.png" width="1080" height="5514">
+      <img class="header" src="/assets/img/2026-10-23-personal-agents-market-map-desktop.png" width="1600" height="1994" loading="lazy" alt="Personal Agents Market Map, October 15, 2026: 46 personal AI agents in four groups. Model-Lab Offerings (6): the anchors ChatGPT dots (OpenAI), Grok Bot (SpaceXSI) and Muse (Meta); also from the labs Gemini Spark (Google), Autopilot, formerly Scout (Microsoft), and Claude Cowork (Anthropic). Open Source / Self-Host / BYO-Model (11): OpenClaw, Hermes Agent, Vellum, Comma; Pivra Desk; and the runtimes ZeroClaw, NanoClaw, nanobot, IronClaw, Moltis and PicoClaw. Independent Agent-Only Companies (22): text-first Instinct, Poke, Tab, Persona, folk, Hello Haven, Rene, Martin, Tomo, Pally and Iris; agents with their own computer Perplexity Computer, Cue, Genspark Claw, Lindy, Fo and szn; desktop, device and ambient Eney, Hark Pro, Underdog, Skye and Ambi. Industry / Vertical-Specific (7): family and household Fambot, Ohai, Ollie and Orbits; travel Miso; creators Stanley; work life Town.">
+    </picture>
+  </a>
+  <figcaption>The Personal Agents Market Map as of October 15, 2026, redrawn by The Architect High Level. Based on the original map by McBain (<a href="https://x.com/heyneighbor" rel="nofollow noopener" target="_blank">@heyneighbor</a>), OpenClaw Personal Agents Weekly (<a href="https://x.com/heyneighbor/status/2110809223408058639" rel="nofollow noopener" target="_blank">original post on X</a>). Tap the image to open the full-size version.</figcaption>
+</figure>
+
 The map sorts 46 products into four boxes.
 
 ### Model-Lab Offerings
