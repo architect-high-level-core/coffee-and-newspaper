@@ -5,12 +5,12 @@ date: 2026-10-31 07:34:00 +0100
 slug: ai-in-gifted-education
 excerpt: "How AI is used to find, teach and challenge gifted and talented students: machine-learning screening, AI tutors, acceleration and enrichment, support for twice-exceptional learners, competitions, and the risks of over-reliance, cheating and bias. Based on 2024–2026 research from gifted-education journals, NAGC, ECHA, the World Council, OECD and UNESCO."
 tags: [AI, education, gifted education, talent development, twice-exceptional, 2e, identification, machine learning, AI tutors, ChatGPT, Khanmigo, acceleration, enrichment, equity, academic integrity, OECD, UNESCO, NAGC, ECHA]
-image: /assets/img/2026-10-31-ai-in-gifted-education.jpg
-image_alt: "Primary school students in light-blue school shirts sit at wooden desks working on small green-and-white laptops, in front of a blackboard covered with handwritten maths exercises in French"
-image_credit: "Photo: One Laptop per Child, “Kagugu Classroom” (2008), CC BY 2.0, via Wikimedia Commons – https://commons.wikimedia.org/wiki/File:Kagugu_Classroom_(4844912130).jpg (resized)"
-image_license: "CC BY 2.0 (Creative Commons Attribution 2.0 Generic)"
-image_license_url: "https://creativecommons.org/licenses/by/2.0/"
-image_description: "Photo of a classroom at Kagugu Ecole Primaire in Kigali, Rwanda, taken on 23 September 2008 and published by One Laptop per Child. Several students in light-blue school shirts sit at simple wooden desks and work on small green-and-white XO laptops. Behind them, a large blackboard is filled with handwritten maths word problems in French. The image stands for technology-supported learning in ordinary classrooms in general. It does not show gifted students, an AI tool, or any of the programmes or studies described in this article."
+image: /assets/img/2026-10-31-ai-in-gifted-education-v2.jpg
+image_alt: "Primary school children in matching blue tracksuits sit on the wooden floor of a Japanese classroom, most of them seen from behind, listening to a man in a grey work jacket at the front, next to a green chalkboard with Japanese writing"
+image_credit: "Photo: Nhrdsk, “金屋石を使っての授業の様子（2014.12.3）” (“Lesson using Kanaya stone”, 2014), CC BY-SA 4.0, via Wikimedia Commons – https://commons.wikimedia.org/wiki/File:%E9%87%91%E5%B1%8B%E7%9F%B3%E3%82%92%E4%BD%BF%E3%81%A3%E3%81%A6%E3%81%AE%E6%8E%88%E6%A5%AD%E3%81%AE%E6%A7%98%E5%AD%90%EF%BC%882014.12.3%EF%BC%89.JPG (resized)"
+image_license: "CC BY-SA 4.0 (Creative Commons Attribution-ShareAlike 4.0 International)"
+image_license_url: "https://creativecommons.org/licenses/by-sa/4.0/"
+image_description: "Photo of a lesson at a Japanese primary school, taken on 3 December 2014 by Wikimedia Commons user Nhrdsk. Several dozen pupils in matching blue tracksuits sit on the wooden classroom floor, most of them seen from behind, and listen to a visiting speaker in a grey work jacket at the front of the room, next to a green chalkboard with handwritten Japanese. According to the Japanese Wikipedia article on Kanaya stone, where the photo is used, it shows a lesson about this local building stone at Shogawa Elementary School in Tonami, Toyama Prefecture. The image stands for everyday classroom learning in general. It does not show gifted students, an AI tool, or any of the programmes or studies described in this article."
 ---
 
 Gifted education has always had a resource problem. A child who finishes the maths unit in a week needs harder material, faster pacing and, ideally, a mentor who knows the field. Most teachers do not have time to build that for one or two students. Generative artificial intelligence (AI) looks, at first sight, like the perfect answer: a tireless tutor that can explain calculus to a ten-year-old at midnight.
@@ -220,4 +220,4 @@ The general trend matches gifted research: AI works best when it supports teache
 - [Codeforces community post: Goodbye 2025 – AI cheaters claim (unverified)](https://codeforces.com/blog/entry/149941)
 - [White House: Presidential AI Challenge guidebook (PDF)](https://www.whitehouse.gov/wp-content/uploads/2025/08/Presidential-AI-Challenge-Guidebook-for-Participation.pdf)
 - [ORISE: Presidential AI Challenge timeline](https://orise.orau.gov/ai-challenge/about/timeline.html)
-- [Wikimedia Commons: Kagugu Classroom (image)](https://commons.wikimedia.org/wiki/File:Kagugu_Classroom_(4844912130).jpg)
+- [Wikimedia Commons: Lesson using Kanaya stone, Japanese primary school (image)](https://commons.wikimedia.org/wiki/File:%E9%87%91%E5%B1%8B%E7%9F%B3%E3%82%92%E4%BD%BF%E3%81%A3%E3%81%A6%E3%81%AE%E6%8E%88%E6%A5%AD%E3%81%AE%E6%A7%98%E5%AD%90%EF%BC%882014.12.3%EF%BC%89.JPG)
