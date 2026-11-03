@@ -9,6 +9,9 @@ image_credit: "Photo: InclusiveGameLab, “InclusiveGameLab Xbox-Adaptive-Contro
 image_license: "CC BY-SA 4.0"
 image_license_url: "https://creativecommons.org/licenses/by-sa/4.0/"
 image_description: "Top-down photo of a white Xbox Adaptive Controller, an accessibility controller for players with limited mobility, lying on a grey surface. It has two large round black buttons, a black directional pad on the left, small function buttons, a row of connection ports along the top edge and a small green triangle sticker with cartoon eyes."
+audio: /assets/audio/ai-game-storytelling-design.mp3
+audio_voice: Andrew
+audio_duration: "19:27"
 ---
 
 For decades, a video game character could only say what a writer had written and an actor had recorded. In 2026, that rule is starting to bend. Game characters now listen to spoken commands and answer in their own words. Smaller systems quietly adjust pacing, test levels and adapt menus. Behind the scenes, AI tools write code, generate textures and help with research. At the same time, the backlash has grown. More than half of game industry professionals now say generative AI is harming their industry, and voice actors went on strike for almost a year over how their voices may be copied.
