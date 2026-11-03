@@ -22,7 +22,7 @@ WHAT IT DOES for each post file:
      "Original article(s)" link lists and footnotes are stripped).
   2. Picks one of three voices: en-US-GuyNeural, en-US-AndrewNeural, en-GB-RyanNeural
      (reproducible random choice seeded by the slug).
-  3. Runs edge-tts (pitch -5Hz, rate -3%), retrying up to 3 times on errors, and writes
+  3. Runs edge-tts (pitch -5Hz, rate -10% = speed 0.9), retrying up to 3 times on errors, and writes
      assets/audio/<slug>.mp3 as mono ~48 kbps (24 kHz). Re-encodes with ffmpeg only if
      the output is not already mono/48k.
   4. Adds/updates front matter keys `audio`, `audio_voice` and `audio_duration` (m:ss),
@@ -38,7 +38,7 @@ REPO = Path(__file__).resolve().parent.parent
 POSTS = REPO / "_posts"
 AUDIO_DIR = REPO / "assets" / "audio"
 VOICES = {"Guy": "en-US-GuyNeural", "Andrew": "en-US-AndrewNeural", "Ryan": "en-GB-RyanNeural"}
-PITCH, RATE = "-5Hz", "-3%"
+PITCH, RATE = "-5Hz", "-10%"
 EDGE_TTS = os.environ.get("EDGE_TTS", "/workspace/.venv-tts/bin/edge-tts")
 
 SKIP_HEADING = re.compile(r"^(sources?|references?|further reading|links?|original articles?|credits?|image credits?|photo credits?|footnotes?|notes)\b", re.I)
