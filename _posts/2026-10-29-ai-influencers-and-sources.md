@@ -10,6 +10,9 @@ image_credit: "Photo: Myotus, “Microphones in SPNN Podcast studio”, CC BY 4.
 image_license: "CC BY 4.0"
 image_license_url: "https://creativecommons.org/licenses/by/4.0/"
 image_description: "Photo of the podcast studio of Saint Paul Neighborhood Network (SPNN), a community media centre in St Paul, Minnesota. Around a round white table stand several black broadcast microphones on boom arms with coloured cables, each with a pair of closed studio headphones hanging from it. In the middle of the table sits a rack-mounted audio interface; behind it are a desk with a computer monitor, a wall-mounted TV screen, a small camera, a houseplant and a tall black equipment rack. The image stands for the podcasts, videos and newsletters through which AI influencers reach their audiences; it does not show any of the people named in the post."
+audio: /assets/audio/ai-influencers-and-sources.mp3
+audio_voice: Andrew
+audio_duration: "20:36"
 ---
 
 Many people now follow AI news through a handful of personalities rather than through newspapers. This post profiles four of the most influential voices – YouTuber and newsletter founder Matthew Berman, researcher-educator Andrej Karpathy, Wharton professor Ethan Mollick and podcaster Lex Fridman – and then lists the best places to follow AI outside X and Reddit, grouped by what you want to get out of them.

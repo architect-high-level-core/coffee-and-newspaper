@@ -23,7 +23,7 @@ WHAT IT DOES for each post file:
   2. Picks one of three voices: en-US-GuyNeural, en-US-AndrewNeural, en-GB-RyanNeural
      (reproducible random choice seeded by the slug).
   3. Runs edge-tts (pitch -5Hz, rate -10% = speed 0.9) in ~6000-char paragraph chunks, retrying each
-     chunk up to 3 times on errors, joins them losslessly with ffmpeg, and writes
+     chunk up to 3 times on errors (then paragraph by paragraph as a fallback), joins them losslessly with ffmpeg, and writes
      assets/audio/<slug>.mp3 as mono ~48 kbps (24 kHz). Re-encodes with ffmpeg only if
      the output is not already mono/48k.
   4. Adds/updates front matter keys `audio`, `audio_voice` and `audio_duration` (m:ss),
@@ -227,12 +227,16 @@ def tts_piece(text, voice, dst, tries=3):
     tf = dst.with_suffix(".txt"); tf.write_text(text, encoding="utf-8")
     last = ""
     for i in range(1, tries + 1):
-        r = subprocess.run([EDGE_TTS, "--voice", voice, f"--pitch={PITCH}", f"--rate={RATE}", "-f", str(tf),
-                            "--write-media", str(dst)], capture_output=True, text=True)
-        if r.returncode == 0 and dst.exists() and dst.stat().st_size > 1000:
-            return
-        last = (r.stderr or r.stdout).strip().splitlines()[-1:] or [""]
-        last = last[0][-300:]
+        try:
+            r = subprocess.run([EDGE_TTS, "--voice", voice, f"--pitch={PITCH}", f"--rate={RATE}", "-f", str(tf),
+                                "--write-media", str(dst)], capture_output=True, text=True,
+                               timeout=120 + len(text) // 20)
+            if r.returncode == 0 and dst.exists() and dst.stat().st_size > 1000:
+                return
+            last = (r.stderr or r.stdout).strip().splitlines()[-1:] or [""]
+            last = last[0][-300:]
+        except subprocess.TimeoutExpired:
+            last = "timeout"
         print(f"  edge-tts attempt {i}/{tries} failed: {last}", file=sys.stderr)
         time.sleep(5 * i)
     raise RuntimeError("edge-tts failed after %d attempts: %s" % (tries, last))
@@ -244,8 +248,23 @@ def tts(text, voice, out, tries=3):
         parts = []
         for n, piece in enumerate(chunks_of(text)):
             dst = td / f"part{n:03d}.mp3"
-            tts_piece(piece, voice, dst, tries)
-            parts.append(dst)
+            try:
+                tts_piece(piece, voice, dst, tries)
+                parts.append(dst)
+                continue
+            except RuntimeError:
+                print(f"  chunk {n} failed; retrying paragraph by paragraph", file=sys.stderr)
+            # fallback: one request per paragraph; a paragraph that still fails is retried
+            # once more with only letters, digits and basic punctuation
+            for k, para in enumerate(p for p in piece.split("\n\n") if p.strip()):
+                pd = td / f"part{n:03d}_{k:03d}.mp3"
+                try:
+                    tts_piece(para, voice, pd, 2)
+                except RuntimeError:
+                    clean = re.sub(r"[^A-Za-z0-9 .,;:!?'()%-]+", " ", para)
+                    clean = re.sub(r"\s{2,}", " ", clean).strip()
+                    tts_piece(clean, voice, pd, tries)
+                parts.append(pd)
         lst = td / "list.txt"
         lst.write_text("".join(f"file '{p}'\n" for p in parts))
         joined = td / "joined.mp3"

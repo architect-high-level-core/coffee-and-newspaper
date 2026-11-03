@@ -10,6 +10,9 @@ image_credit: "Photo: John Robert McPherson, “Commuters read smartphones Platf
 image_license: "CC BY-SA 4.0"
 image_license_url: "https://creativecommons.org/licenses/by-sa/4.0/"
 image_description: "Daytime photo taken through the open door of a train at Roma Street railway station in Brisbane, Australia, in March 2014. On the platform, people sit on long red benches; a young woman in the centre and most of the people around her are looking at their smartphones. Behind them stands a silver commuter train with yellow doors, and overhead hang departure screens. The image stands for the everyday, mobile use of apps such as AI assistants; it does not show any AI product."
+audio: /assets/audio/ai-user-numbers-big-tech.mp3
+audio_voice: Andrew
+audio_duration: "23:44"
 ---
 
 Almost every big tech company now says its AI assistant has hundreds of millions of users, and some say more than a billion. But the numbers are hard to compare: one company counts weekly users, another monthly users, a third only paying business customers, and some publish nothing at all. Here is what the latest figures say, where they come from, and how Apple and Microsoft fit into the picture.
