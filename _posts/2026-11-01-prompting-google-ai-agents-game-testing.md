@@ -10,6 +10,7 @@ image_alt: "A white laptop on a wooden table with an espresso cup, a smartphone 
 image_credit: "Photo: www.Pixel.la Free Stock Photos, “Coffee-apple-iphone-laptop-1”, CC0 1.0, via Wikimedia Commons – https://commons.wikimedia.org/wiki/File:Coffee-apple-iphone-laptop-1_(23699840693).jpg (cropped)"
 image_license: "CC0 1.0 (Public Domain Dedication)"
 image_license_url: "https://creativecommons.org/publicdomain/zero/1.0/"
+listen: true
 ---
 
 This Sunday is about how we work with AI: what still matters when you write to a chatbot, how AI answers are changing Google Search, and why running many coding agents at once can feel more productive than it is. Here are six stories, plus one surprise.
