@@ -10,6 +10,9 @@ image_credit: "Photo: Bino Storyteller (curiousbino), “Morning Break (Unsplash
 image_license: "CC0 1.0"
 image_license_url: "https://creativecommons.org/publicdomain/zero/1.0/"
 image_description: "Photo of a small glass of espresso with a thin layer of crema, standing on a clear glass saucer with a teaspoon, placed on top of a folded Vietnamese newspaper on a warm-toned wooden table. Behind the newspaper sit a pair of small red canvas high-top sneakers with white laces, slightly out of focus. Taken at La Viet Coffee in Da Lat, Vietnam. The image stands for the morning ritual of coffee and the news, the format of this roundup."
+audio: /assets/audio/ai-tech-news-roundup.mp3
+audio_voice: Ryan
+audio_duration: "14:13"
 ---
 
 The last three days in AI were busy: OpenAI shipped a cheaper workhorse model that reads technical drawings, Chinese labs pushed powerful open models (one of them writes CAD scripts), Anthropic showed Claude writing mathematical proofs for real software, and OpenAI moved its frontier training off the live internet. Here are seven stories worth knowing, plus one surprise.

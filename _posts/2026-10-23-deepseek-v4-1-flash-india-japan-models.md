@@ -9,6 +9,9 @@ image_credit: 'Photo: <a href="https://www.youtube.com/@geekerwan1024" rel="nofo
 image_license: "CC BY 3.0"
 image_license_url: "https://creativecommons.org/licenses/by/3.0/"
 image_description: "Studio photo of four NVIDIA H100 PCIe accelerator cards, the kind of data-centre GPU used to train and serve large AI models. The cards stand upright one behind the other on a white marble table, seen from the side so their dark metal brackets and gold, finely ribbed cooling shrouds are visible. The background is black. A small light-blue logo of the Chinese tech channel Geekerwan, the photographer, sits in the top-left corner. The image is used here as a symbol of the hardware and serving costs that efficient models such as DeepSeek V4.1 Flash try to reduce."
+audio: /assets/audio/deepseek-v4-1-flash-india-japan-models.mp3
+audio_voice: Guy
+audio_duration: "34:06"
 ---
 
 On the night of October 22–23, 2026, the open-source agent project OpenClaw announced on X that "DeepSeek V4.1 Flash from @deepseek_ai is now available in OpenClaw" and asked users how it was working with their agents ([OpenClaw on X](https://x.com/openclaw/status/2113414141327380480)). The model itself is not brand new: DeepSeek released it on September 10, 2026, and published an updated checkpoint on October 17. But the OpenClaw integration is a good moment to look at it properly.

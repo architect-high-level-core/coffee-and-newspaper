@@ -22,7 +22,8 @@ WHAT IT DOES for each post file:
      "Original article(s)" link lists and footnotes are stripped).
   2. Picks one of three voices: en-US-GuyNeural, en-US-AndrewNeural, en-GB-RyanNeural
      (reproducible random choice seeded by the slug).
-  3. Runs edge-tts (pitch -5Hz, rate -10% = speed 0.9), retrying up to 3 times on errors, and writes
+  3. Runs edge-tts (pitch -5Hz, rate -10% = speed 0.9) in ~6000-char paragraph chunks, retrying each
+     chunk up to 3 times on errors, joins them losslessly with ffmpeg, and writes
      assets/audio/<slug>.mp3 as mono ~48 kbps (24 kHz). Re-encodes with ffmpeg only if
      the output is not already mono/48k.
   4. Adds/updates front matter keys `audio`, `audio_voice` and `audio_duration` (m:ss),
@@ -209,28 +210,53 @@ def fmt_dur(sec):
     return f"{h}:{m:02d}:{s:02d}" if h else f"{m}:{s:02d}"
 
 
+def chunks_of(text, limit=6000):
+    """Split at paragraph boundaries into pieces of at most ~limit chars (long single
+    requests sometimes fail with NoAudioReceived; small pieces are reliable)."""
+    out, cur = [], ""
+    for para in [p for p in text.split("\n\n") if p.strip()]:
+        if cur and len(cur) + len(para) + 2 > limit:
+            out.append(cur); cur = ""
+        cur = (cur + "\n\n" + para) if cur else para
+    if cur:
+        out.append(cur)
+    return out
+
+
+def tts_piece(text, voice, dst, tries=3):
+    tf = dst.with_suffix(".txt"); tf.write_text(text, encoding="utf-8")
+    last = ""
+    for i in range(1, tries + 1):
+        r = subprocess.run([EDGE_TTS, "--voice", voice, f"--pitch={PITCH}", f"--rate={RATE}", "-f", str(tf),
+                            "--write-media", str(dst)], capture_output=True, text=True)
+        if r.returncode == 0 and dst.exists() and dst.stat().st_size > 1000:
+            return
+        last = (r.stderr or r.stdout).strip().splitlines()[-1:] or [""]
+        last = last[0][-300:]
+        print(f"  edge-tts attempt {i}/{tries} failed: {last}", file=sys.stderr)
+        time.sleep(5 * i)
+    raise RuntimeError("edge-tts failed after %d attempts: %s" % (tries, last))
+
+
 def tts(text, voice, out, tries=3):
     with tempfile.TemporaryDirectory() as td:
-        tf = Path(td) / "t.txt"; tf.write_text(text, encoding="utf-8")
-        tmp = Path(td) / "o.mp3"
-        last = ""
-        for i in range(1, tries + 1):
-            r = subprocess.run([EDGE_TTS, "--voice", voice, f"--pitch={PITCH}", f"--rate={RATE}", "-f", str(tf),
-                                "--write-media", str(tmp)], capture_output=True, text=True)
-            if r.returncode == 0 and tmp.exists() and tmp.stat().st_size > 1000:
-                break
-            last = (r.stderr or r.stdout)[-500:]
-            print(f"  edge-tts attempt {i}/{tries} failed: {last.strip()}", file=sys.stderr)
-            time.sleep(5 * i)
-        else:
-            raise RuntimeError("edge-tts failed after %d attempts: %s" % (tries, last))
-        dur, ch, br = probe(tmp)
+        td = Path(td)
+        parts = []
+        for n, piece in enumerate(chunks_of(text)):
+            dst = td / f"part{n:03d}.mp3"
+            tts_piece(piece, voice, dst, tries)
+            parts.append(dst)
+        lst = td / "list.txt"
+        lst.write_text("".join(f"file '{p}'\n" for p in parts))
+        joined = td / "joined.mp3"
+        subprocess.run(["ffmpeg", "-y", "-v", "error", "-f", "concat", "-safe", "0", "-i", str(lst), "-c", "copy", str(joined)], check=True)
+        dur, ch, br = probe(joined)
         if ch != 1 or br > 56000:
-            enc = Path(td) / "e.mp3"
-            subprocess.run(["ffmpeg", "-y", "-v", "error", "-i", str(tmp), "-ac", "1", "-b:a", "48k", str(enc)], check=True)
-            tmp = enc
+            enc = td / "e.mp3"
+            subprocess.run(["ffmpeg", "-y", "-v", "error", "-i", str(joined), "-ac", "1", "-b:a", "48k", str(enc)], check=True)
+            joined = enc
         out.parent.mkdir(parents=True, exist_ok=True)
-        shutil.move(str(tmp), out)
+        shutil.move(str(joined), out)
     return probe(out)[0]
 
 

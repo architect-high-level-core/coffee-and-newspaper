@@ -7,6 +7,9 @@ image: /assets/img/2026-10-23-ai-agents-monitoring-flint-engineering-ai.jpg
 image_alt: "A laptop showing code on a wooden workbench next to rolled engineering drawings and a metal machine part, with a monitoring dashboard and a small amber warning light in the background"
 image_credit: "Illustration: AI-generated"
 image_description: "Suggested illustration: a laptop on a workbench next to engineering drawings, its screen showing lines of code, with a small warning light on a monitoring dashboard in the background, symbolising local AI coding tools, engineering AI and the question of who watches the agents."
+audio: /assets/audio/ai-agents-monitoring-flint-engineering-ai.mp3
+audio_voice: Guy
+audio_duration: "5:42"
 ---
 
 Thursday, October 22, 2026 brought a mix of AI news that matters well beyond the big labs: an honest safety report about coding agents, a free coding model that runs on a laptop, plans for open benchmarks for AI in engineering, new open search models, big money moves in China and at Anthropic, and a biology result designed by an AI model.

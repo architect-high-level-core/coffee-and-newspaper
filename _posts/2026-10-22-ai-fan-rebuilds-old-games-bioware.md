@@ -9,6 +9,9 @@ image_credit: "Photo: Michael B. (Michael Brunk / nwlens.com) from Seattle, USA,
 image_license: "CC BY 2.0"
 image_license_url: "https://creativecommons.org/licenses/by/2.0/"
 image_description: "Photo from the 2015 BioWare Cosplay Parade at PAX Prime in Seattle. A cosplayer in a dark leather skirt, boots, arm guards and a brown shawl, apparently styled after Morrigan from Dragon Age, poses on a stage lit in blue and purple. Behind her, three judges sit on a black sofa and clap. Tall banners with BioWare game art stand in the background, and a table on the left displays fan-made props and books. The photographer's copyright notice is printed in the bottom-right corner."
+audio: /assets/audio/ai-fan-rebuilds-old-games-bioware.mp3
+audio_voice: Andrew
+audio_duration: "15:44"
 ---
 
 On October 21, 2026, Electronic Arts closed BioWare, the studio behind *Baldur's Gate*, *Star Wars: Knights of the Old Republic*, *Mass Effect* and *Dragon Age*. For many players, the question now is not only "what happens to the studio?" but also "who will look after these games?" Increasingly, the answer is the fans. They use AI tools to sharpen old textures, rebuild game engines from scratch, and even give characters new lines in AI-cloned voices.

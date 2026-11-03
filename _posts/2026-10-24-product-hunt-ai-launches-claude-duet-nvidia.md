@@ -6,6 +6,9 @@ tags: [AI, AI agents, product launch, Product Hunt, Anthropic, 1Password, Nvidia
 image: /assets/img/2026-10-24-product-hunt-ai-launches.jpg
 image_alt: "A laptop on a wooden desk showing a grid of colourful product cards with upvote arrows, next to a cup of coffee and a glowing lava lamp"
 image_credit: "Illustration: AI-generated"
+audio: /assets/audio/product-hunt-ai-launches-claude-duet-nvidia.mp3
+audio_voice: Guy
+audio_duration: "6:42"
 ---
 
 Product Hunt is still one of the best-known places to launch a new tech product, but in 2026 it is crowded with AI tools. Here is how a launch works today, what the rules say, what changed this year and what practical lessons founders share. After that, three short AI news items and a surprise about lava lamps.

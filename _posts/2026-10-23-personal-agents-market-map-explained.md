@@ -9,6 +9,9 @@ image_credit: 'Photo: <a href="https://unsplash.com/@rawpixel" rel="nofollow noo
 image_license: "CC0 1.0"
 image_license_url: "https://creativecommons.org/publicdomain/zero/1.0/"
 image_description: "Photo of a young woman in a light, floral summer top sitting at a dark wooden table in a café. Her face is mostly hidden by her long blond hair as she looks down at a smartphone she holds in both hands and types a message. On the table are a plastic cup of iced coffee with milk and a black straw, and a pair of dark sunglasses. The scene illustrates the idea behind many new personal AI agents: instead of opening an app, you simply text your assistant like a friend."
+audio: /assets/audio/personal-agents-market-map-explained.mp3
+audio_voice: Guy
+audio_duration: "26:01"
 ---
 
 Personal AI agents are the hottest consumer AI category of autumn 2026. Every week brings a new assistant that you can text, call or let run in the background. To keep track, McBain (@heyneighbor), who works in developer relations at OpenClaw, publishes a weekly thread called **OpenClaw Personal Agents Weekly**. Its October 15, 2026 edition included a one-page **"Personal Agents Market Map"** with 46 products ([original post on X](https://x.com/heyneighbor/status/2110809223408058639)). The post was viewed more than 120,000 times and saved by more than 800 people.
