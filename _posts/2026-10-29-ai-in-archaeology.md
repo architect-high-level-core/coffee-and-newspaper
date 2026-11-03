@@ -10,6 +10,9 @@ image_credit: "Photo: The Metropolitan Museum of Art, “Cuneiform tablet: comme
 image_license: "CC0 1.0 (Public Domain Dedication)"
 image_license_url: "https://creativecommons.org/publicdomain/zero/1.0/"
 image_description: "Museum photograph of a fragmentary Babylonian clay tablet in the Metropolitan Museum of Art, New York. The reddish-brown tablet is broken and has been pieced together from several fragments; a crack runs vertically through it and a small separate piece sits at the lower left. Its surface is covered with dense horizontal lines of wedge-shaped cuneiform signs. The text is a commentary on tablet 5 of Enuma Anu Enlil, a Babylonian series of celestial omens, dated to around the late first millennium BC. The image stands for the kind of broken, partly readable written evidence that AI tools now help archaeologists and philologists match, read and date."
+audio: /assets/audio/ai-in-archaeology.mp3
+audio_voice: Guy
+audio_duration: "32:24"
 ---
 
 Archaeology is a science of fragments: burnt scrolls, broken tablets, worn inscriptions, ruins hidden under forest or sand. In the past two years, artificial intelligence (AI) has started to help with all of these. In June 2026, a team read a carbonised Herculaneum scroll from end to end without ever opening it. Google DeepMind's Aeneas helps historians restore and date Latin inscriptions. AI-assisted surveys have almost doubled the number of known figurative Nazca geoglyphs. At the same time, archaeologists are warning loudly about invented "readings", biased data and over-confident chatbots.

@@ -11,6 +11,9 @@ image_credit: "Photo: Tedder, “Amazon AWS us-west-2 morrow east AZ 01” (2023
 image_license: "CC BY-SA 4.0"
 image_license_url: "https://creativecommons.org/licenses/by-sa/4.0/"
 image_description: "Aerial photograph, taken in August 2023, of part of Amazon Web Services' us-west-2 (Oregon) availability zone in Morrow County, Oregon. According to the Commons description, it shows three data centers with a fourth under construction. The finished buildings are long, windowless blocks with light roofs covered in rows of cooling equipment; white generator or equipment containers line their sides, and a large electrical substation sits at the top of the image. In the foreground, a building's steel frame is still open. The image stands for the physical side of Amazon's AI strategy: concrete, power and cooling, which is where most of the company's record capital spending goes."
+audio: /assets/audio/amazon-ai-plans-and-problems.mp3
+audio_voice: Guy
+audio_duration: "33:25"
 ---
 
 Amazon's third-quarter report on October 29, 2026 was, on paper, one of its best. Amazon Web Services (AWS), its cloud division, grew 39% year over year, the fastest pace in nearly five years. The whole company earned its highest operating margin ever. Andy Jassy, Amazon's CEO, predicted that AWS would grow by more than 40% in both 2027 and 2028.

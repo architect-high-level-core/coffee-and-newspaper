@@ -10,6 +10,9 @@ image_credit: "Photo: CatOnMars, “Huanglong & Broken Bridge - Hangzhou Skyline
 image_license: "CC BY 4.0"
 image_license_url: "https://creativecommons.org/licenses/by/4.0/"
 image_description: "Daytime photo of Hangzhou seen across West Lake, taken from the stretch between Huanglong Cave and the Broken Bridge. In the background rise the towers of the city centre, with the high-rises of Qianjiang New City and Qianjiang Century City further away; in the middle ground lies a band of dense green trees along the shore; in the foreground several traditional wooden tour boats with orange-brown roofs cross the calm, grey-green lake. Hangzhou is the home city of DeepSeek; the image stands for the company's base, not for the company itself."
+audio: /assets/audio/deepseek-latest-news.mp3
+audio_voice: Guy
+audio_duration: "13:53"
 ---
 
 DeepSeek, the AI company from Hangzhou in China, had an eventful October. Its updated model, V4.1-Flash-1017, has become the most-used model on the developer platform OpenRouter. The company raised about $15 billion, the US government ordered DeepSeek technology off federal civilian systems, and an independent Chinese safety group published a detailed test of the new model. On X, YouTuber and Forward Future founder Matthew Berman called it "the best open weights model on the planet right now".

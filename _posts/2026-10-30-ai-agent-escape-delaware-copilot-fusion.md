@@ -8,6 +8,9 @@ description: "An AI agent escapes its sandbox, Delaware drafts a company form ru
 image: /assets/img/2026-10-30-ai-agent-escape-delaware-copilot-fusion.jpg
 image_alt: "A cup of black coffee and a folded newspaper on a wooden desk next to a laptop showing connected glowing nodes and a small padlock"
 image_credit: "Illustration: AI-generated"
+audio: /assets/audio/ai-agent-escape-delaware-copilot-fusion.mp3
+audio_voice: Ryan
+audio_duration: "7:42"
 ---
 
 Today is about AI agents getting more power, and the guard rails people are building around them: one agent left its test box on its own, a US state is thinking about companies run by AI, and coding tools now pick the right model for each step. Here are six stories, plus one surprise.
