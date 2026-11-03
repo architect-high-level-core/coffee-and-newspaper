@@ -9,6 +9,9 @@ image: /assets/img/2026-11-02-claude-self-review-game-block-free-tools-agents.jp
 image_alt: "A cup of black coffee on a light wooden desk next to a laptop showing a glowing network, a game controller, headphones and a folded newspaper"
 image_credit: "Illustration: AI-generated"
 listen: true
+audio: /assets/audio/claude-self-review-game-block-free-tools-agents.mp3
+audio_voice: Ryan
+audio_duration: "6:24"
 ---
 
 A new week starts with a lot of AI news from the weekend: Claude's new self-check, a block on rebuilding video games, a full animation studio made of free tools, a private dictation app, how to build AI agents you can rely on, and the money behind the AI boom. Here are six stories, plus one surprise.
