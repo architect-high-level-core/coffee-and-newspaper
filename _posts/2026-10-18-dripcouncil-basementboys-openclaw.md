@@ -9,6 +9,9 @@ image_credit: "Photo: Klaus Kevin Kristensen, “Homarus gammarus 168550328”, 
 image_license: "CC BY 4.0"
 image_license_url: "https://creativecommons.org/licenses/by/4.0/"
 image_description: "Close-up of a European lobster's head with dark shell, white-tipped spines and long orange antennae in dark water. The lobster is the mascot motif of the open-source agent system OpenClaw."
+audio: /assets/audio/dripcouncil-basementboys-openclaw.mp3
+audio_voice: Ryan
+audio_duration: "13:22"
 ---
 
 How does an AI agent behave when a web page lies, applies pressure or asks it to pay? Two small websites from the same open-source maintainer approach agents from different angles: dripcouncil.org is a public practice range for browser agents, and basementboys.org showcases open-source tools, two of which connect directly to the agent system OpenClaw. This overview covers what each site is, who runs it as far as public information shows, how OpenClaw is used, and which business models are visible or possible.

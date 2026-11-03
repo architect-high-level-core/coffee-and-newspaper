@@ -10,6 +10,9 @@ image_source_url: "https://commons.wikimedia.org/wiki/File:3D_printer_farm_at_Ha
 image_license: "CC BY 4.0"
 image_license_url: "https://creativecommons.org/licenses/by/4.0/"
 image_description: "A small 3D printer farm at Hackerspace Wrocław: four Prusa MK3S+ and three Prusa Mini printers stand on two white shelves, with labelled storage boxes of filament above them and tools hanging on a pegboard to the right."
+audio: /assets/audio/openclaw-3d-printer-raspberry-pi.mp3
+audio_voice: Andrew
+audio_duration: "17:58"
 ---
 
 Can an AI agent run a 3D printer on its own? An Austrian newspaper put it to the test. Over several months, a DER STANDARD editor let the open-source agent OpenClaw run a 3D printer through a Raspberry Pi, with the goal of turning holiday photos into printed souvenirs. This post goes through every part of that setup, explains how the agent controls the chain from chat message to finished print, lists the OpenClaw skills and projects that do the same thing, and compares current printer prices.

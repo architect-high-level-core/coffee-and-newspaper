@@ -8,6 +8,9 @@ description: "Anthropic files for an IPO, Microsoft offers 60,000 buyouts, a stu
 image: /assets/img/2026-10-28-anthropic-ipo-microsoft-buyouts-lean-agents.jpg
 image_alt: "A cup of black coffee and a folded newspaper on a wooden desk next to a laptop showing a glowing network graph and a rising chart"
 image_credit: "Illustration: AI-generated"
+audio: /assets/audio/anthropic-ipo-microsoft-buyouts-lean-agents.mp3
+audio_voice: Andrew
+audio_duration: "8:56"
 ---
 
 Big money and practical lessons today: Anthropic opened its books for a stock market listing, Microsoft offered tens of thousands of staff a paid exit, and two studies show that simpler AI agents can be just as good and that people quietly adopt the AI's opinions. Here are six stories, plus one surprise.

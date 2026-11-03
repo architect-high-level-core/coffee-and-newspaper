@@ -9,6 +9,9 @@ image_credit: "Image: Astroscale, “ADRAS-J Phase I”, CC BY-SA 4.0, via Wikim
 image_license: "CC BY-SA 4.0"
 image_license_url: "https://creativecommons.org/licenses/by-sa/4.0/"
 image_description: "Artist's rendering of Astroscale's ADRAS-J inspection spacecraft, a cube wrapped in gold foil with a large camera lens and two solar wings, flying above the blue-white Earth towards a discarded Japanese rocket upper stage against a star field."
+audio: /assets/audio/ai-space-tech-japan-europe.mp3
+audio_voice: Ryan
+audio_duration: "15:37"
 ---
 
 Artificial intelligence in space is often discussed in terms of a handful of large launch companies. This post looks elsewhere: at private space companies in Japan and Europe. Where do they actually use AI, and what does it give them? The examples below cover AI that runs on board satellites, software that lets a spacecraft plan its own work, camera-based navigation near space debris, machine-learning analysis of satellite images on the ground, and automated engine design. ESA and JAXA appear only as context, as customers or programme owners. Every claim links to a company, agency or press source.

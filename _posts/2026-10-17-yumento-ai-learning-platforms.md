@@ -10,6 +10,9 @@ image_source_url: "https://commons.wikimedia.org/wiki/File:White_work_table_with
 image_license: "CC0 1.0"
 image_license_url: "https://creativecommons.org/publicdomain/zero/1.0/"
 image_description: "A bright, tidy study desk seen from above: an open blank notebook in the centre, a yellow pencil and glasses beside it, a smartphone on the left and a laptop on the right, symbolising studying with digital AI tools."
+audio: /assets/audio/yumento-ai-learning-platforms.mp3
+audio_voice: Guy
+audio_duration: "19:21"
 ---
 
 AI tutors and course generators promise personal tutoring for a few euros a month. This overview compares the new Italian platform Yumento with five similar services: Gauth (with "AI Course"), Gemini Notebook (formerly NotebookLM), Khanmigo, StudyFetch and YouLearn. For each one it covers usability, prices as shown on the website (checked October 17, 2026), real features versus marketing claims, Reddit feedback and who runs it.

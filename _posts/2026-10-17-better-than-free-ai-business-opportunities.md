@@ -6,6 +6,9 @@ tags: [AI, business models, creator economy, authenticity, GEO, AI agents]
 image: /assets/img/2026-10-17-better-than-free.png
 image_alt: "A single warm terracotta cup set apart from a grid of identical pale paper copies"
 image_credit: "Illustration: generated image"
+audio: /assets/audio/better-than-free-ai-business-opportunities.mp3
+audio_voice: Guy
+audio_duration: "8:27"
 ---
 
 When AI can produce copies and competent variations of almost anything in seconds, value shifts to what cannot be copied. This overview explains Kevin Kelly's eight "generatives" and lists AI businesses and products that already build on each of them.

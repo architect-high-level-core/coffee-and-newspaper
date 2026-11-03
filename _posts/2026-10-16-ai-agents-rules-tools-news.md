@@ -8,6 +8,9 @@ image_alt: "Glowing fiber-optic cables in a museum exhibit"
 image_credit: "Photo: Syced, “Fujikura optic fiber at Science Museum”, CC0 (public domain), via Wikimedia Commons – https://commons.wikimedia.org/wiki/File:Fujikura_optic_fiber_at_Science_Museum.jpg"
 image_license: "CC0 1.0"
 image_license_url: "https://creativecommons.org/publicdomain/zero/1.0/"
+audio: /assets/audio/ai-agents-rules-tools-news.mp3
+audio_voice: Guy
+audio_duration: "7:24"
 ---
 
 Large platforms are drawing lines for AI agents, while open-source tools make building your own agents easier and easier. This overview sums up new rules, widely used agent tools and current AI news from Forward Future.

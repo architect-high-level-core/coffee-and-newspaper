@@ -8,6 +8,9 @@ image_alt: "Abstract digital graphic with glowing, connected dots and lines"
 image_credit: "Image: Michael Gaylard, “Digital Abstraction Neural Network Glow”, CC BY 4.0, via Wikimedia Commons – https://commons.wikimedia.org/wiki/File:Digital_Abstraction_Neural_Network_Glow_(55258890373).jpg"
 image_license: "CC BY 4.0"
 image_license_url: "https://creativecommons.org/licenses/by/4.0/"
+audio: /assets/audio/ai-news-reddit-gemini-argon-safety-price-war.mp3
+audio_voice: Andrew
+audio_duration: "9:29"
 ---
 
 Google is making its top model Gemini 4 Argon generally available, while Anthropic and OpenAI are making headlines with safety issues. This overview sums up five current AI stories along with reactions from the Reddit community.

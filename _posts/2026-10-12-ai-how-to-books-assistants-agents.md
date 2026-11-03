@@ -8,6 +8,9 @@ image_alt: "Close-up of a green circuit board with components and traces"
 image_credit: "Photo: Peter Shanks, “Green circuit board II”, CC BY 2.0, via Wikimedia Commons – https://commons.wikimedia.org/wiki/File:Green_circuit_board_II_(2389301870).jpg"
 image_license: "CC BY 2.0"
 image_license_url: "https://creativecommons.org/licenses/by/2.0/"
+audio: /assets/audio/ai-how-to-books-assistants-agents.mp3
+audio_voice: Ryan
+audio_duration: "10:29"
 ---
 
 Chatbots are putting pressure on how-to books, and the big AI companies are competing to become the main work assistant. This overview sums up ten topics from Tim Ferriss's blog and podcast and from Forward Future, plus a product launch from OpenAI.

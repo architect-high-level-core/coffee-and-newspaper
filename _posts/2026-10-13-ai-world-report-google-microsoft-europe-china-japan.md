@@ -8,6 +8,9 @@ image_alt: "Back of a server rack in a data center with many cables"
 image_credit: "Photo: Derrick Coetzee, “Rear of rack at NERSC data center – closeup”, CC0 (public domain), via Wikimedia Commons – https://commons.wikimedia.org/wiki/File:Rear_of_rack_at_NERSC_data_center_-_closeup.jpg"
 image_license: "CC0 1.0"
 image_license_url: "https://creativecommons.org/publicdomain/zero/1.0/"
+audio: /assets/audio/ai-world-report-google-microsoft-europe-china-japan.mp3
+audio_voice: Ryan
+audio_duration: "12:35"
 ---
 
 The heads of Google and Microsoft are betting on AI agents but see power and chips as the biggest bottleneck. On top of that come figures on layoffs attributed to AI and the most important AI news from Europe, China and Japan.
