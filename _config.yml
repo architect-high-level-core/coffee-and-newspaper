@@ -5,3 +5,4 @@ baseurl: ""
 url: https://thearchitecthighlevel.com
 permalink: /:year/:month/:day/:title/
 timezone: Europe/Vienna
+exclude: [scripts, Gemfile, Gemfile.lock, node_modules, vendor]
