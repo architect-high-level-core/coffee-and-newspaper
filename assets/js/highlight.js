@@ -10,11 +10,13 @@
   }
   var words = norm(q).split(/\s+/).filter(Boolean);
   if (!words.length) return;
+  var WC = /[\p{L}\p{N}]/u;
+  function isW(c) { return !!c && WC.test(c); }
   function ranges(s) {
     var out = '', map = [];
     for (var i = 0; i < s.length; i++) { var n = norm(s[i]); for (var k = 0; k < n.length; k++) { out += n[k]; map.push(i); } }
     var r = [];
-    words.forEach(function (w) { var i = 0; while ((i = out.indexOf(w, i)) > -1) { r.push([map[i], map[i + w.length - 1] + 1]); i += w.length; } });
+    words.forEach(function (w) { var i = 0; while ((i = out.indexOf(w, i)) > -1) { if (!isW(out[i - 1]) && !isW(out[i + w.length])) { r.push([map[i], map[i + w.length - 1] + 1]); i += w.length; } else i++; } });
     r.sort(function (a, b) { return a[0] - b[0]; });
     var m = []; r.forEach(function (x) { var l = m[m.length - 1]; if (l && x[0] <= l[1]) l[1] = Math.max(l[1], x[1]); else m.push(x); });
     return m;

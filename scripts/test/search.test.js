@@ -1,0 +1,26 @@
+global.location={search:''};global.URLSearchParams=URLSearchParams;
+var box={getAttribute:()=>null,querySelector:()=>({addEventListener(){}} ),contains:()=>true};
+global.document={querySelector:()=>box,addEventListener(){}};
+global.module={exports:{}};
+eval(require('fs').readFileSync(__dirname+'/../../assets/js/search.js','utf8'));
+var a=module.exports, assert=require('assert');
+assert.equal(a.mark('Mistral & <b>MISTRAL</b>',[a.norm('mistral')]),'<mark>Mistral</mark> &amp; &lt;b&gt;<mark>MISTRAL</mark>&lt;/b&gt;');
+assert.equal(a.mark('Über Müller',[a.norm('uber')]),'<mark>Über</mark> Müller');
+assert.equal(a.mark('Straße',[a.norm('strasse')]),'<mark>Straße</mark>');
+var d=a.prep([{title:'Old Mistral',content:'x',ts:1},{title:'New Mistral',content:'x',ts:2},{title:'A',content:'mistral mistral',ts:3},{title:'B',content:'mistral mistral mistral',ts:1},{title:'C',content:'no',ts:9}]);
+var r=a.search(d,'MISTRAL');
+assert.deepEqual(r.title.map(h=>h.p.title),['New Mistral','Old Mistral']);
+assert.deepEqual(r.text.map(h=>h.p.title+h.n),['B3','A2']);
+console.log(a.snippet('lorem '.repeat(40)+'Mistral released '+'ipsum '.repeat(40),['mistral']));
+console.log('OK');
+// whole words
+assert.equal(a.mark('He said AI is here',[a.norm('ai')]),'He said <mark>AI</mark> is here');
+assert.equal(a.mark("Mistral's Mistral-7B Mistrals",[a.norm('mistral')]),"<mark>Mistral</mark>&#39;s <mark>Mistral</mark>-7B Mistrals");
+assert.equal(a.mark('Straßenbahn Straße',[a.norm('strasse')]),'Straßenbahn <mark>Straße</mark>');
+assert.equal(a.mark('İstanbul istanbullu',[a.norm('istanbul')]),'<mark>İstanbul</mark> istanbullu');
+var d2=a.prep([{title:'Said',content:'he said so',ts:1},{title:'AI news',content:'ai ai',ts:2},{title:'X',content:'open ai models',ts:3},{title:'Y',content:'open said',ts:4}]);
+var r2=a.search(d2,'ai');
+assert.deepEqual(r2.title.map(h=>h.p.title),['AI news']);assert.deepEqual(r2.text.map(h=>h.p.title),['X']);
+assert.equal(r2.title[0].n,2);
+assert.deepEqual(a.search(d2,'open ai').text.map(h=>h.p.title),['X']);
+console.log('OK2');
