@@ -11,6 +11,9 @@ image_credit: "Image: Wikideas1, “Coder screen shot”, CC0 1.0 (public domain
 image_license: "CC0 1.0"
 image_license_url: "https://creativecommons.org/publicdomain/zero/1.0/"
 image_description: "Screenshot-style image of source code in an editor, shared on Wikimedia Commons under CC0. It stands for software development in general and does not show any agent, harness or product named in this article."
+audio: /assets/audio/harness-engineering-ai-agents.mp3
+audio_voice: Andrew
+audio_duration: "9:26"
 ---
 
 For two years, "prompt engineering" was the buzzword: finding the right words to get good answers from an AI model. In early November 2026, a different term dominates AI discussions on X: **harness engineering**. The idea: don't polish the prompt, build the system around the model.
