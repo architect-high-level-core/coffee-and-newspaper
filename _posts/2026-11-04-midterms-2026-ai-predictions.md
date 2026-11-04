@@ -11,6 +11,9 @@ image_credit: "Image: JERFDAN, “South Dakota \"I voted\" sticker 2026”, CC0 
 image_license: "CC0 1.0"
 image_license_url: "https://creativecommons.org/publicdomain/zero/1.0/"
 image_description: "Image of a South Dakota 'I voted' sticker for the 2026 election, shared on Wikimedia Commons under CC0. It stands for the 2026 US midterm elections in general and does not refer to any candidate, party or forecast."
+audio: /assets/audio/midterms-2026-ai-predictions.mp3
+audio_voice: Ryan
+audio_duration: "11:54"
 ---
 
 On November 3, 2026, Americans voted in the midterm elections for the House of Representatives, a third of the Senate and many governorships. As of the evening of November 4 (Vienna time), reports summarised on X say Democrats won control of both the House and the Senate. Counting is still going on in some races, and official certification takes weeks.
