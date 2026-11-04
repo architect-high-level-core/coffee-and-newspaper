@@ -39,6 +39,9 @@ REPO = Path(__file__).resolve().parent.parent
 POSTS = REPO / "_posts"
 AUDIO_DIR = REPO / "assets" / "audio"
 VOICES = {"Guy": "en-US-GuyNeural", "Andrew": "en-US-AndrewNeural", "Ryan": "en-GB-RyanNeural"}
+# Opt-in only (never picked at random): German male voice for German-language posts
+EXTRA_VOICES = {"Conrad": "de-DE-ConradNeural", "Killian": "de-DE-KillianNeural"}
+ALL_VOICES = {**VOICES, **EXTRA_VOICES}
 PITCH, RATE = "-5Hz", "-10%"
 EDGE_TTS = os.environ.get("EDGE_TTS", "/workspace/.venv-tts/bin/edge-tts")
 
@@ -299,7 +302,7 @@ def process(path, force=False, voice=None, text_only=False):
         print(f"skip (has audio): {path.name}"); return None
     v = pick_voice(slug, voice)
     t0 = time.time()
-    dur = tts(text, VOICES[v], out)
+    dur = tts(text, ALL_VOICES[v], out)
     set_audio_front_matter(path, slug, v, fmt_dur(dur))
     print(f"ok  {path.name}  voice={v}  dur={fmt_dur(dur)}  size={out.stat().st_size//1024} KB  ({time.time()-t0:.0f}s)")
     return v
@@ -316,7 +319,7 @@ def main():
     ap.add_argument("posts", nargs="*")
     ap.add_argument("--all", action="store_true")
     ap.add_argument("--force", action="store_true")
-    ap.add_argument("--voice", choices=sorted(VOICES))
+    ap.add_argument("--voice", choices=sorted(ALL_VOICES))
     ap.add_argument("--text-only", action="store_true")
     ap.add_argument("--edge-tts", default=EDGE_TTS)
     a = ap.parse_args()

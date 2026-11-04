@@ -12,6 +12,9 @@ image_credit: "Foto: Schlurcher, „Heidelberg Altstadt Schloss Luftbild“, CC 
 image_license: "CC BY 4.0"
 image_license_url: "https://creativecommons.org/licenses/by/4.0/"
 image_description: "Luftaufnahme der Heidelberger Altstadt mit dem Schloss. Heidelberg ist der Gründungsort von Aleph Alpha und soll nach der Fusion mit Cohere Forschungsstandort bleiben. Das Bild zeigt keine Büros oder Mitarbeitenden der genannten Unternehmen."
+audio: /assets/audio/deutsche-ki-modelle.mp3
+audio_voice: Conrad
+audio_duration: "12:03"
 ---
 
 Lange galt Deutschland als Land, das KI vor allem reguliert und anwendet, aber kaum selbst entwickelt. Das Bild ist differenzierter: Einige deutsche Unternehmen und Forschungsprojekte bauen eigene Modelle – für Übersetzung, Bilder, Videos und Sprache. Der Herbst 2026 zeigt aber auch, wie schwer es ist, gegen die finanzstarken US-Labore zu bestehen. Das bekannteste deutsche Sprachmodell-Start-up, Aleph Alpha, wird gerade Teil eines kanadischen Unternehmens.
