@@ -8,6 +8,9 @@ tags: [AI, AI agents, OpenClaw, Particle, Particle-1, DeepSeek, token efficiency
 image: /assets/img/2026-11-04-particle-1-openclaw-plugins.jpg
 image_alt: "A red lobster, the OpenClaw mascot, sits on a server rack in a dim data centre while small glowing particles drift from its claws"
 image_credit: "Illustration: AI-generated"
+audio: /assets/audio/particle-1-openclaw-plugins.mp3
+audio_voice: Guy
+audio_duration: "1:01:08"
 ---
 
 On 3 November 2026, the OpenClaw project announced on X that a new model called **Particle-1** is "available in OpenClaw". The post says that the company behind it, **@particle_api**, "reports ~45% fewer output tokens than DeepSeek V4.1 Flash with comparable benchmark accuracy" and offers "zero data retention for standard inference". To try it, users should update to OpenClaw v2026.10.10 ([OpenClaw on X](https://x.com/openclaw/status/2117637498902077498)).
