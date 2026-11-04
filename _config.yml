@@ -1,8 +1,38 @@
 title: Coffee & Newspaper
 description: "Everything you need to know about AI"
+alternate_name: "coffee and newspaper Blog"
 lang: en
 baseurl: ""
 url: https://thearchitecthighlevel.com
 permalink: /:year/:month/:day/:title/
 timezone: Europe/Vienna
-exclude: [scripts, Gemfile, Gemfile.lock, node_modules, vendor]
+exclude: [scripts, Gemfile, Gemfile.lock, node_modules, vendor, README.md]
+
+# Author / publisher (used by the SEO head, JSON-LD, feed and llms.txt)
+author:
+  name: Arnold Kahr
+  url: /about/
+logo: /assets/img/apple-touch-icon.png
+default_image: /assets/img/avatar@2x.png
+
+# Search-engine verification codes. Paste the code (only the content="..." value)
+# when you have it; empty/null values print nothing.
+# Either the short keys or the jekyll-seo-tag style block work.
+google_site_verification:
+bing_site_verification:
+webmaster_verifications:
+  google:
+  bing:
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+
+feed:
+  path: /feed.xml
+
+defaults:
+  - scope: { path: "", type: posts }
+    values: { layout: post }
+  - scope: { path: "assets" }
+    values: { sitemap: false }
