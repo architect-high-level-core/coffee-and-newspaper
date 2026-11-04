@@ -11,6 +11,9 @@ image_credit: "Photo: U.S. Department of Energy, “Silicon wafer researcher”,
 image_license: "Public domain (work of the U.S. federal government)"
 image_license_url: "https://commons.wikimedia.org/wiki/File:Silicon_wafer_researcher.jpg"
 image_description: "Photo published by the U.S. Department of Energy showing a researcher holding a silicon wafer. It stands for semiconductor manufacturing in general. It does not show any Japanese company, factory or product named in this article."
+audio: /assets/audio/japan-chipmakers-ai.mp3
+audio_voice: Andrew
+audio_duration: "15:10"
 ---
 
 Every AI model runs on chips, and every chip passes through a supply chain in which Japan plays a much bigger role than most people think. Japan no longer makes the most advanced logic chips, but its companies build many of the machines, materials, memory and test systems that the AI industry depends on. Now the government wants more: with the start-up Rapidus, Japan aims to make 2-nanometre chips for AI data centres from late fiscal year 2027.
