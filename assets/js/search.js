@@ -6,35 +6,91 @@
   var lang = box.getAttribute('data-lang') || 'en';
   var empty = box.getAttribute('data-empty') || 'No posts found';
   var index = null, loading = null;
+  var loc = lang === 'tr' ? 'tr-TR' : 'en';
 
   function norm(s) {
-    return (s || '').toLocaleLowerCase(lang === 'tr' ? 'tr-TR' : 'en')
+    return (s || '').toLocaleLowerCase(loc)
       .normalize('NFD').replace(/[\u0300-\u036f]/g, '')
       .replace(/\u0131/g, 'i').replace(/\u00df/g, 'ss');
   }
+  // normalized string + map from each normalized char to its original index
+  function normMap(s) {
+    s = s || ''; var out = '', map = [];
+    for (var i = 0; i < s.length; i++) {
+      var n = norm(s[i]);
+      for (var k = 0; k < n.length; k++) { out += n[k]; map.push(i); }
+    }
+    map.push(s.length);
+    return { n: out, map: map };
+  }
+  function esc(s) { return String(s).replace(/[&<>"']/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]; }); }
+  // original-index ranges of all matches of words in s
+  function ranges(s, words) {
+    var m = normMap(s), r = [];
+    words.forEach(function (w) {
+      var i = 0;
+      while ((i = m.n.indexOf(w, i)) > -1) { r.push([m.map[i], m.map[i + w.length - 1] + 1]); i += w.length; }
+    });
+    r.sort(function (a, b) { return a[0] - b[0]; });
+    var merged = [];
+    r.forEach(function (x) { var l = merged[merged.length - 1]; if (l && x[0] <= l[1]) l[1] = Math.max(l[1], x[1]); else merged.push(x.slice()); });
+    return merged;
+  }
+  function mark(s, words) {
+    var r = ranges(s, words), out = '', pos = 0;
+    r.forEach(function (x) { out += esc(s.slice(pos, x[0])) + '<mark>' + esc(s.slice(x[0], x[1])) + '</mark>'; pos = x[1]; });
+    return out + esc(s.slice(pos));
+  }
+  function count(hay, w) { var c = 0, i = 0; while ((i = hay.indexOf(w, i)) > -1) { c++; i += w.length; } return c; }
+  function snippet(s, words, len) {
+    len = len || 120;
+    var r = ranges(s, words); if (!r.length) return esc(s.slice(0, len));
+    var start = Math.max(0, r[0][0] - Math.floor(len / 3)), end = Math.min(s.length, start + len);
+    if (start > 0) { var sp = s.indexOf(' ', start); if (sp > -1 && sp < r[0][0]) start = sp + 1; }
+    if (end < s.length) { var sp2 = s.lastIndexOf(' ', end); if (sp2 > r[0][1]) end = sp2; }
+    return (start > 0 ? '… ' : '') + mark(s.slice(start, end), words) + (end < s.length ? ' …' : '');
+  }
+  function search(data, q) {
+    var words = norm(q).trim().split(/\s+/).filter(Boolean);
+    var title = [], text = [];
+    if (!words.length) return { words: words, title: title, text: text };
+    data.forEach(function (p) {
+      if (!words.every(function (w) { return p._t.indexOf(w) > -1 || p._b.indexOf(w) > -1; })) return;
+      var n = 0; words.forEach(function (w) { n += count(p._b, w); });
+      var hit = { p: p, n: n };
+      if (words.every(function (w) { return p._t.indexOf(w) > -1; })) title.push(hit); else text.push(hit);
+    });
+    title.sort(function (a, b) { return (b.p.ts || 0) - (a.p.ts || 0); });
+    text.sort(function (a, b) { return b.n - a.n || (b.p.ts || 0) - (a.p.ts || 0); });
+    return { words: words, title: title, text: text };
+  }
+  var api = { norm: norm, mark: mark, snippet: snippet, search: search, prep: prep };
+  function prep(d) { d.forEach(function (p) { p._t = norm(p.title); p._b = norm(p.content); }); return d; }
+  if (typeof module !== 'undefined' && module.exports) module.exports = api;
+
   function load() {
     if (index) return Promise.resolve(index);
     if (!loading) loading = fetch(box.getAttribute('data-index'))
       .then(function (r) { return r.json(); })
-      .then(function (d) { d.forEach(function (p) { p._t = norm(p.title); p._b = norm(p.content); }); index = d; return d; });
+      .then(function (d) { index = prep(d); return d; });
     return loading;
   }
-  function esc(s) { return String(s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
+  function item(h, words, q, withText) {
+    var p = h.p, href = p.url + (p.url.indexOf('?') > -1 ? '&' : '?') + 'hl=' + encodeURIComponent(q.trim());
+    return '<a class="sr-item" href="' + esc(href) + '">' +
+      (p.image ? '<img src="' + esc(p.image) + '" alt="" loading="lazy">' : '<span class="sr-ph"></span>') +
+      '<span class="sr-txt"><span class="sr-t">' + mark(p.title, words) + '</span>' +
+      (withText ? '<span class="sr-s">' + snippet(p.content, words) + '</span>' : '') +
+      '<span class="sr-d">' + esc(p.date) + (h.n ? ' · ' + h.n + (h.n === 1 ? ' mention' : ' mentions') : '') + '</span></span></a>';
+  }
   function render(q) {
-    var words = norm(q).trim().split(/\s+/).filter(Boolean);
-    if (!words.length) { panel.hidden = true; panel.innerHTML = ''; return; }
-    var hits = index.filter(function (p) {
-      return words.every(function (w) { return p._t.indexOf(w) > -1 || p._b.indexOf(w) > -1; });
-    }).sort(function (a, b) {
-      var at = words.every(function (w) { return a._t.indexOf(w) > -1; }) ? 0 : 1;
-      var bt = words.every(function (w) { return b._t.indexOf(w) > -1; }) ? 0 : 1;
-      return at - bt;
-    });
-    panel.innerHTML = hits.length ? hits.slice(0, 20).map(function (p) {
-      return '<a class="sr-item" href="' + esc(p.url) + '">' +
-        (p.image ? '<img src="' + esc(p.image) + '" alt="" loading="lazy">' : '<span class="sr-ph"></span>') +
-        '<span class="sr-txt"><span class="sr-t">' + esc(p.title) + '</span><span class="sr-d">' + esc(p.date) + '</span></span></a>';
-    }).join('') : '<p class="sr-none">' + esc(empty) + '</p>';
+    var res = search(index, q);
+    if (!res.words.length) { panel.hidden = true; panel.innerHTML = ''; return; }
+    var html = '';
+    if (res.title.length) html += '<p class="sr-h">In title <span>' + res.title.length + '</span></p>' + res.title.map(function (h) { return item(h, res.words, q, false); }).join('');
+    if (res.text.length) html += '<p class="sr-h">In article text <span>' + res.text.length + '</span></p>' + res.text.map(function (h) { return item(h, res.words, q, true); }).join('');
+    panel.innerHTML = html || '<p class="sr-none">' + esc(empty) + '</p>';
+    panel.scrollTop = 0;
     panel.hidden = false;
   }
   var timer;
