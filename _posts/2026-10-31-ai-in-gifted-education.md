@@ -5,6 +5,7 @@ date: 2026-10-31 07:34:00 +0100
 slug: ai-in-gifted-education
 excerpt: "How AI is used to find, teach and challenge gifted and talented students: machine-learning screening, AI tutors, acceleration and enrichment, support for twice-exceptional learners, competitions, and the risks of over-reliance, cheating and bias. Based on 2024–2026 research from gifted-education journals, NAGC, ECHA, the World Council, OECD and UNESCO."
 tags: [AI, education, gifted education, talent development, twice-exceptional, 2e, identification, machine learning, AI tutors, ChatGPT, Khanmigo, acceleration, enrichment, equity, academic integrity, OECD, UNESCO, NAGC, ECHA]
+description: "How AI is used to find, teach and challenge gifted and talented students: machine-learning screening, AI tutors, acceleration and enrichment, support for…"
 image: /assets/img/2026-10-31-ai-in-gifted-education-v2.jpg
 image_alt: "Primary school children in matching blue tracksuits sit on the wooden floor of a Japanese classroom, most of them seen from behind, listening to a man in a grey work jacket at the front, next to a green chalkboard with Japanese writing"
 image_credit: "Photo: Nhrdsk, “金屋石を使っての授業の様子（2014.12.3）” (“Lesson using Kanaya stone”, 2014), CC BY-SA 4.0, via Wikimedia Commons – https://commons.wikimedia.org/wiki/File:%E9%87%91%E5%B1%8B%E7%9F%B3%E3%82%92%E4%BD%BF%E3%81%A3%E3%81%A6%E3%81%AE%E6%8E%88%E6%A5%AD%E3%81%AE%E6%A7%98%E5%AD%90%EF%BC%882014.12.3%EF%BC%89.JPG (resized)"

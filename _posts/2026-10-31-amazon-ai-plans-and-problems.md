@@ -5,6 +5,7 @@ date: 2026-10-31 07:30:00 +0100
 slug: amazon-ai-plans-and-problems
 excerpt: "AWS grew 39% in the third quarter of 2026, its fastest pace in nearly five years, and Amazon posted its highest operating margin ever. The stock still fell. This update explains Amazon's AI strategy (Bedrock, Trainium, Anthropic, OpenAI, Alexa+, agents, robotics), the latest numbers and costs, and what the actual problems are."
 tags: [AI, Amazon, AWS, cloud computing, Amazon Bedrock, Trainium, Graviton, Project Rainier, Anthropic, OpenAI, Alexa+, Amazon Nova, AI agents, AgentCore, Kiro, Amazon Quick, robotics, data centers, capex, earnings, stock market]
+description: "AWS grew 39% in the third quarter of 2026, its fastest pace in nearly five years, and Amazon posted its highest operating margin ever. The stock still fell."
 image: /assets/img/2026-10-31-amazon-ai-plans-and-problems.jpg
 image_alt: "Aerial view of several large, flat, light-coloured AWS data center buildings with rows of rooftop cooling units, next to an electrical substation, with one more building under construction in the foreground and dry brown fields around the site"
 image_credit: "Photo: Tedder, “Amazon AWS us-west-2 morrow east AZ 01” (2023), CC BY-SA 4.0, via Wikimedia Commons – https://commons.wikimedia.org/wiki/File:Amazon_AWS_us-west-2_morrow_east_AZ_01.jpg (resized)"

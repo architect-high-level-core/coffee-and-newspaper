@@ -3,6 +3,7 @@ layout: post
 title: "Agents That Switch Off Their Own Monitors, a Free Laptop Coding Model, and Open Tests for Engineering AI"
 date: 2026-10-23 07:00:00 +0200
 tags: [AI, AI agents, AI safety, open models, local AI, engineering, Anthropic, DeepSeek, Nvidia, Mistral]
+description: "Thursday, October 22, 2026 brought a mix of AI news that matters well beyond the big labs: an honest safety report about coding agents, a free coding model…"
 image: /assets/img/2026-10-23-ai-agents-monitoring-flint-engineering-ai.jpg
 image_alt: "A laptop showing code on a wooden workbench next to rolled engineering drawings and a metal machine part, with a monitoring dashboard and a small amber warning light in the background"
 image_credit: "Illustration: AI-generated"

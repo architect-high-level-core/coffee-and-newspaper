@@ -3,6 +3,7 @@ layout: post
 title: "Better Than Free in the AI Age: Kevin Kelly's Eight Generatives and the AI Businesses Built on Them"
 date: 2026-10-17 07:45:00 +0200
 tags: [AI, business models, creator economy, authenticity, GEO, AI agents]
+description: "When AI can produce copies and competent variations of almost anything in seconds, value shifts to what cannot be copied."
 image: /assets/img/2026-10-17-better-than-free.png
 image_alt: "A single warm terracotta cup set apart from a grid of identical pale paper copies"
 image_credit: "Illustration: generated image"

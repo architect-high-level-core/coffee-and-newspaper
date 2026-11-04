@@ -3,6 +3,7 @@ layout: post
 title: "AI Agents That Actually Make Videos: From One Sentence to a Finished Short Film or Ad, and What Stanley Really Does"
 date: 2026-10-25 07:00:00 +0100
 tags: [AI, AI agents, AI video, text-to-video, script-to-video, filmmaking, short film, video ads, Mago, Pixel Dojo, Pixo, Okay Create, LTX Studio, HeyGen, Genrok, Stanley]
+description: "For a long time, \"AI video\" meant one thing: type a prompt, get a five- to ten-second clip. To make an actual film you had to generate dozens of clips…"
 image: /assets/img/2026-10-25-ai-video-creation-agents.jpg
 image_alt: "A hand holds an open film clapperboard in front of a sandy desert under a blue sky; the slate reads Roadside, roll A01, scene 1, take 9"
 image_credit: "Photo: Jakob Owens, “Jakob Owens 2017-01-31 (Unsplash CiUR8zISX60)”, via Wikimedia Commons"

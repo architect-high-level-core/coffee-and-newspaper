@@ -3,6 +3,7 @@ layout: post
 title: "PHP2Shell: Why Today's Emergency PHP Update Matters for Millions of Websites"
 date: 2026-10-21 16:45:00 +0200
 tags: [PHP, security, PHP2Shell, WordPress, web hosting, AI, vulnerabilities]
+description: "On Wednesday, October 21, 2026, the PHP project released emergency security updates for two critical flaws in PHP itself."
 image: /assets/img/2026-10-21-php2shell-critical-php-security-update.jpg
 image_alt: "A blue plush elephant toy with the word php stitched on its side, the PHP mascot known as the elePHPant, on a white background"
 image_credit: "Photo: Atomic Taco from Seattle, WA, USA, “Blue Open Goodies ElePHPant”, CC BY-SA 2.0, via Wikimedia Commons"

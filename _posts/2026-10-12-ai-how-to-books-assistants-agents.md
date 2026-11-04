@@ -3,6 +3,7 @@ layout: post
 title: "AI Is Changing Books, Work and Software: Ten Topics from Tim Ferriss and Forward Future"
 date: 2026-10-12
 tags: [AI, agents, OpenAI, GPT-6, podcasts, Forward Future]
+description: "Chatbots are putting pressure on how-to books, and the big AI companies are competing to become the main work assistant."
 image: /assets/img/2026-10-12-platine.jpg
 image_alt: "Close-up of a green circuit board with components and traces"
 image_credit: "Photo: Peter Shanks, “Green circuit board II”, CC BY 2.0, via Wikimedia Commons – https://commons.wikimedia.org/wiki/File:Green_circuit_board_II_(2389301870).jpg"

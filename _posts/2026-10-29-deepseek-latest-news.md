@@ -4,6 +4,7 @@ title: "DeepSeek News: Flash 1017 Tops Usage Charts, a $15 Billion Round, a US F
 date: 2026-10-29 00:02:00 +0100
 slug: deepseek-latest-news
 tags: [AI, AI news, DeepSeek, DeepSeek V4.1 Flash, open weights, LLM pricing, OpenRouter, AI safety, funding, China, US regulation, Forward Future, Matthew Berman, X]
+description: "DeepSeek, the AI company from Hangzhou in China, had an eventful October. Its updated model, V4.1-Flash-1017, has become the most-used model on the…"
 image: /assets/img/2026-10-29-deepseek-latest-news.jpg
 image_alt: "The skyline of Hangzhou, China, with high-rise towers behind a green lakeshore and traditional wooden tour boats on West Lake in the foreground, under a light blue sky"
 image_credit: "Photo: CatOnMars, “Huanglong & Broken Bridge - Hangzhou Skylines”, CC BY 4.0, via Wikimedia Commons – https://commons.wikimedia.org/wiki/File:Huanglong_%26_Broken_Bridge_-_Hangzhou_Skylines.jpg (resized)"

@@ -4,6 +4,7 @@ title: "AI and Tech News Roundup: GPT-6.1 Terra, Kimi K3.1 Pro's CAD Skills, Cla
 date: 2026-10-27 07:00:00 +0100
 slug: ai-tech-news-roundup
 tags: [AI, AI news, AI agents, GPT-6.1 Terra, OpenAI, Kimi K3.1 Pro, MiniMax, Nanbeige, open weights, Claude, Anthropic, formal verification, AI security, llama.cpp, NVIDIA, Nemotron, Forward Future, Reddit, X]
+description: "The last three days in AI were busy: OpenAI shipped a cheaper workhorse model that reads technical drawings, Chinese labs pushed powerful open models (one…"
 image: /assets/img/2026-10-27-ai-tech-news-roundup.jpg
 image_alt: "A small glass of espresso on a glass saucer with a spoon, resting on a folded newspaper on a dark wooden table, with a pair of small red sneakers in the background"
 image_credit: "Photo: Bino Storyteller (curiousbino), “Morning Break (Unsplash)”, CC0 1.0 (public domain dedication), via Wikimedia Commons – https://commons.wikimedia.org/wiki/File:Morning_Break_(Unsplash).jpg"

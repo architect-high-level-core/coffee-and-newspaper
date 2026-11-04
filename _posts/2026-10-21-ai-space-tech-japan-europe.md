@@ -3,6 +3,7 @@ layout: post
 title: "AI Beyond the Big Rockets: How Space Companies in Japan and Europe Use Artificial Intelligence"
 date: 2026-10-21 07:47:00 +0200
 tags: [AI, space, satellites, edge AI, Earth observation, Japan, Europe, ESA, JAXA]
+description: "Artificial intelligence in space is often discussed in terms of a handful of large launch companies. This post looks elsewhere: at private space companies…"
 image: /assets/img/2026-10-21-ai-space-tech-japan-europe.jpg
 image_alt: "Artist's rendering of the gold-foil-covered ADRAS-J spacecraft with two solar panels in orbit above Earth, with a spent rocket upper stage in the background"
 image_credit: "Image: Astroscale, “ADRAS-J Phase I”, CC BY-SA 4.0, via Wikimedia Commons – https://commons.wikimedia.org/wiki/File:ADRAS-J_Phase_I.png"

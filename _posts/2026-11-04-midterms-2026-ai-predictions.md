@@ -5,6 +5,7 @@ date: 2026-11-04 21:50:00 +0100
 slug: midterms-2026-ai-predictions
 excerpt: "The day after the 2026 US midterm elections, we look at who got the forecasts right: pollsters like AtlasIntel, statistical models, prediction markets like Kalshi and Polymarket, and pundits. What role did AI play, what do we know about AI-based predictions, and why first accuracy claims should be read with care."
 tags: [AI, elections, midterms 2026, forecasting, prediction markets, Kalshi, Polymarket, polling, AtlasIntel, Super Intelligence, AI policy]
+description: "The day after the 2026 US midterm elections, we look at who got the forecasts right: pollsters like AtlasIntel, statistical models, prediction markets like…"
 image: /assets/img/2026-11-04-midterms-2026-ai-predictions.jpg
 image_alt: "Round 'I voted' sticker from South Dakota for the 2026 election"
 image_credit: "Image: JERFDAN, “South Dakota \"I voted\" sticker 2026”, CC0 1.0 (public domain dedication), via Wikimedia Commons – https://commons.wikimedia.org/wiki/File:South_Dakota_%22I_voted%22_sticker_2026.png (converted to JPG)"

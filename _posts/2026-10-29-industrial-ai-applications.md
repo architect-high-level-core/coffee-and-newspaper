@@ -4,6 +4,7 @@ title: "From the Back Office to the Shop Floor: How AI Is Really Used in Heavy I
 date: 2026-10-29 00:04:00 +0100
 slug: industrial-ai-applications
 tags: [AI, industrial AI, physical AI, manufacturing, heavy industry, steel, cement, mining, chemicals, semiconductors, automotive, aerospace, MRO, logistics, warehouses, predictive maintenance, computer vision, digital twins, humanoid robots]
+description: "For the past few years, most talk about artificial intelligence in companies has been about the office: chatbots that answer customer emails, assistants…"
 image: /assets/img/2026-10-29-industrial-ai-applications.jpg
 image_alt: "Orange industrial robot arms spot-welding a bare silver car body on an automated assembly line inside a bright factory hall"
 image_credit: "Photo: BMW Werk Leipzig, “BMW Leipzig MEDIA 050719 Download Karosseriebau max”, CC BY-SA 2.0 DE, via Wikimedia Commons – https://commons.wikimedia.org/wiki/File:BMW_Leipzig_MEDIA_050719_Download_Karosseriebau_max.jpg (resized)"

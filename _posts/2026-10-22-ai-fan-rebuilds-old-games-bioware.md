@@ -3,6 +3,7 @@ layout: post
 title: "When the Studio Closes, the Fans Keep Building: AI, Modding and the Future of BioWare's Classic Games"
 date: 2026-10-22 07:05:00 +0200
 tags: [AI, video games, BioWare, Mass Effect, Dragon Age, modding, game preservation, copyright, voice cloning]
+description: "On October 21, 2026, Electronic Arts closed BioWare, the studio behind Baldur's Gate, Star Wars: Knights of the Old Republic, Mass Effect and Dragon Age."
 image: /assets/img/2026-10-22-ai-fan-rebuilds-old-games-bioware.jpg
 image_alt: "A cosplayer, apparently dressed as the Dragon Age character Morrigan, in a dark leather outfit and brown shawl, stands on a stage at the 2015 BioWare Cosplay Parade while three judges on a sofa applaud; BioWare game posters hang behind them"
 image_credit: "Photo: Michael B. (Michael Brunk / nwlens.com) from Seattle, USA, “BioWare Cosplay Parade 2015 (20952765926)”, CC BY 2.0, via Wikimedia Commons – https://commons.wikimedia.org/wiki/File:BioWare_Cosplay_Parade_2015_(20952765926).jpg"

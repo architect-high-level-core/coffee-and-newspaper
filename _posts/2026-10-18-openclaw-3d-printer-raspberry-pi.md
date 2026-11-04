@@ -3,6 +3,7 @@ layout: post
 title: "An AI Agent at the Print Bed: How OpenClaw, a Raspberry Pi and OctoPrint Drive a 3D Printer"
 date: 2026-10-18 15:42:00 +0200
 tags: [AI, AI agents, OpenClaw, 3D printing, Raspberry Pi, OctoPrint, Klipper, image-to-3D]
+description: "Can an AI agent run a 3D printer on its own? An Austrian newspaper put it to the test. Over several months, a DER STANDARD editor let the open-source agent…"
 image: /assets/img/2026-10-18-openclaw-3d-printer-raspberry-pi.jpg
 image_alt: "Seven Prusa 3D printers in orange, yellow and black on two white shelves in a hackerspace, with filament boxes on the top shelf"
 image_credit: "Photo: Majabojarska, “3D printer farm at Hackerspace Wrocław”, CC BY 4.0, via Wikimedia Commons"

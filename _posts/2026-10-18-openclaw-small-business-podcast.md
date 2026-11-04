@@ -3,6 +3,7 @@ layout: post
 title: "OpenClaw in the Small Business: A Detailed Summary of The ClawCast Episode 13, Plus Reddit Reactions"
 date: 2026-10-18 23:32:00 +0200
 tags: [AI, AI agents, OpenClaw, small business, automation, podcast, skills, plugins]
+description: "How does a roofing company, a pool builder or a pest-control business actually use an AI agent? Episode 13 of The ClawCast, the official podcast of the…"
 image: /assets/img/2026-10-18-openclaw-small-business-podcast.jpg
 image_alt: "The red OpenClaw lobster mascot on a black background, reaching its claw toward a ringing red desk phone, next to a calendar with one day ticked off: an AI agent as a receptionist that answers calls and books appointments"
 image_credit: "Lobster mascot: @openclaw on X"

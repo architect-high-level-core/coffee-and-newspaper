@@ -3,6 +3,7 @@ layout: post
 title: "Drip Council and Basement Boys: A Practice Range for Browser Agents and Open-Source Tools Around OpenClaw"
 date: 2026-10-18 07:00:00 +0200
 tags: [AI, AI agents, OpenClaw, browser agents, agent safety, open source, prompt injection]
+description: "How does an AI agent behave when a web page lies, applies pressure or asks it to pay? Two small websites from the same open-source maintainer approach…"
 image: /assets/img/2026-10-18-dripcouncil-basementboys-openclaw.jpg
 image_alt: "Close-up of a European lobster with bright orange antennae against a dark underwater background"
 image_credit: "Photo: Klaus Kevin Kristensen, “Homarus gammarus 168550328”, CC BY 4.0, via Wikimedia Commons – https://commons.wikimedia.org/wiki/File:Homarus_gammarus_168550328.jpg"

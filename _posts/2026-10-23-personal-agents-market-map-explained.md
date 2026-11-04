@@ -3,6 +3,7 @@ layout: post
 title: "The Personal Agents Market Map Explained: 46 AI Agents, and a Close Look at the Independents and Vertical Specialists"
 date: 2026-10-23 11:01:00 +0200
 tags: [AI, AI agents, personal agents, OpenClaw, iMessage, startups, market map, Instinct, Poke, Perplexity, Manus, Genspark, Lindy, family AI, travel AI]
+description: "Personal AI agents are the hottest consumer AI category of autumn 2026. Every week brings a new assistant that you can text, call or let run in the…"
 image: /assets/img/2026-10-23-personal-agents-market-map-explained.jpg
 image_alt: "A young woman with long blond hair sits at a wooden café table and types on her smartphone with both hands, an iced coffee with a black straw and a pair of sunglasses in front of her"
 image_credit: 'Photo: <a href="https://unsplash.com/@rawpixel" rel="nofollow noopener" target="_blank">rawpixel.com</a>, “<a href="https://commons.wikimedia.org/wiki/File:Texting_over_iced_coffee_(Unsplash).jpg" rel="nofollow noopener" target="_blank">Texting over iced coffee (Unsplash)</a>”, CC0 1.0 (public domain dedication), via Wikimedia Commons'

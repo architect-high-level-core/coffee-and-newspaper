@@ -6,6 +6,7 @@ slug: deutsche-ki-modelle
 lang: de
 excerpt: "Wer baut in Deutschland eigene KI-Modelle? Ein Überblick über Aleph Alpha und die Fusion mit Cohere, DeepL, Black Forest Labs mit FLUX, das offene Sprachmodell Teuken aus dem Projekt OpenGPT-X und weitere Akteure – mit dem aktuellen Stand vom November 2026."
 tags: [KI, AI, Deutschland, Aleph Alpha, Cohere, DeepL, Black Forest Labs, FLUX, OpenGPT-X, Teuken, Souveräne KI, Open Source, Europa]
+description: "Wer baut in Deutschland eigene KI-Modelle? Ein Überblick über Aleph Alpha und die Fusion mit Cohere, DeepL, Black Forest Labs mit FLUX, das offene…"
 image: /assets/img/2026-11-04-deutsche-ki-modelle.jpg
 image_alt: "Luftbild der Heidelberger Altstadt mit dem Schloss am Hang und dem Neckar"
 image_credit: "Foto: Schlurcher, „Heidelberg Altstadt Schloss Luftbild“, CC BY 4.0, via Wikimedia Commons – https://commons.wikimedia.org/wiki/File:Heidelberg_Altstadt_Schloss_Luftbild.JPG (verkleinert)"

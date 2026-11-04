@@ -5,6 +5,7 @@ date: 2026-11-04 21:55:00 +0100
 slug: harness-engineering-ai-agents
 excerpt: "On X, developers say the age of prompt tweaking is ending and 'harness engineering' is taking over: wrapping AI models with tools, memory, loops, permissions and checks so agents can work reliably for hours. Some even claim code review by humans is becoming obsolete. We explain what a harness is, what is claimed, what is evidence and what the risks are."
 tags: [AI, AI agents, harness engineering, coding agents, Claude Code, Codex, prompting, code review, software development, Forward Future, X]
+description: "On X, developers say the age of prompt tweaking is ending and 'harness engineering' is taking over: wrapping AI models with tools, memory, loops…"
 image: /assets/img/2026-11-04-harness-engineering-ai-agents.jpg
 image_alt: "Computer screen showing colourful program source code in a code editor"
 image_credit: "Image: Wikideas1, “Coder screen shot”, CC0 1.0 (public domain dedication), via Wikimedia Commons – https://commons.wikimedia.org/wiki/File:Coder_screen_shot.webp (converted to JPG, resized)"

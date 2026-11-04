@@ -3,6 +3,7 @@ layout: post
 title: "AI in CAD: What REA Can Do, What AI Floor-Plan Tools Deliver and How Reddit Rates the AI in Revit, AutoCAD and ArchiCAD"
 date: 2026-10-10
 tags: [AI, CAD, AI agents, MCP, Revit, AutoCAD, ArchiCAD, Reddit]
+description: "In CAD, AI can now write scripts, annotate drawings and remote-control programs, but it cannot yet reliably design complete floor plans."
 image: /assets/img/2026-10-10-bauplan.jpg
 image_alt: "Historical blueprint showing the elevation of a building facade"
 image_credit: "Image: Alice Trythall Washburn, “Blueprint of elevation”, public domain, via Wikimedia Commons – https://commons.wikimedia.org/wiki/File:Blueprint_of_elevation_by_Alice_Trythall_Washburn.jpg"

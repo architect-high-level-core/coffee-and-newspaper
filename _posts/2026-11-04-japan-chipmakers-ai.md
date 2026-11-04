@@ -5,6 +5,7 @@ date: 2026-11-04 21:30:00 +0100
 slug: japan-chipmakers-ai
 excerpt: "Japan is betting billions on getting back into leading-edge chips for AI. We explain who the key Japanese semiconductor companies are, what role each plays in the AI supply chain, how the government funds Rapidus' 2nm plan, and what the latest news from October 2026 says."
 tags: [AI, semiconductors, Japan, Rapidus, Tokyo Electron, Kioxia, Renesas, Sony, Advantest, TSMC, JASM, Kumamoto, 2nm, chip subsidies, METI]
+description: "Japan is betting billions on getting back into leading-edge chips for AI. We explain who the key Japanese semiconductor companies are, what role each plays…"
 image: /assets/img/2026-11-04-japan-chipmakers-ai.jpg
 image_alt: "A researcher in a clean-room suit holds up a round silicon wafer"
 image_credit: "Photo: U.S. Department of Energy, “Silicon wafer researcher”, public domain, via Wikimedia Commons – https://commons.wikimedia.org/wiki/File:Silicon_wafer_researcher.jpg (resized)"

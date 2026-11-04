@@ -3,6 +3,7 @@ layout: post
 title: "AI World Report: Google and Microsoft on Agents, AI-Linked Job Cuts and News from Europe, China and Japan"
 date: 2026-10-13
 tags: [AI, agents, data centers, labor market, EU AI Act, China, Japan, Forward Future]
+description: "The heads of Google and Microsoft are betting on AI agents but see power and chips as the biggest bottleneck. On top of that come figures on layoffs…"
 image: /assets/img/2026-10-13-rechenzentrum.jpg
 image_alt: "Back of a server rack in a data center with many cables"
 image_credit: "Photo: Derrick Coetzee, “Rear of rack at NERSC data center – closeup”, CC0 (public domain), via Wikimedia Commons – https://commons.wikimedia.org/wiki/File:Rear_of_rack_at_NERSC_data_center_-_closeup.jpg"

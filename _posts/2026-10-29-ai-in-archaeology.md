@@ -4,6 +4,7 @@ title: "AI in Archaeology: A Sealed Herculaneum Scroll Read End to End, Nazca Ge
 date: 2026-10-29 00:04:30 +0100
 slug: ai-in-archaeology
 tags: [AI, archaeology, cultural heritage, Vesuvius Challenge, Herculaneum scrolls, Google DeepMind, Aeneas, Ithaca, Dead Sea Scrolls, cuneiform, Linear A, Maya glyphs, oracle bones, Nazca, LiDAR, Amazon, looting, machine learning, digital humanities]
+description: "Archaeology is a science of fragments: burnt scrolls, broken tablets, worn inscriptions, ruins hidden under forest or sand."
 image: /assets/img/2026-10-29-ai-in-archaeology.jpg
 image_alt: "A broken clay tablet covered in rows of wedge-shaped cuneiform signs, made of several joined fragments, photographed against a plain light-grey background"
 image_credit: "Photo: The Metropolitan Museum of Art, “Cuneiform tablet: commentary on Enuma Anu Enlil, tablet 5” (ca. late 1st millennium B.C.), CC0, via Wikimedia Commons – https://commons.wikimedia.org/wiki/File:Cuneiform_tablet-_commentary_on_Enuma_Anu_Enlil,_tablet_5_MET_DP-442-001.jpg (resized)"

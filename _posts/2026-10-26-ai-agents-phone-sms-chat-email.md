@@ -3,6 +3,7 @@ layout: post
 title: "How AI Agents Call, Text, Chat and Email: Tools Beyond ClawCall and Bland, and What Works with OpenClaw in Europe"
 date: 2026-10-26 07:00:00 +0100
 tags: [AI, AI agents, OpenClaw, voice agents, Twilio, Telnyx, Vapi, Retell, ElevenLabs, AgentMail]
+description: "What tools let an AI agent talk to the outside world? Make and take phone calls, send texts, write on WhatsApp or Telegram, send and receive email."
 image: /assets/img/2026-10-26-ai-agents-phone-sms-chat-email.jpg
 image_alt: "Illustration of a friendly red lobster on a wooden desk holding a telephone handset, next to a smartphone with chat bubbles and a sealed envelope"
 image_credit: "Illustration: AI-generated"

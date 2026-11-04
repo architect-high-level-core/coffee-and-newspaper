@@ -3,6 +3,7 @@ layout: post
 title: "Launching in the AI Flood: How Product Hunt Works in 2026, Plus Claude Duet, 1Password for Agents and Nvidia's Container Data Centre"
 date: 2026-10-24 07:00:00 +0200
 tags: [AI, AI agents, product launch, Product Hunt, Anthropic, 1Password, Nvidia, security]
+description: "Product Hunt is still one of the best-known places to launch a new tech product, but in 2026 it is crowded with AI tools."
 image: /assets/img/2026-10-24-product-hunt-ai-launches.jpg
 image_alt: "A laptop on a wooden desk showing a grid of colourful product cards with upvote arrows, next to a cup of coffee and a glowing lava lamp"
 image_credit: "Illustration: AI-generated"

@@ -3,6 +3,7 @@ layout: post
 title: "Yumento and Five Other AI Learning Platforms Compared: Prices, Owners, Reddit Feedback"
 date: 2026-10-17 16:49:00 +0200
 tags: [AI, education, AI tutors, edtech, Gemini Notebook, Khanmigo, Gauth]
+description: "AI tutors and course generators promise personal tutoring for a few euros a month. This overview compares the new Italian platform Yumento with five similar…"
 image: /assets/img/2026-10-17-yumento-ai-learning-platforms.jpg
 image_alt: "Open blank notebook, yellow pencil, glasses, smartphone and laptop on a white desk"
 image_credit: "Photo: JESHOOTS.COM, “White work table with notes, smartphone and laptop (Unsplash)”, CC0 (public domain), via Wikimedia Commons"

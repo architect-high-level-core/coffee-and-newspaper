@@ -5,6 +5,7 @@ date: 2026-11-04 22:00:00 +0100
 slug: ai-entry-level-jobs-debate
 excerpt: "Anthropic CEO Dario Amodei's warning that AI could eliminate half of entry-level white-collar jobs within five years is trending again. We explain what he said, what research and data show so far, what critics argue, and what young professionals can realistically do."
 tags: [AI, jobs, labor market, entry-level jobs, Anthropic, Dario Amodei, white-collar work, automation, careers, AI skills, Forward Future]
+description: "Anthropic CEO Dario Amodei's warning that AI could eliminate half of entry-level white-collar jobs within five years is trending again."
 image: /assets/img/2026-11-04-ai-entry-level-jobs-debate.jpg
 image_alt: "Black-and-white photo of office workers at desks with typewriters and paperwork in the 1970s"
 image_credit: "Photo: Tyne & Wear Archives & Museums, “Office workers in the 1970's”, no known copyright restrictions (Flickr Commons), via Wikimedia Commons – https://commons.wikimedia.org/wiki/File:Office_workers_in_the_1970%27s_(9717154582).jpg (resized)"

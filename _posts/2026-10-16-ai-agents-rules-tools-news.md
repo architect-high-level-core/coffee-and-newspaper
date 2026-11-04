@@ -3,6 +3,7 @@ layout: post
 title: "AI Agents Between Rules and Tools: Amazon's Agent Terms, Open-Source Toolkits and New AI News"
 date: 2026-10-16
 tags: [AI, AI agents, MCP, open source, AI safety, Forward Future]
+description: "Large platforms are drawing lines for AI agents, while open-source tools make building your own agents easier and easier."
 image: /assets/img/2026-10-16-glasfaser.jpg
 image_alt: "Glowing fiber-optic cables in a museum exhibit"
 image_credit: "Photo: Syced, “Fujikura optic fiber at Science Museum”, CC0 (public domain), via Wikimedia Commons – https://commons.wikimedia.org/wiki/File:Fujikura_optic_fiber_at_Science_Museum.jpg"

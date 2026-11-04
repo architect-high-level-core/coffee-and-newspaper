@@ -3,6 +3,7 @@ layout: post
 title: "Five AI Stories Reddit Is Discussing: Gemini 4 Argon, AI Safety and a Price War"
 date: 2026-10-14
 tags: [AI, Google, Gemini, Anthropic, OpenAI, AI safety, Reddit]
+description: "Google is making its top model Gemini 4 Argon generally available, while Anthropic and OpenAI are making headlines with safety issues."
 image: /assets/img/2026-10-14-netzwerk-abstrakt.jpg
 image_alt: "Abstract digital graphic with glowing, connected dots and lines"
 image_credit: "Image: Michael Gaylard, “Digital Abstraction Neural Network Glow”, CC BY 4.0, via Wikimedia Commons – https://commons.wikimedia.org/wiki/File:Digital_Abstraction_Neural_Network_Glow_(55258890373).jpg"

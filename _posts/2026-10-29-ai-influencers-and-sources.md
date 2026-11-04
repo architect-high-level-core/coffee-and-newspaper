@@ -4,6 +4,7 @@ title: "Who to Follow in AI: Matthew Berman, Andrej Karpathy, Ethan Mollick and 
 date: 2026-10-29 00:03:00 +0100
 slug: ai-influencers-and-sources
 tags: [AI, AI news, AI influencers, Matthew Berman, Forward Future, Andrej Karpathy, Ethan Mollick, One Useful Thing, Lex Fridman, YouTube, podcasts, newsletters, Substack, Hugging Face, arXiv, OpenRouter, Arena, Artificial Analysis, Hacker News, Product Hunt]
+description: "Many people now follow AI news through a handful of personalities rather than through newspapers. This post profiles four of the most influential voices…"
 image: /assets/img/2026-10-29-ai-influencers-and-sources.jpg
 image_alt: "A round white table in a small podcast studio with several black microphones on adjustable arms, studio headphones and an audio mixer, with a wall monitor, a computer screen and an equipment rack in the background"
 image_credit: "Photo: Myotus, “Microphones in SPNN Podcast studio”, CC BY 4.0, via Wikimedia Commons – https://commons.wikimedia.org/wiki/File:Microphones_in_SPNN_Podcast_studio.jpg (resized, cropped at the right edge)"

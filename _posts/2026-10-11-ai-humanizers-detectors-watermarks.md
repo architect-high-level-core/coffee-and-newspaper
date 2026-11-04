@@ -3,6 +3,7 @@ layout: post
 title: "AI Humanizers, Detectors and Watermarks: What Tests and the Community Say About “Humanized” AI Text"
 date: 2026-10-11
 tags: [AI, language models, AI detectors, humanizers, watermarks, OpenAI]
+description: "So-called humanizers rewrite AI text so that AI detectors flag it less often, but no tool is provably \"undetectable\". This overview sums up benchmarks…"
 image: /assets/img/2026-10-11-schreibmaschine.jpg
 image_alt: "Black-and-white close-up of typewriter keys"
 image_credit: "Photo: Ralph Steiner / Clarence H. White School of Photography, “Typewriter keys”, public domain, Library of Congress, via Wikimedia Commons – https://commons.wikimedia.org/wiki/File:Typewriter_keys_LCCN2004666344.jpg"

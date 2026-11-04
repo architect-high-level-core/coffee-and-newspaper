@@ -4,6 +4,7 @@ title: "Who Has the Most AI Users? ChatGPT, Gemini, Meta AI, Claude, Grok, Copil
 date: 2026-10-29 00:01:00 +0100
 slug: ai-user-numbers-big-tech
 tags: [AI, AI news, ChatGPT, OpenAI, Gemini, Google, Meta AI, Claude, Anthropic, Grok, xAI, Microsoft Copilot, DeepSeek, Perplexity, Mistral, Apple Intelligence, Siri, OpenRouter, user numbers, market share]
+description: "Almost every big tech company now says its AI assistant has hundreds of millions of users, and some say more than a billion."
 image: /assets/img/2026-10-29-ai-user-numbers-big-tech.jpg
 image_alt: "Commuters sitting on red benches on a train platform, most of them looking at their smartphones, with a commuter train in the background"
 image_credit: "Photo: John Robert McPherson, “Commuters read smartphones Platform 9 Roma Street Railway Station Brisbane P1360446”, CC BY-SA 4.0, via Wikimedia Commons – https://commons.wikimedia.org/wiki/File:Commuters_read_smartphones_Platform_9_Roma_Street_Railway_Station_Brisbane_P1360446.jpg (resized)"

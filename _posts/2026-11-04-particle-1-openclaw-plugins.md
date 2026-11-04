@@ -5,6 +5,7 @@ date: 2026-11-04 07:46:00 +0100
 slug: particle-1-openclaw-plugins
 excerpt: "OpenClaw now supports Particle-1, a DeepSeek-based model from the new San Francisco inference company Particle that is trained to finish tasks with about 45% fewer output tokens. We explain who is behind Particle, how its API works, what the Chinese base model means for trust and EU users, where it pays off (with example calculations), what the first independent tests and users report, how to set it up as an OpenClaw provider plugin, and how mature and safe the wider OpenClaw plugin ecosystem on ClawHub is in November 2026."
 tags: [AI, AI agents, OpenClaw, Particle, Particle-1, DeepSeek, token efficiency, LLM inference, API, reinforcement learning, LoRA, plugins, ClawHub, supply-chain security, open-weight models]
+description: "OpenClaw now supports Particle-1, a DeepSeek-based model from the new San Francisco inference company Particle that is trained to finish tasks with about…"
 image: /assets/img/2026-11-04-particle-1-openclaw-plugins.jpg
 image_alt: "A red lobster, the OpenClaw mascot, sits on a server rack in a dim data centre while small glowing particles drift from its claws"
 image_credit: "Illustration: AI-generated"

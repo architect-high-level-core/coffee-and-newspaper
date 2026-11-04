@@ -3,6 +3,7 @@ layout: post
 title: "Talking Teammates and Living Worlds: How AI Is Changing Storytelling and Player Experience in Video Games"
 date: 2026-10-22 07:00:00 +0200
 tags: [AI, video games, game design, NPCs, storytelling, accessibility, voice acting, SAG-AFTRA]
+description: "For decades, a video game character could only say what a writer had written and an actor had recorded. In 2026, that rule is starting to bend."
 image: /assets/img/2026-10-22-ai-game-storytelling-design.jpg
 image_alt: "A white Xbox Adaptive Controller seen from above on a grey surface, with two large round black buttons, a black directional pad and a row of small ports along the top edge"
 image_credit: "Photo: InclusiveGameLab, “InclusiveGameLab Xbox-Adaptive-Controller 4 CC-BY-SA 01”, CC BY-SA 4.0, via Wikimedia Commons – https://commons.wikimedia.org/wiki/File:InclusiveGameLab_Xbox-Adaptive-Controller_4_CC-BY-SA_01.jpg"

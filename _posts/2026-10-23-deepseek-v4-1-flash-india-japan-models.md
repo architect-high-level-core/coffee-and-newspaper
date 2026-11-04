@@ -3,6 +3,7 @@ layout: post
 title: "DeepSeek V4.1 Flash Explained: What It Is, What It Costs, What Users Say, and What India and Japan Offer in Comparison"
 date: 2026-10-23 11:00:00 +0200
 tags: [AI, DeepSeek, open models, open weights, LLM pricing, AI agents, OpenClaw, India, Japan, Sarvam, BharatGen, Krutrim, Sakana AI, PLaMo, Rakuten AI, Sarashina, tsuzumi, ELYZA]
+description: "On the night of October 22–23, 2026, the open-source agent project OpenClaw announced on X that \"DeepSeek V4.1 Flash from @deepseekai is now available in…"
 image: /assets/img/2026-10-23-deepseek-v4-1-flash-india-japan-models.jpg
 image_alt: "Four NVIDIA H100 data-centre graphics cards with gold-coloured housings stand upright in a row on a white marble surface against a black background"
 image_credit: 'Photo: <a href="https://www.youtube.com/@geekerwan1024" rel="nofollow noopener" target="_blank">极客湾Geekerwan</a>, “<a href="https://commons.wikimedia.org/wiki/File:NVIDIA_H100_(%E6%9E%81%E5%AE%A2%E6%B9%BEGeekerwan)_004.png" rel="nofollow noopener" target="_blank">NVIDIA H100 (极客湾Geekerwan) 004</a>”, CC BY 3.0, via Wikimedia Commons'

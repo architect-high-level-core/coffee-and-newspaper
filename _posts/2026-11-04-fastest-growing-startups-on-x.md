@@ -5,6 +5,7 @@ date: 2026-11-04 07:44:00 +0100
 slug: fastest-growing-startups-on-x
 excerpt: "On November 1, 2026, Ben Lang (@benln) shared a list of the 34 startups with the fastest follower growth on X over the past 90 days, based on Harmonic data. We sort the list into seven themes – agent infrastructure, compute and models, world models, AI products, robotics, security and non-AI outliers – explain every company in plain words and look at what the list does and does not tell us."
 tags: [AI, startups, X, Twitter, follower growth, Harmonic, AI agents, agent infrastructure, inference, GPU, world models, robotics, physical AI, security, AI detection, voice AI, venture capital, Ben Lang]
+description: "On November 1, 2026, Ben Lang (@benln) shared a list of the 34 startups with the fastest follower growth on X over the past 90 days, based on Harmonic data."
 image: /assets/img/2026-11-04-fastest-growing-startups-on-x.jpg
 image_alt: "Close-up of a wooden desk with three open laptops and a sheet of hand-drawn charts and notes; two people in shirts, visible only from the shoulders down, point at the paper with pencils"
 image_credit: "Photo: helloquence, “Helloquence-61189” (2016, Unsplash), CC0 1.0 (public domain dedication), via Wikimedia Commons – https://commons.wikimedia.org/wiki/File:Helloquence-61189.jpg (resized)"
