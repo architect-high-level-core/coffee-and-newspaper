@@ -1,0 +1,22 @@
+{%- comment -%}Related posts: precomputed in _data/related.yml (scripts/build_seo_data.py); falls back to the most recent posts when a post has no entry yet.{%- endcomment -%}
+{%- assign rel_paths = site.data.related[page.path] -%}
+{%- assign rel_shown = 0 -%}
+{%- capture rel_used -%}|{{ page.url }}|{%- endcapture -%}
+{%- capture rel_items -%}
+{%- for rp_path in rel_paths -%}
+{%- if rel_shown < 3 -%}
+{%- assign rp = site.posts | where: "path", rp_path | first -%}
+{%- if rp -%}{%- capture rel_key -%}|{{ rp.url }}|{%- endcapture -%}
+{%- unless rel_used contains rel_key -%}{%- include related-item.html post=rp -%}{%- assign rel_shown = rel_shown | plus: 1 -%}{%- assign rel_used = rel_used | append: rel_key -%}{%- endunless -%}
+{%- endif -%}
+{%- endif -%}
+{%- endfor -%}
+{%- for rp in site.posts -%}
+{%- if rel_shown < 3 -%}{%- capture rel_key -%}|{{ rp.url }}|{%- endcapture -%}
+{%- unless rel_used contains rel_key -%}{%- include related-item.html post=rp -%}{%- assign rel_shown = rel_shown | plus: 1 -%}{%- assign rel_used = rel_used | append: rel_key -%}{%- endunless -%}
+{%- endif -%}
+{%- endfor -%}
+{%- endcapture -%}
+{%- if rel_shown > 0 %}
+<nav class="related" aria-labelledby="related-h"><h2 id="related-h">{% if page.lang == "de" %}Weitere Beiträge{% else %}Related posts{% endif %}</h2><ul>{{ rel_items }}</ul></nav>
+{%- endif -%}

@@ -1,0 +1,2 @@
+{%- assign ri = include.post -%}{%- assign ridim = site.data.images[ri.image] -%}
+<li><a href="{{ ri.url | relative_url }}">{% if ri.image %}<img src="{{ ri.image | relative_url }}" alt="{{ ri.image_alt | default: ri.title | escape }}"{% if ridim %} width="{{ ridim.w }}" height="{{ ridim.h }}"{% endif %} loading="lazy" decoding="async">{% else %}<span class="rph"></span>{% endif %}<span><span class="rt">{{ ri.title }}</span><span class="rdate">{{ ri.date | date: "%-d %b %Y" }}</span></span></a></li>
