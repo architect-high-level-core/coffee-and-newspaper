@@ -2,6 +2,7 @@
 {%- assign s_person_id = site.author.url | absolute_url | append: "#person" -%}
 {%- assign s_org_id = s_root | append: "#organization" -%}
 {%- assign s_site_id = s_root | append: "#website" -%}
+{%- assign s_search = s_root | append: "?q={search_term_string}" -%}
 {%- capture s_org -%}{"@type":"Organization","@id":{{ s_org_id | jsonify }},"name":{{ site.title | jsonify }},"alternateName":{{ site.alternate_name | jsonify }},"url":{{ s_root | jsonify }},"logo":{"@type":"ImageObject","url":{{ site.logo | absolute_url | jsonify }},"width":180,"height":180},"founder":{"@id":{{ s_person_id | jsonify }}}}{%- endcapture -%}
 {%- capture s_person -%}{"@type":"Person","@id":{{ s_person_id | jsonify }},"name":{{ site.author.name | jsonify }},"url":{{ site.author.url | absolute_url | jsonify }}}{%- endcapture -%}
 {%- if page.collection == "posts" -%}
@@ -27,7 +28,7 @@
 {%- elsif is_home %}
 <script type="application/ld+json">
 {"@context":"https://schema.org","@graph":[
-{"@type":"WebSite","@id":{{ s_site_id | jsonify }},"url":{{ s_root | jsonify }},"name":{{ site.title | jsonify }},"alternateName":{{ site.alternate_name | jsonify }},"description":{{ site.description | jsonify }},"inLanguage":{{ site.lang | jsonify }},"publisher":{"@id":{{ s_org_id | jsonify }}},"potentialAction":{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":{{ s_root | append: "?q={search_term_string}" | jsonify }}},"query-input":"required name=search_term_string"}},
+{"@type":"WebSite","@id":{{ s_site_id | jsonify }},"url":{{ s_root | jsonify }},"name":{{ site.title | jsonify }},"alternateName":{{ site.alternate_name | jsonify }},"description":{{ site.description | jsonify }},"inLanguage":{{ site.lang | jsonify }},"publisher":{"@id":{{ s_org_id | jsonify }}},"potentialAction":{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":{{ s_search | jsonify }}},"query-input":"required name=search_term_string"}},
 {"@type":"Blog","@id":{{ s_root | append: "#blog" | jsonify }},"url":{{ s_root | jsonify }},"name":{{ site.title | jsonify }},"description":{{ site.description | jsonify }},"inLanguage":{{ site.lang | jsonify }},"author":{"@id":{{ s_person_id | jsonify }}},"publisher":{"@id":{{ s_org_id | jsonify }}}},
 {{ s_org }},
 {{ s_person }}
