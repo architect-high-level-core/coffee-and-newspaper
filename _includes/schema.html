@@ -1,0 +1,44 @@
+{%- assign s_root = "/" | absolute_url -%}
+{%- assign s_person_id = site.author.url | absolute_url | append: "#person" -%}
+{%- assign s_org_id = s_root | append: "#organization" -%}
+{%- assign s_site_id = s_root | append: "#website" -%}
+{%- capture s_org -%}{"@type":"Organization","@id":{{ s_org_id | jsonify }},"name":{{ site.title | jsonify }},"alternateName":{{ site.alternate_name | jsonify }},"url":{{ s_root | jsonify }},"logo":{"@type":"ImageObject","url":{{ site.logo | absolute_url | jsonify }},"width":180,"height":180},"founder":{"@id":{{ s_person_id | jsonify }}}}{%- endcapture -%}
+{%- capture s_person -%}{"@type":"Person","@id":{{ s_person_id | jsonify }},"name":{{ site.author.name | jsonify }},"url":{{ site.author.url | absolute_url | jsonify }}}{%- endcapture -%}
+{%- if page.collection == "posts" -%}
+{%- assign s_lang = page.lang | default: site.lang | default: "en" -%}
+{%- assign s_words = page.content | strip_html | number_of_words -%}
+{%- assign s_img_dim = site.data.images[page.image] -%}
+<script type="application/ld+json">
+{"@context":"https://schema.org","@graph":[
+{"@type":"BlogPosting","@id":{{ seo_url | append: "#article" | jsonify }},"mainEntityOfPage":{"@type":"WebPage","@id":{{ seo_url | jsonify }}},"url":{{ seo_url | jsonify }},"headline":{{ page.title | jsonify }},"description":{{ seo_desc | jsonify }},
+{%- if page.image -%}"image":{"@type":"ImageObject","url":{{ page.image | absolute_url | jsonify }}{% if s_img_dim %},"width":{{ s_img_dim.w }},"height":{{ s_img_dim.h }}{% endif %}{% if page.image_credit %},"creditText":{{ page.image_credit | jsonify }}{% endif %}{% if page.image_license_url %},"license":{{ page.image_license_url | jsonify }}{% endif %}},{%- endif -%}
+"datePublished":{{ page.date | date_to_xmlschema | jsonify }},"dateModified":{{ page.last_modified_at | default: page.date | date_to_xmlschema | jsonify }},"inLanguage":{{ s_lang | jsonify }},"wordCount":{{ s_words | default: 0 }},
+{%- if page.tags.size > 0 -%}"keywords":{{ page.tags | join: ", " | jsonify }},{%- endif -%}
+"author":{{ s_person }},"publisher":{{ s_org }},"isPartOf":{"@id":{{ s_site_id | jsonify }}}
+{%- if page.audio -%}
+{%- assign dp = page.audio_duration | append: "" | split: ":" -%}
+{%- capture s_dur -%}{%- if dp.size == 3 -%}PT{{ dp[0] | plus: 0 }}H{{ dp[1] | plus: 0 }}M{{ dp[2] | plus: 0 }}S{%- elsif dp.size == 2 -%}PT{{ dp[0] | plus: 0 }}M{{ dp[1] | plus: 0 }}S{%- endif -%}{%- endcapture -%}
+,"audio":{"@type":"AudioObject","name":{{ page.title | prepend: "Audio: " | jsonify }},"contentUrl":{{ page.audio | absolute_url | jsonify }},"encodingFormat":"audio/mpeg","inLanguage":{{ s_lang | jsonify }}{% if s_dur != "" %},"duration":{{ s_dur | jsonify }}{% endif %}{% if page.audio_voice %},"description":{{ page.audio_voice | prepend: "Read-aloud version of the article. Voice: " | jsonify }}{% endif %}}
+{%- endif -%}
+},
+{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":{{ site.title | jsonify }},"item":{{ s_root | jsonify }}},{"@type":"ListItem","position":2,"name":{{ page.title | jsonify }},"item":{{ seo_url | jsonify }}}]}
+]}
+</script>
+{%- elsif is_home %}
+<script type="application/ld+json">
+{"@context":"https://schema.org","@graph":[
+{"@type":"WebSite","@id":{{ s_site_id | jsonify }},"url":{{ s_root | jsonify }},"name":{{ site.title | jsonify }},"alternateName":{{ site.alternate_name | jsonify }},"description":{{ site.description | jsonify }},"inLanguage":{{ site.lang | jsonify }},"publisher":{"@id":{{ s_org_id | jsonify }}},"potentialAction":{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":{{ s_root | append: "?q={search_term_string}" | jsonify }}},"query-input":"required name=search_term_string"}},
+{"@type":"Blog","@id":{{ s_root | append: "#blog" | jsonify }},"url":{{ s_root | jsonify }},"name":{{ site.title | jsonify }},"description":{{ site.description | jsonify }},"inLanguage":{{ site.lang | jsonify }},"author":{"@id":{{ s_person_id | jsonify }}},"publisher":{"@id":{{ s_org_id | jsonify }}}},
+{{ s_org }},
+{{ s_person }}
+]}
+</script>
+{%- elsif page.schema_type == "ProfilePage" %}
+<script type="application/ld+json">
+{"@context":"https://schema.org","@graph":[
+{"@type":"ProfilePage","@id":{{ seo_url | jsonify }},"url":{{ seo_url | jsonify }},"name":{{ seo_title | jsonify }},"description":{{ seo_desc | jsonify }},"inLanguage":{{ site.lang | jsonify }},"isPartOf":{"@id":{{ s_site_id | jsonify }}},"mainEntity":{"@id":{{ s_person_id | jsonify }}}},
+{"@type":"Person","@id":{{ s_person_id | jsonify }},"name":{{ site.author.name | jsonify }},"url":{{ site.author.url | absolute_url | jsonify }},"description":{{ page.person_description | jsonify }}},
+{{ s_org }}
+]}
+</script>
+{%- endif -%}
