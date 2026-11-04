@@ -1,0 +1,20 @@
+---
+layout: null
+permalink: /llms.txt
+sitemap: false
+---
+# {{ site.title }}
+
+> {{ site.description }}. An English AI news blog by {{ site.author.name }}: daily AI news briefings in simple words, with sources linked and a read-aloud audio version of most posts.
+
+Posts are researched with AI assistance from the linked sources, then curated and published by {{ site.author.name }}. Each post links to its original sources. Site: {{ "/" | absolute_url }}
+
+## About
+
+- [About {{ site.title }}]({{ site.author.url | absolute_url }}): who runs the blog and how posts are made
+- [RSS feed]({{ "/feed.xml" | absolute_url }}): latest posts
+- [Sitemap]({{ "/sitemap.xml" | absolute_url }}): all pages
+
+## Posts
+{% for post in site.posts %}{% assign d = post.description | default: post.excerpt | strip_html | normalize_whitespace | truncate: 220 %}
+- [{{ post.title }}]({{ post.url | absolute_url }}): {{ post.date | date: "%Y-%m-%d" }}{% if post.lang and post.lang != "en" %} ({{ post.lang }}){% endif %} – {{ d }}{% endfor %}
