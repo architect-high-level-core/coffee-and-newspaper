@@ -12,6 +12,9 @@ image_credit: "Photo: Bill Branson (National Cancer Institute), “Laboratory”
 image_license: "Public domain"
 image_license_url: "https://creativecommons.org/publicdomain/mark/1.0/"
 image_description: "Public-domain photograph by Bill Branson for the U.S. National Cancer Institute, showing a laboratory interior. Shared on Wikimedia Commons. It stands for biomedical research in general and does not depict Greg Brockman, OpenAI, or any specific drug or trial named in this article."
+audio: /assets/audio/brockman-ai-health-leap.mp3
+audio_voice: Andrew
+audio_duration: "15:25"
 ---
 
 On 4 November 2026, at the **WSJ Tech** conference organised by *The Wall Street Journal*, OpenAI co-founder and president **Greg Brockman** made two related but unequal claims about artificial intelligence and medicine.

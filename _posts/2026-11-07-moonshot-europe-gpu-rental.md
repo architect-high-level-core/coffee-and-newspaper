@@ -12,6 +12,9 @@ image_credit: "Photo: Choinowski, “Datacenter Equinix AM3 & AM4 Amsterdam” (
 image_license: "CC BY-SA 4.0"
 image_license_url: "https://creativecommons.org/licenses/by-sa/4.0/"
 image_description: "Photograph of the Equinix AM3 (low-rise) and AM4 (high-rise) data-center campus in Amsterdam, designed by Benthem Crouwel and completed in 2017. Shared on Wikimedia Commons under CC BY-SA 4.0. It stands for European data-center infrastructure in general and does not show Moonshot AI, Nvidia, Kimi or any deal named in this article."
+audio: /assets/audio/moonshot-europe-gpu-rental.mp3
+audio_voice: Andrew
+audio_duration: "16:35"
 ---
 
 On 5 November 2026, [CNBC](https://www.cnbc.com/2026/11/05/moonshot-ai-nvidia-chips-europe-china.html) reported that **Moonshot AI**, the Beijing lab behind the **Kimi** family of models, has sought access to advanced **Nvidia** chips hosted in European data centers. According to four people familiar with the matter, deals have been discussed this year for Moonshot to rent capacity from “neoclouds” — specialised GPU cloud operators — that host Nvidia GPUs in Europe. Three of those sources said the interest was in **Blackwell** systems. One source said talks covered clusters of **8,000 or more** Blackwell GPUs. Two sources framed the interest as mainly **inference** (serving finished models to users); one also knew of interest in **training** capacity.
