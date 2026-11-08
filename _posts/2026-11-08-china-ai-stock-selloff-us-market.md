@@ -12,6 +12,9 @@ image_credit: "Photo: CatOnMars, Huanglong & Broken Bridge - Hangzhou Skylines, 
 image_license: "CC BY 4.0"
 image_license_url: "https://creativecommons.org/licenses/by/4.0/"
 image_description: "Hangzhou, home to Chinese AI developer DeepSeek. An illustrative city photograph, not a picture of an exchange, a named company's premises or the reported selloff."
+audio: /assets/audio/china-ai-stock-selloff-us-market.mp3
+audio_voice: Andrew
+audio_duration: "24:12"
 ---
 
 A real selloff has hit China’s AI-related shares. But the simplest version of the story—China’s artificial-intelligence bubble bursts, then brings down Wall Street—gets ahead of the evidence.
