@@ -12,6 +12,9 @@ image_credit: "Photo: FreeMediaKid!, “Gravis PC GamePad, disassembled” (2025
 image_license: "CC BY-SA 4.0 (Creative Commons Attribution-ShareAlike 4.0 International)"
 image_license_url: "https://creativecommons.org/licenses/by-sa/4.0/"
 image_description: "Top-down photo of a Gravis PC GamePad, an early-1990s game controller for DOS computers, fully disassembled on a white paper towel: the two halves of the cream-coloured housing, grey rubber button membranes, the purple direction pad and coloured buttons, and a brown circuit board attached to a long grey cable with a 15-pin game-port connector. The picture stands for taking gaming technology apart to understand how it works. It does not show decomp.dev, any decompilation project, AI tool or game discussed in this article."
+audio: /assets/audio/decomp-dev-sunset-ai-game-decompilation.mp3
+audio_voice: Andrew
+audio_duration: "8:44"
 ---
 
 One of the best-known hubs of the game decompilation scene is stepping back. **decomp.dev**, a website that tracked the progress of dozens of community projects rebuilding the source code of classic games, has disabled its main index and the option to add new projects. Its administrator, who posts as **@encounter**, names AI as the reason, but not in the way you might expect.
