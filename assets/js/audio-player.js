@@ -38,8 +38,72 @@
     var known = parse(box.getAttribute("data-dur")), pending = null, dragging = false;
     track(audio);
     function dur() { return isFinite(audio.duration) && audio.duration > 0 ? audio.duration : known; }
+    /* ----- chapters (only when the post has audio_chapters) ----- */
+    var chap = [], tickEls = [], curCh = -2, tickDur = 0, nowEl = box.querySelector("[data-ap-now]"),
+        ticksEl = box.querySelector("[data-ap-ticks]"), tipEl = box.querySelector("[data-ap-tip]"),
+        trackEl = box.querySelector("[data-ap-track]"), tipTimer = null;
+    var chBtns = box.querySelectorAll(".ap-chapters button[data-t]");
+    for (var c = 0; c < chBtns.length; c++) chap.push({
+      t: Number(chBtns[c].getAttribute("data-t")) || 0, btn: chBtns[c],
+      title: (chBtns[c].querySelector(".ap-cn") || chBtns[c]).textContent
+    });
+    function seekTo(t) {
+      if (isFinite(audio.duration) && audio.duration > 0) { audio.currentTime = t; pending = null; } else pending = t;
+      paint();
+    }
+    function playNow() {
+      if (audio.paused || audio.ended) { media(box.getAttribute("data-title"), audio); var pr = audio.play(); if (pr && pr.catch) pr.catch(function () { setState(); }); }
+    }
+    function chapterAt(t) {
+      var k = -1;
+      for (var q = 0; q < chap.length; q++) if (chap[q].t <= t + 0.25) k = q;
+      return k;
+    }
+    function hideTip() { if (tipEl) tipEl.hidden = true; for (var q = 0; q < tickEls.length; q++) tickEls[q].classList.remove("on"); }
+    function showTip(i, ms) {
+      if (!tipEl || !trackEl) return;
+      clearTimeout(tipTimer); hideTip();
+      tipEl.textContent = fmt(chap[i].t) + " · " + chap[i].title;
+      tipEl.hidden = false; tickEls[i] && tickEls[i].classList.add("on");
+      var tw = trackEl.clientWidth, w = tipEl.offsetWidth, x = tickEls[i] ? tickEls[i].offsetLeft + 8 : 0;
+      tipEl.style.left = Math.max(0, Math.min(x - w / 2, tw - w)) + "px";
+      if (ms) tipTimer = setTimeout(hideTip, ms);
+    }
+    function jump(i, fromTick) {
+      seekTo(chap[i].t); playNow();
+      if (fromTick) showTip(i, 2200);
+    }
+    function layoutTicks(d) {
+      if (!ticksEl || !d || d === tickDur) return;
+      tickDur = d;
+      ticksEl.textContent = ""; tickEls = [];
+      chap.forEach(function (ch, i) {
+        if (ch.t <= 0 || ch.t >= d) { tickEls[i] = null; return; }
+        var b = document.createElement("button");
+        b.type = "button"; b.className = "ap-tick"; b.tabIndex = -1; b.setAttribute("aria-hidden", "true");
+        b.style.left = "calc(6px + (100% - 12px) * " + (ch.t / d).toFixed(5) + ")";
+        b.addEventListener("click", function (e) { e.preventDefault(); jump(i, true); });
+        b.addEventListener("mouseenter", function () { clearTimeout(tipTimer); showTip(i); });
+        b.addEventListener("mouseleave", hideTip);
+        ticksEl.appendChild(b); tickEls[i] = b;
+      });
+    }
+    function updateChapter(t) {
+      if (!chap.length) return;
+      var k = chapterAt(t);
+      if (nowEl) { nowEl.hidden = !(t > 0.5 || !audio.paused); }
+      if (k === curCh) return;
+      curCh = k;
+      if (nowEl) nowEl.textContent = k >= 0 ? chap[k].title : "";
+      for (var q = 0; q < chap.length; q++) {
+        if (q === k) chap[q].btn.setAttribute("aria-current", "true"); else chap[q].btn.removeAttribute("aria-current");
+      }
+    }
+    chap.forEach(function (ch, i) { ch.btn.addEventListener("click", function () { jump(i, false); }); });
+
     function paint() {
       var d = dur(), t = pending !== null ? pending : audio.currentTime, p = d ? Math.min(1, t / d) : 0;
+      if (chap.length) { layoutTicks(d); updateChapter(t); }
       if (!dragging) seek.value = Math.round(p * 1000);
       seek.style.setProperty("--p", (p * 100).toFixed(2) + "%");
       cur.textContent = fmt(t);

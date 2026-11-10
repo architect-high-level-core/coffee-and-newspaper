@@ -15,6 +15,12 @@ USAGE (run from anywhere; paths are resolved relative to the repo):
     --voice Guy      force a voice (Guy | Andrew | Ryan); default: random, seeded by slug
     --text-only      only print the extracted spoken text (no TTS, no file changes)
     --edge-tts PATH  edge-tts binary (default: /workspace/.venv-tts/bin/edge-tts or $EDGE_TTS)
+    --chapters       synthesize section by section (one part per H2 heading, H3 if the post has
+                     no H2), join the parts, measure each section's exact start time and write
+                     them to front matter as `audio_chapters:` (list of {t: seconds, title: "..."}).
+                     Without this flag the behaviour is unchanged (and any stale `audio_chapters`
+                     is removed when audio is regenerated). Titles are auto-shortened; edit or
+                     delete entries by hand afterwards if you want fewer/shorter chapters.
 
 WHAT IT DOES for each post file:
   1. Extracts the spoken text: the title, then the article body as plain prose
@@ -75,12 +81,27 @@ def slug_of(path, fm):
     return re.sub(r"^\d{4}-\d{2}-\d{2}-", "", path.stem)
 
 
-def set_audio_front_matter(path, slug, voice_short, duration):
+def yaml_str(t):
+    return '"' + t.replace("\\", "\\\\").replace('"', '\\"') + '"'
+
+
+def set_audio_front_matter(path, slug, voice_short, duration, chapters=None):
     raw = path.read_text(encoding="utf-8")
     m = re.match(r"^(---[ \t]*\r?\n)(.*?)(\r?\n---[ \t]*\r?\n?)", raw, re.S)
     head, fm, tail = m.group(1), m.group(2), m.group(3)
-    lines = [l for l in fm.split("\n") if not re.match(r"^(audio|audio_voice|audio_duration):", l)]
+    lines, skipping = [], False
+    for l in fm.split("\n"):
+        if re.match(r"^audio_chapters:", l):          # block list: drop it and its indented items
+            skipping = True; continue
+        if skipping and re.match(r"^\s+\S|^-\s", l):
+            continue
+        skipping = False
+        if not re.match(r"^(audio|audio_voice|audio_duration):", l):
+            lines.append(l)
     lines += [f"audio: /assets/audio/{slug}.mp3", f"audio_voice: {voice_short}", f'audio_duration: "{duration}"']
+    if chapters:
+        lines.append("audio_chapters:")
+        lines += [f"  - {{t: {c['t']}, title: {yaml_str(c['title'])}}}" for c in chapters]
     path.write_text(head + "\n".join(lines) + tail + raw[m.end():], encoding="utf-8")
 
 
@@ -109,6 +130,8 @@ def inline_clean(s):
     s = re.sub(r"(^|\s)>\s?(?=\d)", r"\1more than ", s)
     s = re.sub(r"(^|\s)<\s?(?=\d)", r"\1less than ", s)
     s = html.unescape(s)
+    s = re.sub(r"(?<=\w)\s?km²", " square kilometres", s)          # spoken units
+    s = re.sub(r"(?<=\w)\s?m²", " square metres", s)
     s = (s.replace("→", " to ").replace("←", " from ").replace("·", ",").replace("•", ",")
           .replace("&", " and ").replace("≈", "about ").replace("~", "about ")
           .replace("–", ", ").replace("—", ", ").replace("|", ", "))
@@ -128,7 +151,9 @@ def end_punct(s):
     return s
 
 
-def extract_text(raw):
+def extract_text(raw, sections=False):
+    """Spoken text. With sections=True returns [(chapter_title, text), ...] instead: the first
+    entry is the intro (title + text before the first split heading), then one per H2 (H3 if no H2)."""
     fm, body = split_front_matter(raw)
     title = fm_get(fm, "title") or ""
     body = re.sub(r"<!--.*?-->", " ", body, flags=re.S)
@@ -136,6 +161,8 @@ def extract_text(raw):
     out, para = [], []
     skip_level = None      # inside a "Sources"-type section until a heading of same/higher level
     in_code = False
+    split_level = 2 if re.search(r"^##\s+\S", body, re.M) else 3
+    marks = []             # (index into `out`, heading text) where a chapter starts
 
     def flush():
         if para:
@@ -159,6 +186,8 @@ def extract_text(raw):
             if skip_level is None and SKIP_HEADING.match(text):
                 skip_level = level
             if skip_level is None and text:
+                if level == split_level:
+                    marks.append((len(out), text))
                 out.append(end_punct(text))
             continue
         if skip_level is not None:
@@ -193,7 +222,19 @@ def extract_text(raw):
             continue
         para.append(plain)
     flush()
-    text = end_punct(inline_clean(title)) + "\n\n" + "\n\n".join(out) + "\n"
+    head = end_punct(inline_clean(title))
+    if sections:
+        bounds = [0] + [i for i, _ in marks] + [len(out)]
+        names = ["Intro"] + [t for _, t in marks]
+        res = []
+        for k, name in enumerate(names):
+            chunk = "\n\n".join(out[bounds[k]:bounds[k + 1]])
+            if k == 0:
+                chunk = head + ("\n\n" + chunk if chunk else "")
+            if chunk.strip():
+                res.append((name, chunk + "\n"))
+        return res
+    text = head + "\n\n" + "\n\n".join(out) + "\n"
     return text
 
 
@@ -282,13 +323,48 @@ def tts(text, voice, out, tries=3):
     return probe(out)[0]
 
 
+def short_title(h, limit=40):
+    """'4. Why would Tesla build it? Purposes and motives' -> 'Why would Tesla build it?'"""
+    t = re.sub(r"^\d+(\.\d+)*[.)]?\s+", "", h).strip()
+    for sep in ("? ", ": ", ". ", " - "):
+        i = t.find(sep)
+        if 8 <= i:
+            t = t[:i + (1 if sep == "? " else 0)]
+    if len(t) > limit:
+        t = t[:limit].rsplit(" ", 1)[0].rstrip(",;:-") + "…"
+    return t
+
+
+def tts_chapters(sections, voice, out):
+    """Synthesize every section separately, join losslessly, return (duration, chapters).
+    Start times are the cumulative durations of the parts measured with ffprobe."""
+    with tempfile.TemporaryDirectory() as td:
+        td = Path(td)
+        parts, chapters, t = [], [], 0.0
+        for n, (name, text) in enumerate(sections):
+            dst = td / f"sec{n:02d}.mp3"
+            d = tts(text, voice, dst)
+            chapters.append({"t": int(round(t)), "title": "Intro" if n == 0 else short_title(name)})
+            parts.append(dst); t += d
+            print(f"  chapter {n}: start {fmt_dur(chapters[-1]['t'])}  {chapters[-1]['title']}", file=sys.stderr)
+        lst = td / "list.txt"
+        lst.write_text("".join(f"file '{p}'\n" for p in parts))
+        joined = td / "joined.mp3"
+        subprocess.run(["ffmpeg", "-y", "-v", "error", "-f", "concat", "-safe", "0", "-i", str(lst), "-c", "copy", str(joined)], check=True)
+        out.parent.mkdir(parents=True, exist_ok=True)
+        shutil.move(str(joined), out)
+    total = probe(out)[0]
+    print(f"  sum of parts {t:.1f}s, joined file {total:.1f}s", file=sys.stderr)
+    return total, chapters
+
+
 def pick_voice(slug, forced=None):
     if forced:
         return forced
     return random.Random("coffee-and-newspaper:" + slug).choice(sorted(VOICES))
 
 
-def process(path, force=False, voice=None, text_only=False):
+def process(path, force=False, voice=None, text_only=False, chapters=False):
     raw = path.read_text(encoding="utf-8")
     fm, _ = split_front_matter(raw)
     if (fm_get(fm, "published") or "").lower() == "false":
@@ -296,14 +372,24 @@ def process(path, force=False, voice=None, text_only=False):
     slug = slug_of(path, fm)
     text = extract_text(raw)
     if text_only:
-        print(text); return None
+        if chapters:
+            for name, t in extract_text(raw, sections=True):
+                print(f"===== [{name}] =====\n{t}")
+        else:
+            print(text)
+        return None
     out = AUDIO_DIR / f"{slug}.mp3"
     if not force and fm_get(fm, "audio") and out.exists():
         print(f"skip (has audio): {path.name}"); return None
-    v = pick_voice(slug, voice)
+    v = voice or fm_get(fm, "audio_voice") if chapters else None
+    v = v or pick_voice(slug, voice)
     t0 = time.time()
-    dur = tts(text, ALL_VOICES[v], out)
-    set_audio_front_matter(path, slug, v, fmt_dur(dur))
+    chs = None
+    if chapters:
+        dur, chs = tts_chapters(extract_text(raw, sections=True), ALL_VOICES[v], out)
+    else:
+        dur = tts(text, ALL_VOICES[v], out)
+    set_audio_front_matter(path, slug, v, fmt_dur(dur), chs)
     print(f"ok  {path.name}  voice={v}  dur={fmt_dur(dur)}  size={out.stat().st_size//1024} KB  ({time.time()-t0:.0f}s)")
     return v
 
@@ -321,6 +407,7 @@ def main():
     ap.add_argument("--force", action="store_true")
     ap.add_argument("--voice", choices=sorted(ALL_VOICES))
     ap.add_argument("--text-only", action="store_true")
+    ap.add_argument("--chapters", action="store_true")
     ap.add_argument("--edge-tts", default=EDGE_TTS)
     a = ap.parse_args()
     EDGE_TTS = a.edge_tts
@@ -332,7 +419,7 @@ def main():
     failed = []
     for f in files:
         try:
-            process(f, a.force, a.voice, a.text_only)
+            process(f, a.force, a.voice, a.text_only, a.chapters)
         except Exception as e:
             failed.append(f.name); print(f"FAIL {f.name}: {e}", file=sys.stderr)
     if failed:

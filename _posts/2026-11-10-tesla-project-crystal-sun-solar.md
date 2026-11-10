@@ -14,12 +14,23 @@ image_license_url: "https://creativecommons.org/licenses/by-sa/4.0/"
 image_description: "An illustrative photograph of a silicon wafer from a research lab—not Tesla’s product or site. According to the photographer, the uneven colours come from a failed anti-reflective coating deposition; exactly this kind of process drift is what inline inspection and AI process control try to catch."
 audio: /assets/audio/tesla-project-crystal-sun-solar.mp3
 audio_voice: Ryan
-audio_duration: "38:15"
+audio_duration: "38:26"
+audio_chapters:
+  - {t: 0, title: "Intro"}
+  - {t: 140, title: "Quick answer"}
+  - {t: 257, title: "What Crystal Sun is"}
+  - {t: 481, title: "The $10 trillion question"}
+  - {t: 574, title: "Timeline"}
+  - {t: 803, title: "Why Tesla builds it, and 100 GW"}
+  - {t: 1250, title: "Reasons for caution"}
+  - {t: 1347, title: "How AI improves solar production"}
+  - {t: 1968, title: "What to watch, bottom line"}
+  - {t: 2079, title: "FAQ"}
 ---
 
 If you saw “Tesla’s $10 trillion solar factory” online, here is the short, sourced correction: **Project Crystal Sun is a proposed $10.1 billion factory—about $10 billion, not $10 trillion.** The number in Tesla’s own filing is **$10.116 billion**. That is roughly one thousand times smaller than “$10 trillion,” and I found no credible source, including Elon Musk’s own posts, that uses a trillion-dollar figure for this project.
 
-What *is* real is still remarkable. On **July 22, 2026**, Tesla signed a Texas tax-incentive application describing what would be the largest manufacturing investment the company has ever put on paper: a fully vertically integrated plant that turns raw silicon into finished solar modules on roughly **3,050 acres** near Richmond, Fort Bend County, southwest of Houston. On **November 9, 2026**, Musk posted just the words “Project Crystal Sun” on X while sharing a post that said construction had officially begun, and drone footage shows site work.
+What *is* real is still remarkable. On **July 22, 2026**, Tesla signed a Texas tax-incentive application describing what would be the largest manufacturing investment the company has ever put on paper: a fully vertically integrated plant that turns raw silicon into finished solar modules on roughly **12 million m²** (about 1,200 hectares) near Richmond, Fort Bend County, southwest of Houston. On **November 9, 2026**, Musk posted just the words “Project Crystal Sun” on X while sharing a post that said construction had officially begun, and drone footage shows site work.
 
 This article collects what has credibly been published, explains each technical term, separates **facts** from **reported claims** and **speculation**, and then goes deep on the second half of the question: **how AI optimizes solar cell and panel production today, and what it could do in a factory like this.**
 
@@ -29,7 +40,7 @@ This article collects what has credibly been published, explains each technical 
 
 1. **Name:** “Project Crystal Sun” is the codename in Tesla’s application to the Texas Comptroller under the state’s JETI program (Jobs, Energy, Technology and Innovation Act).
 2. **Cost:** about **$10.116 billion** over 2026–2028: roughly **$1.5 billion** for real property and **$8.6 billion** for equipment.
-3. **Location:** about 3,050 acres in Fort Bend County, Texas, along FM 762 and FM 1994 south of the Brazos River, near Richmond and Needville.
+3. **Location:** about 12 million m² (roughly 1,200 hectares) in Fort Bend County, Texas, along FM 762 and FM 1994 south of the Brazos River, near Richmond and Needville.
 4. **Scope:** ingot, wafer, coating, metallization and printing lines, cell testing and cleanrooms—raw material in, finished cells and modules out.
 5. **Timing:** construction 2026–2028; commercial operations targeted for **Q1 2029**.
 6. **Jobs:** **9,712** permanent full-time jobs projected by 2033 and about 1,147 peak construction jobs—forecasts, not hiring commitments.
@@ -48,7 +59,7 @@ The headline numbers, as reported by Electrek, pv magazine and TrendingTesla:
 
 - **Investment:** $10.116 billion (about $1.5 billion real property, about $8.6 billion equipment).
 - **Spending path:** across 2026, 2027 and 2028, rising each year to about $4.5 billion in 2028 (TrendingTesla’s reading of the filing).
-- **Land:** about 3,050 acres across five parcels, though the project would occupy only parts of them, inside a reinvestment zone.
+- **Land:** about 12 million m² (roughly 1,200 hectares) across five parcels, though the project would occupy only parts of them, inside a reinvestment zone.
 - **Jobs:** 9,712 permanent full-time positions by 2033, ramping from roughly 1,900 in the first year of operation, with a payroll of about $1.3 billion by 2033 (TrendingTesla).
 - **Economic impact:** a Kroll analysis attached to the application estimates roughly **$107 billion** added to Texas GDP and **$6.4 billion** in state and local tax revenue over 38 years. This is a consultant’s projection inside an incentive application, not an audited outcome.
 - **Tax stakes:** TechCrunch reported Tesla’s accountants estimated about $1.1 billion of property-tax liability over 37 years without incentives.
@@ -114,7 +125,7 @@ This is the link most readers ask about. What is documented:
 
 - Reuters’ March report, citing sources, said Musk planned to build the solar capacity **mainly for Tesla’s own use**, with **some used to power SpaceX satellites.**
 - SpaceX’s IPO filing, as summarized by the Indian Express, repeatedly emphasizes solar-powered orbital AI infrastructure and argues that satellites in certain orbits can generate more than five times the energy of terrestrial solar systems.
-- Bloomberg reported on May 21, 2026 that SpaceX aims to build a **10-gigawatt solar-cell factory** near Austin for Starlink and AI, and The Real Deal reported it as a roughly one-million-square-foot facility in the Bastrop area. I could read only headlines and summaries of these two pieces, not the full text.
+- Bloomberg reported on May 21, 2026 that SpaceX aims to build a **10-gigawatt solar-cell factory** near Austin for Starlink and AI, and The Real Deal reported it as a facility of roughly 90,000 m² in the Bastrop area. I could read only headlines and summaries of these two pieces, not the full text.
 
 What is *not* documented: whether Crystal Sun’s output goes to the ground, to space, or both. TechCrunch put it directly: Tesla “hasn’t indicated whether the panels would be destined for terrestrial installations or satellites.” SpaceX’s Bastrop plant appears to be a **separate project** from Crystal Sun.
 
