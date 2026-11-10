@@ -12,6 +12,20 @@ image_credit: "Photo: どういたしまして (Wikimedia Commons user), “Rapi
 image_license: "CC BY-SA 4.0"
 image_license_url: "https://creativecommons.org/licenses/by-sa/4.0/"
 image_description: "Photograph from March 2024 showing the Rapidus factory in Chitose, Hokkaido, while it was still under construction, seen across the airfield of New Chitose Airport. The building looks different today. The image shows the site, not any chip, process or product named in this article."
+audio: /assets/audio/japan-2nm-chip-fabs-rapidus.mp3
+audio_voice: Andrew
+audio_duration: "22:34"
+audio_chapters:
+  - {t: 0, title: "Intro"}
+  - {t: 85, title: "The short version"}
+  - {t: 169, title: "What “2 nm” really means"}
+  - {t: 276, title: "Rapidus: the 2 nm bet in Hokkaido"}
+  - {t: 433, title: "The money"}
+  - {t: 590, title: "Customers and the 10 November report"}
+  - {t: 660, title: "TSMC in Kumamoto (JASM)"}
+  - {t: 833, title: "Micron Hiroshima"}
+  - {t: 972, title: "Where Japan stands"}
+  - {t: 1220, title: "FAQ"}
 ---
 
 Japan makes some of the world’s most important chip *machines and materials*, but today it makes no leading-edge logic chips at all. The government is spending several trillion yen to change that, through a start-up called Rapidus and through subsidies for TSMC, Micron and Kioxia factories. This article explains what is being built, how much public money is involved, what the node names such as “2 nm” really mean, and where the risks are. Facts are separated from plans and forecasts. All figures are as of **10 November 2026**.
