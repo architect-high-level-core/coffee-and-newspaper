@@ -13,7 +13,13 @@ image_license_url: "https://creativecommons.org/licenses/by-sa/2.0/"
 image_description: "The PHP mascot, a blue plush elephant called the elePHPant, standing in profile on a white background, with the lowercase word php embroidered in black on its side and a small Open Goodies tag on its ear."
 audio: /assets/audio/php2shell-critical-php-security-update.mp3
 audio_voice: Andrew
-audio_duration: "12:07"
+audio_duration: "10:23"
+audio_chapters:
+  - {t: 0, title: "Intro"}
+  - {t: 102, title: "What happened"}
+  - {t: 206, title: "The two flaws in plain words"}
+  - {t: 333, title: "Who is affected"}
+  - {t: 429, title: "The AI angle"}
 ---
 
 On Wednesday, October 21, 2026, the PHP project released emergency security updates for two critical flaws in PHP itself. Security researchers call the pair "PHP2Shell". PHP is the programming language behind WordPress, Drupal, Joomla, Magento and many other web applications, so the flaws affect a very large part of the web. Some site operators took their websites offline as a precaution until they could update. This post explains what happened, who is affected, what website owners should do, and why artificial intelligence plays a central role in this story.

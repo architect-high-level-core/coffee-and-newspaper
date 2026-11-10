@@ -10,7 +10,17 @@ image_credit: "Lobster mascot: @openclaw on X"
 image_source_url: "https://x.com/openclaw/status/2072422934761910276"
 audio: /assets/audio/openclaw-small-business-podcast.mp3
 audio_voice: Ryan
-audio_duration: "25:33"
+audio_duration: "25:34"
+audio_chapters:
+  - {t: 0, title: "Intro"}
+  - {t: 123, title: "The episode at a glance"}
+  - {t: 273, title: "05:30, 11:00, Putting OpenClaw to work…"}
+  - {t: 406, title: "11:00, 21:00, Helping owners learn to…"}
+  - {t: 606, title: "21:00, 23:30, Hardware, setups and…"}
+  - {t: 679, title: "23:30, 46:00, Skills, plugins and…"}
+  - {t: 1016, title: "46:00, 54:00, The new OpenClaw…"}
+  - {t: 1100, title: "54:00, 58:00, Finding the right skill"}
+  - {t: 1239, title: "Reddit reactions"}
 ---
 
 How does a roofing company, a pool builder or a pest-control business actually use an AI agent? Episode 13 of The ClawCast, the official podcast of the open-source agent project OpenClaw, spends an hour on exactly that question. The guest is a consultant from Florida who sets up OpenClaw for local businesses. This post summarises the episode in detail, segment by segment, and then looks at how Reddit users discuss OpenClaw for small businesses.
