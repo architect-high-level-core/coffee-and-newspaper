@@ -91,7 +91,7 @@ Original articles: [X News: Experts Get Most Value from AI in Game Development](
 
 ## Surprise of the day: Apple's first touchscreen MacBook Pro is expected today
 
-According to the X summary, Apple will present new 14- and 16-inch MacBook Pro models at an event in Los Angeles today, October 28: with a touchable OLED screen and the M5 Pro and M5 Max chips.
+According to the X summary, Apple will present new MacBook Pro models with screens of roughly 36 and 41 cm at an event in Los Angeles today, October 28: with a touchable OLED screen and the M5 Pro and M5 Max chips.
 
 - **A U-turn:** in 2010 Steve Jobs said touchscreens don't belong on laptops. Keyboard and trackpad are reportedly staying the main controls, with touch as an extra.
 - **Important:** these are pre-event reports; Apple has not confirmed any of it yet.

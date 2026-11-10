@@ -15,7 +15,7 @@ USAGE (run from anywhere; paths are resolved relative to the repo):
     --voice Guy      force a voice (Guy | Andrew | Ryan); default: random, seeded by slug
     --text-only      only print the extracted spoken text (no TTS, no file changes)
     --edge-tts PATH  edge-tts binary (default: /workspace/.venv-tts/bin/edge-tts or $EDGE_TTS)
-    --chapters       synthesize section by section (one part per H2 heading, H3 if the post has
+    --chapters       (use for every post) synthesize section by section (one part per H2 heading, H3 if the post has
                      no H2), join the parts, measure each section's exact start time and write
                      them to front matter as `audio_chapters:` (list of {t: seconds, title: "..."}).
                      Without this flag the behaviour is unchanged (and any stale `audio_chapters`
@@ -335,6 +335,21 @@ def short_title(h, limit=40):
     return t
 
 
+def merge_chapters(chs, min_len=60, max_n=10):
+    """Keep only main chapters: a section shorter than `min_len` seconds is merged into the
+    previous chapter, and if more than `max_n` remain the shortest ones are merged away."""
+    chs = [dict(c) for c in chs]
+    def drop(i):
+        chs[i - 1]["d"] += chs[i]["d"]; del chs[i]
+    i = 1
+    while i < len(chs):
+        if chs[i]["d"] < min_len: drop(i)
+        else: i += 1
+    while len(chs) > max_n:
+        i = min(range(1, len(chs)), key=lambda k: chs[k]["d"]); drop(i)
+    return [{"t": c["t"], "title": c["title"]} for c in chs]
+
+
 def tts_chapters(sections, voice, out):
     """Synthesize every section separately, join losslessly, return (duration, chapters).
     Start times are the cumulative durations of the parts measured with ffprobe."""
@@ -344,9 +359,10 @@ def tts_chapters(sections, voice, out):
         for n, (name, text) in enumerate(sections):
             dst = td / f"sec{n:02d}.mp3"
             d = tts(text, voice, dst)
-            chapters.append({"t": int(round(t)), "title": "Intro" if n == 0 else short_title(name)})
+            chapters.append({"t": int(round(t)), "title": "Intro" if n == 0 else short_title(name), "d": d})
             parts.append(dst); t += d
-            print(f"  chapter {n}: start {fmt_dur(chapters[-1]['t'])}  {chapters[-1]['title']}", file=sys.stderr)
+            print(f"  section {n}: start {fmt_dur(chapters[-1]['t'])} ({d:.0f}s) {chapters[-1]['title']}", file=sys.stderr)
+        chapters = merge_chapters(chapters)
         lst = td / "list.txt"
         lst.write_text("".join(f"file '{p}'\n" for p in parts))
         joined = td / "joined.mp3"

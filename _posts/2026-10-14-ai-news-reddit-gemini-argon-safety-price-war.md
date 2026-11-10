@@ -11,7 +11,14 @@ image_license: "CC BY 4.0"
 image_license_url: "https://creativecommons.org/licenses/by/4.0/"
 audio: /assets/audio/ai-news-reddit-gemini-argon-safety-price-war.mp3
 audio_voice: Andrew
-audio_duration: "9:29"
+audio_duration: "9:30"
+audio_chapters:
+  - {t: 0, title: "Intro"}
+  - {t: 61, title: "Google makes \"Gemini 4 Argon\" available…"}
+  - {t: 180, title: "Anthropic warns"}
+  - {t: 300, title: "Jack Clark"}
+  - {t: 384, title: "OpenAI has halted training of its most…"}
+  - {t: 487, title: "Price war instead of breakthrough"}
 ---
 
 Google is making its top model Gemini 4 Argon generally available, while Anthropic and OpenAI are making headlines with safety issues. This overview sums up five current AI stories along with reactions from the Reddit community.

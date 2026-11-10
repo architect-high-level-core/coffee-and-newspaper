@@ -11,7 +11,11 @@ image_license: "Public Domain"
 image_license_url: "https://commons.wikimedia.org/wiki/File:Blueprint_of_elevation_by_Alice_Trythall_Washburn.jpg"
 audio: /assets/audio/ai-in-cad-rea-autocad-revit-archicad.mp3
 audio_voice: Guy
-audio_duration: "8:28"
+audio_duration: "8:29"
+audio_chapters:
+  - {t: 0, title: "Intro"}
+  - {t: 160, title: "Reddit: can AI generate CAD drawings?"}
+  - {t: 224, title: "AI tools for floor plans and 3D models"}
 ---
 
 In CAD, AI can now write scripts, annotate drawings and remote-control programs, but it cannot yet reliably design complete floor plans. This overview sums up what the analysis tool REA can do, which AI tools exist for floor plans, and how Reddit users rate the AI features of Revit, AutoCAD and ArchiCAD.

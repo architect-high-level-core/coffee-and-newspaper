@@ -11,7 +11,12 @@ image_license: "CC BY 2.0"
 image_license_url: "https://creativecommons.org/licenses/by/2.0/"
 audio: /assets/audio/ai-how-to-books-assistants-agents.mp3
 audio_voice: Ryan
-audio_duration: "10:29"
+audio_duration: "10:30"
+audio_chapters:
+  - {t: 0, title: "Intro"}
+  - {t: 23, title: "Has AI already \"killed\" how-to books?"}
+  - {t: 95, title: "\"Better than free\""}
+  - {t: 315, title: "Why every major AI company wants to be…"}
 ---
 
 Chatbots are putting pressure on how-to books, and the big AI companies are competing to become the main work assistant. This overview sums up ten topics from Tim Ferriss's blog and podcast and from Forward Future, plus a product launch from OpenAI.

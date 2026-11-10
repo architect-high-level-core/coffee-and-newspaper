@@ -78,7 +78,7 @@ Axelspace has built and operated 18 microsatellites. For its AxelLiner service, 
 
 ## 3. Seeing and steering near space debris: Astroscale (Japan)
 
-Astroscale's ADRAS-J mission, run under a JAXA contract worth ¥1.94 billion, approached a real piece of debris in 2024: a Japanese rocket upper stage about 11 m long and weighing about 3 tons. The stage sends no position data and moves freely. According to Astroscale's IAC 2024 paper, the spacecraft used several onboard navigation methods in sequence:
+Astroscale's ADRAS-J mission, run under a JAXA contract worth ¥1.94 billion, approached a real piece of debris in 2024: a Japanese rocket upper stage about 11 m long and weighing about 3 tonnes. The stage sends no position data and moves freely. According to Astroscale's IAC 2024 paper, the spacecraft used several onboard navigation methods in sequence:
 
 - **Angles-Only Navigation** from several hundred kilometres, using a visible-light camera. Astroscale developed "all the image processing functions and orbit estimation software" itself.
 - **Model Matching Navigation (MMN)** from a few kilometres down to about 50 m. The spacecraft compares infrared camera images of the target with a stored model to estimate distance, shape and attitude, without needing the ground system.

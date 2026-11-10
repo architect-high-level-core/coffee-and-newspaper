@@ -12,6 +12,12 @@ image_license_url: "https://commons.wikimedia.org/wiki/File:Typewriter_keys_LCCN
 audio: /assets/audio/ai-humanizers-detectors-watermarks.mp3
 audio_voice: Guy
 audio_duration: "7:54"
+audio_chapters:
+  - {t: 0, title: "Intro"}
+  - {t: 97, title: "Benchmark"}
+  - {t: 173, title: "Community tests and reviews"}
+  - {t: 261, title: "Workflow according to the community and…"}
+  - {t: 329, title: "Limits of detectors and rules"}
 ---
 
 So-called humanizers rewrite AI text so that AI detectors flag it less often, but no tool is provably "undetectable". This overview sums up benchmarks, community tests, the limits of detectors and the new trend toward text watermarks.

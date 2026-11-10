@@ -12,6 +12,14 @@ image_license_url: "https://creativecommons.org/publicdomain/zero/1.0/"
 audio: /assets/audio/ai-world-report-google-microsoft-europe-china-japan.mp3
 audio_voice: Ryan
 audio_duration: "12:35"
+audio_chapters:
+  - {t: 0, title: "Intro"}
+  - {t: 50, title: "Google CEO Sundar Pichai"}
+  - {t: 200, title: "Microsoft executive Jay Parikh"}
+  - {t: 319, title: "AI Layoff Tracker"}
+  - {t: 425, title: "Europe: new models, sovereign AI and a…"}
+  - {t: 521, title: "China: billions for AI companies and…"}
+  - {t: 591, title: "Japan: an action plan and its own AI…"}
 ---
 
 The heads of Google and Microsoft are betting on AI agents but see power and chips as the biggest bottleneck. On top of that come figures on layoffs attributed to AI and the most important AI news from Europe, China and Japan.

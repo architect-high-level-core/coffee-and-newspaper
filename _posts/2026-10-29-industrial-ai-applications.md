@@ -293,7 +293,7 @@ Original article: [Modern Materials Handling: The state of AI in warehousing](ht
 
 CEVA Logistics uses an AI-powered route dispatching tool at more than 40 US locations. According to the road transport organisation IRU (October 22, 2026), results include a 40% gain in planning productivity, fewer routes, higher cargo volumes and better on-time delivery; CEVA plans to expand the tool to France and the UK. CEVA's Pierre-Alain Saclier sums up the aim: "to reduce the time between a problem emerging and a decision being taken."
 
-UPS's ORION system shows how long such tools have been around. It cut about eight miles per driver per day when introduced in the 2010s; a "dynamic" version that re-optimises routes during the day saved another two to four miles per driver, UPS said at its 2021 investor day (*Supply Chain Dive*, June 11, 2021). This is older than our 2025–2026 focus, but it shows that route optimisation is a mature, proven use of algorithms in logistics.
+UPS's ORION system shows how long such tools have been around. It cut about 13 km per driver per day when introduced in the 2010s; a "dynamic" version that re-optimises routes during the day saved another 3 to 6 km per driver, UPS said at its 2021 investor day (*Supply Chain Dive*, June 11, 2021). This is older than our 2025–2026 focus, but it shows that route optimisation is a mature, proven use of algorithms in logistics.
 
 Original articles: [IRU: AI and digitalisation buy time in trucking](https://www.iru.org/news-resources/newsroom/ai-and-digitalisation-buy-time-trucking) · [Supply Chain Dive: UPS adds dynamic routing to ORION](https://www.supplychaindive.com/news/ups-orion-route-planning-analytics-data-logistics/601673/)
 
