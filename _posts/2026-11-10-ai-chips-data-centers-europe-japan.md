@@ -12,6 +12,20 @@ image_credit: "Photo: Forschungszentrum Jülich / Sascha Kreklau, “JUPITER rac
 image_license: "CC BY 4.0"
 image_license_url: "https://creativecommons.org/licenses/by/4.0/"
 image_description: "Photograph of the JUPITER Booster racks at Forschungszentrum Jülich, Germany, taken in June 2025. JUPITER is Europe’s first exascale supercomputer. The image stands for European AI compute in general; it does not show any Japanese project or any of the other facilities named in this article."
+audio: /assets/audio/ai-chips-data-centers-europe-japan.mp3
+audio_voice: Andrew
+audio_duration: "23:06"
+audio_chapters:
+  - {t: 0, title: "Intro"}
+  - {t: 83, title: "The short version"}
+  - {t: 161, title: "Why chips and data centers belong in…"}
+  - {t: 225, title: "Europe’s policy frame"}
+  - {t: 361, title: "What Europe actually builds in chips"}
+  - {t: 567, title: "AI compute that already exists or is…"}
+  - {t: 748, title: "Japan: the data-center buildout"}
+  - {t: 1021, title: "Europe and Japan side by side"}
+  - {t: 1103, title: "Risks and open questions"}
+  - {t: 1262, title: "FAQ"}
 ---
 
 Every AI model needs two physical things: chips that do the arithmetic, and buildings that supply those chips with power, cooling and network. Europe and Japan are both trying to build more of both at home, for reasons of security, cost and national pride. This article is a status check as of **10 November 2026**. We separate what **already runs**, what is **under construction**, and what is still a **plan, a proposal or a call for tenders**. Where a number comes from a company or an official body, we say so; where we could not confirm something, we say that too.
