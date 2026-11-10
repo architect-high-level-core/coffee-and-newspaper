@@ -9,7 +9,11 @@ image_alt: "A single warm terracotta cup set apart from a grid of identical pale
 image_credit: "Illustration: generated image"
 audio: /assets/audio/better-than-free-ai-business-opportunities.mp3
 audio_voice: Guy
-audio_duration: "8:27"
+audio_duration: "8:28"
+audio_chapters:
+  - {t: 0, title: "Intro"}
+  - {t: 205, title: "Authenticity"}
+  - {t: 405, title: "Findability"}
 ---
 
 When AI can produce copies and competent variations of almost anything in seconds, value shifts to what cannot be copied. This overview explains Kevin Kelly's eight "generatives" and lists AI businesses and products that already build on each of them.

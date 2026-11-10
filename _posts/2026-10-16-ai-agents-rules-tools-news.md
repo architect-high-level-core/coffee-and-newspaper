@@ -11,7 +11,10 @@ image_license: "CC0 1.0"
 image_license_url: "https://creativecommons.org/publicdomain/zero/1.0/"
 audio: /assets/audio/ai-agents-rules-tools-news.mp3
 audio_voice: Guy
-audio_duration: "7:24"
+audio_duration: "7:25"
+audio_chapters:
+  - {t: 0, title: "Intro"}
+  - {t: 108, title: "Which agent tools are widely used"}
 ---
 
 Large platforms are drawing lines for AI agents, while open-source tools make building your own agents easier and easier. This overview sums up new rules, widely used agent tools and current AI news from Forward Future.

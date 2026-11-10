@@ -13,6 +13,12 @@ image_description: "Close-up of a European lobster's head with dark shell, white
 audio: /assets/audio/dripcouncil-basementboys-openclaw.mp3
 audio_voice: Ryan
 audio_duration: "13:22"
+audio_chapters:
+  - {t: 0, title: "Intro"}
+  - {t: 109, title: "Drip Council"}
+  - {t: 313, title: "Basement Boys"}
+  - {t: 549, title: "The common background"}
+  - {t: 626, title: "Coverage on Forward Future, Reddit and X"}
 ---
 
 How does an AI agent behave when a web page lies, applies pressure or asks it to pay? Two small websites from the same open-source maintainer approach agents from different angles: dripcouncil.org is a public practice range for browser agents, and basementboys.org showcases open-source tools, two of which connect directly to the agent system OpenClaw. This overview covers what each site is, who runs it as far as public information shows, how OpenClaw is used, and which business models are visible or possible.
