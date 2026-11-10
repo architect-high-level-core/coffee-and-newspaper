@@ -1,6 +1,8 @@
 /* Pre-generated read-aloud audio (assets/audio/*.mp3).
    - [data-ap]       full player under a post title (play/pause, seek bar, time)
-   - [data-ap-mini]  small "Listen" button on the homepage tiles (plays in place)
+   - [data-ap-mini]  small "Listen" button on the homepage tiles (plays in place); while it plays,
+                     a compact bar is fixed at the bottom of the screen (title, seek bar with chapter
+                     ticks, chapter list). It disappears on pause/stop and returns on play.
    Only one audio plays at a time. No external services. */
 (function () {
   "use strict";
@@ -177,5 +179,124 @@
       shared.addEventListener(ev, function () { if (active) label(active); });
     });
     all();
+
+    /* ----- now-playing bar (homepage): visible only while audio plays ----- */
+    var bar = null, bEls = {}, bCh = [], bTicks = [], bTickDur = 0, bCur = -2, bDrag = false, bTipTimer = null, hideTimer = null, bFor = null;
+    function el(tag, cls, txt) { var e = document.createElement(tag); if (cls) e.className = cls; if (txt) e.textContent = txt; return e; }
+    function svgIcon(cls, d) {
+      var ns = "http://www.w3.org/2000/svg", v = document.createElementNS(ns, "svg"), p = document.createElementNS(ns, "path");
+      v.setAttribute("viewBox", "0 0 12 12"); v.setAttribute("aria-hidden", "true"); if (cls) v.setAttribute("class", cls);
+      p.setAttribute("d", d); p.setAttribute("fill", "currentColor"); v.appendChild(p); return v;
+    }
+    function bDur() { return isFinite(shared.duration) && shared.duration > 0 ? shared.duration : parse(bFor && bFor.getAttribute("data-dur")); }
+    function bSeek(t) {
+      if (isFinite(shared.duration) && shared.duration > 0) shared.currentTime = t;
+      bPaint();
+    }
+    function bTip(i, ms) {
+      var tip = bEls.tip, tr = bEls.track;
+      clearTimeout(bTipTimer); tip.hidden = true;
+      for (var q = 0; q < bTicks.length; q++) bTicks[q] && bTicks[q].classList.remove("on");
+      if (i < 0) return;
+      tip.textContent = fmt(bCh[i].t) + " · " + bCh[i].title; tip.hidden = false; bTicks[i] && bTicks[i].classList.add("on");
+      var w = tip.offsetWidth, x = bTicks[i] ? bTicks[i].offsetLeft + 8 : 0;
+      tip.style.left = Math.max(0, Math.min(x - w / 2, tr.clientWidth - w)) + "px";
+      if (ms) bTipTimer = setTimeout(function () { bTip(-1); }, ms);
+    }
+    function bJump(i, fromTick) {
+      bSeek(bCh[i].t);
+      if (shared.paused) { var pr = shared.play(); if (pr && pr.catch) pr.catch(function () {}); }
+      if (fromTick) bTip(i, 2200);
+    }
+    function bBuild() {
+      if (bar) return;
+      bar = el("div", "hb"); bar.hidden = true; bar.setAttribute("role", "region"); bar.setAttribute("aria-label", "Now playing");
+      var panel = el("div", "hb-panel"); panel.hidden = true; bEls.panel = panel; bEls.list = el("ol"); panel.appendChild(bEls.list);
+      var main = el("div", "hb-main");
+      var pb = el("button", "ap-btn hb-pause"); pb.type = "button"; pb.setAttribute("aria-label", "Pause audio");
+      pb.appendChild(svgIcon("i-pause", "M2.5 1.5h2.5v9H2.5zM7 1.5h2.5v9H7z"));
+      pb.addEventListener("click", function () { shared.pause(); });
+      var info = el("div", "hb-info"); bEls.title = el("div", "hb-title"); bEls.now = el("div", "hb-now"); info.appendChild(bEls.title); info.appendChild(bEls.now);
+      var cb = el("button", "hb-chbtn"); cb.type = "button"; cb.setAttribute("aria-expanded", "false"); bEls.chbtn = cb;
+      cb.addEventListener("click", function () {
+        var open = panel.hidden; panel.hidden = !open; cb.setAttribute("aria-expanded", open ? "true" : "false");
+        if (open) { var cur = panel.querySelector('[aria-current="true"]'); if (cur && cur.scrollIntoView) cur.scrollIntoView({ block: "nearest" }); }
+      });
+      main.appendChild(pb); main.appendChild(info); main.appendChild(cb);
+      var row = el("div", "hb-row");
+      bEls.cur = el("span", "ap-time", "0:00"); bEls.dur = el("span", "ap-time", "0:00");
+      var tr = el("span", "ap-track"); bEls.track = tr;
+      var sk = el("input", "ap-seek"); sk.type = "range"; sk.min = 0; sk.max = 1000; sk.step = 1; sk.value = 0; sk.setAttribute("aria-label", "Seek"); bEls.seek = sk;
+      bEls.ticks = el("span", "ap-ticks"); bEls.tip = el("span", "ap-tip"); bEls.tip.hidden = true;
+      tr.appendChild(sk); tr.appendChild(bEls.ticks); tr.appendChild(bEls.tip);
+      sk.addEventListener("input", function () { bDrag = true; bSeek((sk.value / 1000) * bDur()); });
+      sk.addEventListener("change", function () { bDrag = false; bPaint(); });
+      row.appendChild(bEls.cur); row.appendChild(tr); row.appendChild(bEls.dur);
+      bar.appendChild(panel); bar.appendChild(main); bar.appendChild(row);
+      document.body.appendChild(bar);
+    }
+    function bLoad(b) {              // fill title + chapters for the pill that is playing
+      bFor = b; bBuild();
+      bEls.title.textContent = b.getAttribute("data-title") || "";
+      bCh = []; bTicks = []; bTickDur = 0; bCur = -2; bEls.ticks.textContent = ""; bEls.list.textContent = "";
+      try { var raw = b.getAttribute("data-ch"); if (raw) bCh = JSON.parse(raw) || []; } catch (e) { bCh = []; }
+      bCh = bCh.filter(function (c) { return c && isFinite(Number(c.t)); }).map(function (c) { return { t: Number(c.t), title: String(c.title || "") }; });
+      bEls.panel.hidden = true; bEls.chbtn.setAttribute("aria-expanded", "false"); bEls.chbtn.hidden = !bCh.length;
+      bEls.chbtn.textContent = "Chapters (" + bCh.length + ")"; bEls.track.classList.toggle("hb-plain", !bCh.length);
+      bCh.forEach(function (c, i) {
+        var li = el("li"), bt = el("button"); bt.type = "button"; bt.setAttribute("data-t", c.t);
+        bt.appendChild(el("span", "ap-ct", fmt(c.t))); bt.appendChild(el("span", "ap-cn", c.title));
+        bt.addEventListener("click", function () { bJump(i, false); });
+        li.appendChild(bt); bEls.list.appendChild(li);
+      });
+    }
+    function bLayoutTicks(d) {
+      if (!bCh.length || !d || d === bTickDur) return;
+      bTickDur = d; bEls.ticks.textContent = ""; bTicks = [];
+      bCh.forEach(function (c, i) {
+        if (c.t <= 0 || c.t >= d) { bTicks[i] = null; return; }
+        var t = el("button", "ap-tick"); t.type = "button"; t.tabIndex = -1; t.setAttribute("aria-hidden", "true");
+        t.style.left = "calc(6px + (100% - 12px) * " + (c.t / d).toFixed(5) + ")";
+        t.addEventListener("click", function (e) { e.preventDefault(); bJump(i, true); });
+        bEls.ticks.appendChild(t); bTicks[i] = t;
+      });
+    }
+    function bPaint() {
+      if (!bar || bar.hidden) return;
+      var d = bDur(), t = shared.currentTime || 0, p = d ? Math.min(1, t / d) : 0;
+      bLayoutTicks(d);
+      if (!bDrag) bEls.seek.value = Math.round(p * 1000);
+      bEls.seek.style.setProperty("--p", (p * 100).toFixed(2) + "%");
+      bEls.cur.textContent = fmt(t); bEls.dur.textContent = fmt(d);
+      bEls.seek.setAttribute("aria-valuetext", fmt(t) + " of " + fmt(d));
+      if (bCh.length) {
+        var k = -1; for (var q = 0; q < bCh.length; q++) if (bCh[q].t <= t + 0.25) k = q;
+        if (k !== bCur) {
+          bCur = k; bEls.now.textContent = k >= 0 ? bCh[k].title : "";
+          var bs = bEls.list.querySelectorAll("button");
+          for (var z = 0; z < bs.length; z++) { if (z === k) bs[z].setAttribute("aria-current", "true"); else bs[z].removeAttribute("aria-current"); }
+        }
+      } else bEls.now.textContent = "";
+    }
+    function bShow() {
+      clearTimeout(hideTimer);
+      if (!active) return;
+      if (bFor !== active) bLoad(active);
+      bar.hidden = false; document.body.classList.add("hb-on"); bPaint();
+    }
+    function bHide() {
+      if (!bar) return;
+      bar.hidden = true; bEls.panel.hidden = true; bEls.chbtn.setAttribute("aria-expanded", "false"); bTip(-1);
+      document.body.classList.remove("hb-on");
+    }
+    shared.addEventListener("play", bShow);
+    shared.addEventListener("playing", bShow);
+    shared.addEventListener("pause", function () {
+      clearTimeout(hideTimer);      // short delay: switching to another article pauses and plays again at once
+      hideTimer = setTimeout(function () { if (shared.paused || shared.ended) bHide(); }, 150);
+    });
+    shared.addEventListener("ended", bHide);
+    shared.addEventListener("error", bHide);
+    ["timeupdate", "loadedmetadata", "durationchange"].forEach(function (ev) { shared.addEventListener(ev, bPaint); });
   }
 })();
