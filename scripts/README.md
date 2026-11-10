@@ -23,7 +23,19 @@ posts, and images without a size entry are simply rendered without width/height.
 
 ## Other
 
-* `make_audio.py` – read-aloud audio generation (local, git-ignored).
+* `make_audio.py` – read-aloud audio generation with chapters (free edge-tts, local). **Daily command
+  for every new post** (always with `--chapters`):
+
+  ```sh
+  /workspace/.venv-tts/bin/python scripts/make_audio.py --chapters _posts/<date>-<slug>.md
+  ```
+
+  It speaks the post section by section (one per `##` heading), writes `audio:`, `audio_voice`,
+  `audio_duration` and `audio_chapters:` (`{t: seconds, title: "..."}`) to the front matter and the MP3 to
+  `assets/audio/`. Sections under 60 s are merged into the previous chapter and at most 10 chapters are
+  kept. Add `--voice Conrad` for German posts and `--force` to regenerate an existing MP3. Run one TTS job
+  at a time. Chapters feed the post player (ticks + collapsible list) and the homepage now-playing bar.
+  Metric units and °C only in titles, descriptions and bodies.
 * `test/search.test.js` – tests for the whole-word search (`node scripts/test/search.test.js`).
 
 ## What is generated automatically by Jekyll (no script needed)
