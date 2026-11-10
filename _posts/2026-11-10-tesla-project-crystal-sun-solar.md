@@ -12,6 +12,9 @@ image_credit: "Photo: Radiotrefoil, Multicrystalline silicon wafer with thin fil
 image_license: "CC BY-SA 4.0"
 image_license_url: "https://creativecommons.org/licenses/by-sa/4.0/"
 image_description: "An illustrative photograph of a silicon wafer from a research lab—not Tesla’s product or site. According to the photographer, the uneven colours come from a failed anti-reflective coating deposition; exactly this kind of process drift is what inline inspection and AI process control try to catch."
+audio: /assets/audio/tesla-project-crystal-sun-solar.mp3
+audio_voice: Ryan
+audio_duration: "38:15"
 ---
 
 If you saw “Tesla’s $10 trillion solar factory” online, here is the short, sourced correction: **Project Crystal Sun is a proposed $10.1 billion factory—about $10 billion, not $10 trillion.** The number in Tesla’s own filing is **$10.116 billion**. That is roughly one thousand times smaller than “$10 trillion,” and I found no credible source, including Elon Musk’s own posts, that uses a trillion-dollar figure for this project.

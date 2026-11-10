@@ -12,6 +12,9 @@ image_credit: "Image: Michael Gaylard, “Digital Abstraction Neural Network Glo
 image_license: "CC BY 4.0"
 image_license_url: "https://creativecommons.org/licenses/by/4.0/"
 image_description: "Abstract digital art titled “Digital Abstraction Neural Network Glow”: an intense white and blue glow with jagged, pixelated edges and small green highlights spreading from the right side over a dark blue background. It is used here as a symbol for artificial intelligence. It is an illustration, not a picture of any company, product or person mentioned in this article."
+audio: /assets/audio/ai-trends-jobs-safety-software-factory.mp3
+audio_voice: Ryan
+audio_duration: "9:50"
 ---
 
 Every few days the AI conversation shifts. Going into **Tuesday, November 10, 2026**, four themes stood out across X's trending stories, Reddit threads and the AI press: **what AI is doing to entry-level jobs**, **a high-profile new AI safety campaign**, **developers arguing about "software factories" run by AI agents**, and **the US government's habit of calling AI "SI"**.
