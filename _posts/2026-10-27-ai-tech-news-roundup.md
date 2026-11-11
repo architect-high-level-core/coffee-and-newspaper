@@ -14,6 +14,13 @@ image_description: "Photo of a small glass of espresso with a thin layer of crem
 audio: /assets/audio/ai-tech-news-roundup.mp3
 audio_voice: Ryan
 audio_duration: "14:13"
+audio_chapters:
+  - {t: 0, title: "Intro"}
+  - {t: 211, title: "OpenAI launches GPT-6.1 Terra"}
+  - {t: 285, title: "Open models from China"}
+  - {t: 458, title: "Security"}
+  - {t: 549, title: "Chips and hardware"}
+  - {t: 630, title: "Agents: Anthropic says \"one agent, not…"}
 ---
 
 The last three days in AI were busy: OpenAI shipped a cheaper workhorse model that reads technical drawings, Chinese labs pushed powerful open models (one of them writes CAD scripts), Anthropic showed Claude writing mathematical proofs for real software, and OpenAI moved its frontier training off the live internet. Here are seven stories worth knowing, plus one surprise.

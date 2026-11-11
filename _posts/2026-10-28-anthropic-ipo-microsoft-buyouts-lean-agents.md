@@ -10,7 +10,10 @@ image_alt: "A cup of black coffee and a folded newspaper on a wooden desk next t
 image_credit: "Illustration: AI-generated"
 audio: /assets/audio/anthropic-ipo-microsoft-buyouts-lean-agents.mp3
 audio_voice: Andrew
-audio_duration: "8:56"
+audio_duration: "8:58"
+audio_chapters:
+  - {t: 0, title: "Intro"}
+  - {t: 135, title: "Anthropic goes public"}
 ---
 
 Big money and practical lessons today: Anthropic opened its books for a stock market listing, Microsoft offered tens of thousands of staff a paid exit, and two studies show that simpler AI agents can be just as good and that people quietly adopt the AI's opinions. Here are six stories, plus one surprise.
