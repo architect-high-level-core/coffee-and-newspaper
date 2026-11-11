@@ -12,6 +12,19 @@ image_credit: "Photo: Mramoeba (Wikimedia Commons user), “CERN Data Centre” 
 image_license: "CC0 1.0"
 image_license_url: "https://creativecommons.org/publicdomain/zero/1.0/"
 image_description: "Photograph of the exterior of the CERN Data Centre in 2024. It stands for the kind of computing infrastructure that large AI models run on. It does not show Anthropic, Claude, or any facility operated by Anthropic."
+audio: /assets/audio/claude-fable-5-2-review-berman.mp3
+audio_voice: Andrew
+audio_duration: "24:26"
+audio_chapters:
+  - {t: 0, title: "Intro"}
+  - {t: 68, title: "The short version"}
+  - {t: 173, title: "What Fable 5.2 and Mythos 5.2 actually…"}
+  - {t: 337, title: "Anthropic’s claims, labelled as claims"}
+  - {t: 454, title: "Matthew Berman’s tests and posts"}
+  - {t: 690, title: "Other voices on X and Reddit"}
+  - {t: 1033, title: "Benchmarks and early reviews"}
+  - {t: 1259, title: "The catch"}
+  - {t: 1395, title: "What we could not verify"}
 ---
 
 Anthropic released **Claude Fable 5.2** and **Claude Mythos 5.2** on **9 November 2026**. The names are easy to mix up with Claude Opus or Sonnet. They are a different, higher tier: models Anthropic says are for the hardest technical work, not for everyday chat. This article is a status check as of **11 November 2026**. We separate **official specifications**, **company claims**, **independent tests and reviews**, and **opinions**. Where we could not confirm something, we say so in its own section near the end.
