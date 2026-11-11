@@ -50,7 +50,7 @@ _posts/2026-10-21-ai-space-tech-japan-europe.md:
 _posts/2026-10-21-php2shell-critical-php-security-update.md:
 - _posts/2026-11-04-fastest-growing-startups-on-x.md
 - _posts/2026-10-24-product-hunt-ai-launches-claude-duet-nvidia.md
-- _posts/2026-11-11-ai-energy-data-centers-europe-power.md
+- _posts/2026-11-11-qwen-3-8-max-qwen4-preview.md
 _posts/2026-10-22-ai-fan-rebuilds-old-games-bioware.md:
 - _posts/2026-10-31-ai-terms-reverse-engineering-games.md
 - _posts/2026-11-02-claude-self-review-game-block-free-tools-agents.md
@@ -97,8 +97,8 @@ _posts/2026-10-29-ai-in-archaeology.md:
 - _posts/2026-10-28-anthropic-ipo-microsoft-buyouts-lean-agents.md
 _posts/2026-10-29-ai-influencers-and-sources.md:
 - _posts/2026-10-29-deepseek-latest-news.md
-- _posts/2026-10-30-ai-agent-escape-delaware-copilot-fusion.md
-- _posts/2026-10-12-ai-how-to-books-assistants-agents.md
+- _posts/2026-11-11-claude-fable-5-2-review-berman.md
+- _posts/2026-11-11-qwen-3-8-max-qwen4-preview.md
 _posts/2026-10-29-ai-user-numbers-big-tech.md:
 - _posts/2026-10-31-ai-terms-reverse-engineering-games.md
 - _posts/2026-10-14-ai-news-reddit-gemini-argon-safety-price-war.md
@@ -207,3 +207,11 @@ _posts/2026-11-11-ai-energy-data-centers-europe-power.md:
 - _posts/2026-11-10-ai-chips-data-centers-europe-japan.md
 - _posts/2026-11-07-moonshot-europe-gpu-rental.md
 - _posts/2026-11-06-ai-capex-voter-backlash-flashprove.md
+_posts/2026-11-11-claude-fable-5-2-review-berman.md:
+- _posts/2026-11-11-qwen-3-8-max-qwen4-preview.md
+- _posts/2026-10-29-ai-influencers-and-sources.md
+- _posts/2026-11-02-claude-self-review-game-block-free-tools-agents.md
+_posts/2026-11-11-qwen-3-8-max-qwen4-preview.md:
+- _posts/2026-11-11-claude-fable-5-2-review-berman.md
+- _posts/2026-10-29-deepseek-latest-news.md
+- _posts/2026-10-29-ai-influencers-and-sources.md
