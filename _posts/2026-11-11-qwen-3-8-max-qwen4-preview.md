@@ -12,6 +12,20 @@ image_credit: "Photo: Danielinblue (Wikimedia Commons user), “TaobaoCity Aliba
 image_license: "CC BY-SA 4.0"
 image_license_url: "https://creativecommons.org/licenses/by-sa/4.0/"
 image_description: "Photograph of Taobao City, Alibaba Group’s headquarters campus at Xixi Park in Hangzhou, taken on 22 July 2014. It locates the company behind Qwen. It does not show a Qwen laboratory, a 2026 facility, or any of the models discussed in this article."
+audio: /assets/audio/qwen-3-8-max-qwen4-preview.mp3
+audio_voice: Guy
+audio_duration: "17:59"
+audio_chapters:
+  - {t: 0, title: "Intro"}
+  - {t: 57, title: "The short version"}
+  - {t: 157, title: "A few terms"}
+  - {t: 232, title: "Berman’s August review of Qwen3.8-Max"}
+  - {t: 406, title: "Price, cost-per-task, and the…"}
+  - {t: 486, title: "Today’s Qwen4-Max-Preview"}
+  - {t: 600, title: "Other voices on X and Reddit"}
+  - {t: 800, title: "Open versus closed, and a dated…"}
+  - {t: 899, title: "FAQ"}
+  - {t: 1006, title: "What we could not verify"}
 ---
 
 Two Qwen stories are easy to squash into one, and they should not be. In early **August 2026**, Alibaba’s Qwen team released **Qwen3.8-Max** and said it would open the weights of a Max-class model for the first time. Today, **11 November 2026**, it opened a preview of **Qwen4-Max** on a short Token Plan window. Matthew Berman reviewed the August model, not the preview that opened this morning. This is a status check as of this evening, **11 November 2026**, and a companion to [*Claude Fable 5.2: What’s New, What Testers Found, and What It Costs (November 2026)*](/2026/11/11/claude-fable-5-2-review-berman/). We have not independently confirmed that the promised Qwen3.8-Max open weights were in fact published.
