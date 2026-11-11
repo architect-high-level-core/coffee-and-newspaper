@@ -13,6 +13,14 @@ image_description: "Photo from the 2015 BioWare Cosplay Parade at PAX Prime in S
 audio: /assets/audio/ai-fan-rebuilds-old-games-bioware.mp3
 audio_voice: Andrew
 audio_duration: "15:44"
+audio_chapters:
+  - {t: 0, title: "Intro"}
+  - {t: 116, title: "BioWare's status"}
+  - {t: 317, title: "AI texture upscaling"}
+  - {t: 420, title: "AI voices"}
+  - {t: 539, title: "Platform rules"}
+  - {t: 603, title: "Rebuilding the engine"}
+  - {t: 731, title: "The legal limits"}
 ---
 
 On October 21, 2026, Electronic Arts closed BioWare, the studio behind *Baldur's Gate*, *Star Wars: Knights of the Old Republic*, *Mass Effect* and *Dragon Age*. For many players, the question now is not only "what happens to the studio?" but also "who will look after these games?" Increasingly, the answer is the fans. They use AI tools to sharpen old textures, rebuild game engines from scratch, and even give characters new lines in AI-cloned voices.

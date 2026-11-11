@@ -13,6 +13,13 @@ image_description: "Photo of a young woman in a light, floral summer top sitting
 audio: /assets/audio/personal-agents-market-map-explained.mp3
 audio_voice: Guy
 audio_duration: "26:01"
+audio_chapters:
+  - {t: 0, title: "Intro"}
+  - {t: 167, title: "The whole map at a glance"}
+  - {t: 299, title: "What counts as a \"personal agent\"?"}
+  - {t: 394, title: "Independent Agent-Only Companies"}
+  - {t: 1176, title: "Industry/Vertical-Specific agents"}
+  - {t: 1457, title: "What the map tells us"}
 ---
 
 Personal AI agents are the hottest consumer AI category of autumn 2026. Every week brings a new assistant that you can text, call or let run in the background. To keep track, McBain (@heyneighbor), who works in developer relations at OpenClaw, publishes a weekly thread called **OpenClaw Personal Agents Weekly**. Its October 15, 2026 edition included a one-page **"Personal Agents Market Map"** with 46 products ([original post on X](https://x.com/heyneighbor/status/2110809223408058639)). The post was viewed more than 120,000 times and saved by more than 800 people.
