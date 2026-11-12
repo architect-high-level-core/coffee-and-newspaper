@@ -14,6 +14,15 @@ image_description: "Museum photograph of a fragmentary Babylonian clay tablet in
 audio: /assets/audio/ai-in-archaeology.mp3
 audio_voice: Guy
 audio_duration: "32:24"
+audio_chapters:
+  - {t: 0, title: "Intro"}
+  - {t: 196, title: "Reading the unreadable"}
+  - {t: 882, title: "Finding sites"}
+  - {t: 1135, title: "Analysing finds"}
+  - {t: 1358, title: "Protecting heritage"}
+  - {t: 1470, title: "Limits, risks and debates"}
+  - {t: 1655, title: "Timeline"}
+  - {t: 1870, title: "Key takeaways"}
 ---
 
 Archaeology is a science of fragments: burnt scrolls, broken tablets, worn inscriptions, ruins hidden under forest or sand. In the past two years, artificial intelligence (AI) has started to help with all of these. In June 2026, a team read a carbonised Herculaneum scroll from end to end without ever opening it. Google DeepMind's Aeneas helps historians restore and date Latin inscriptions. AI-assisted surveys have almost doubled the number of known figurative Nazca geoglyphs. At the same time, archaeologists are warning loudly about invented "readings", biased data and over-confident chatbots.
