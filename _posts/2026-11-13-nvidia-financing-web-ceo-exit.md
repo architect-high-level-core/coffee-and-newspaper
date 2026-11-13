@@ -12,6 +12,14 @@ image_credit: "Photo: Coolcaesar (Wikimedia Commons user), “NVIDIA Headquarter
 image_license: "CC BY-SA 4.0"
 image_license_url: "https://creativecommons.org/licenses/by-sa/4.0/"
 image_description: "Photograph of Nvidia’s Endeavor headquarters building in Santa Clara, California, taken on 4 August 2018. It shows the company’s campus entrance and logo sign. It does not show any of the people, data centers or financial deals discussed in this article."
+audio: /assets/audio/nvidia-financing-web-ceo-exit.mp3
+audio_voice: Guy
+audio_duration: "10:02"
+audio_chapters:
+  - {t: 0, title: "Intro"}
+  - {t: 69, title: "The short version"}
+  - {t: 219, title: "What is in the web, line by line"}
+  - {t: 328, title: "Why a CEO change matters for the money"}
 ---
 
 For most of the AI boom, Nvidia was described as the company selling the “picks and shovels”: the graphics processors (GPUs) that train and run large AI models. In 2026 it became something more. Through purchase promises, guarantees and credit backstops, Nvidia also helps **finance** the companies that buy its chips. CNBC calls it the “central bank of AI”.
