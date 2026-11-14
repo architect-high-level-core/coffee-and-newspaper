@@ -12,6 +12,15 @@ image_credit: "Photo: Sanfranman59 (Wikimedia Commons user), “Earl Warren Buil
 image_license: "CC BY-SA 4.0"
 image_license_url: "https://creativecommons.org/licenses/by-sa/4.0/"
 image_description: "Photograph of the Earl Warren Building, a state court building in San Francisco’s Civic Center, taken on 2 March 2008. It is used here as a symbol of California’s courts. The lawsuit discussed in this article was filed at the San Francisco Superior Court, which is a different court; the photo does not show the plaintiffs, the companies or any court hearing."
+audio: /assets/audio/nonprofits-lawsuit-freeze-frontier-ai.mp3
+audio_voice: Guy
+audio_duration: "8:55"
+audio_chapters:
+  - {t: 0, title: "Intro"}
+  - {t: 117, title: "Key terms in plain English"}
+  - {t: 181, title: "What the complaint claims"}
+  - {t: 290, title: "Why this lawsuit is unusual"}
+  - {t: 358, title: "Part of a wider wave of AI cases"}
 ---
 
 Can a court order the world’s leading AI companies to stop building more powerful AI? A coalition of four nonprofits wants to find out. On **Thursday, 12 November 2026**, they sued **Anthropic, Google, Meta, OpenAI and SpaceXSI** (SpaceX’s AI division) in the Superior Court of California for the County of San Francisco. They ask the court to freeze the development and deployment of AI systems more capable than the companies’ current models.
