@@ -11,7 +11,9 @@ image_credit: "Illustration: AI-generated"
 listen: true
 audio: /assets/audio/voice-ai-gemini-blender-agent-teams.mp3
 audio_voice: Guy
-audio_duration: "6:55"
+audio_duration: "6:56"
+audio_chapters:
+  - {t: 0, title: "Intro"}
 ---
 
 Today brings a mixed look at the AI and tech news of the last 24 hours: voice AI that hears feelings, Google's Gemini 4 Argon working inside Blender, agent teams instead of single agents, a free hub for AI coding helpers, a phone with no apps, the fight over "vibe coding" and the drop in AI stocks. Here are seven stories, plus one surprise.

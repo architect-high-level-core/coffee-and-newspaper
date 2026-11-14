@@ -14,6 +14,9 @@ listen: true
 audio: /assets/audio/prompting-google-ai-agents-game-testing.mp3
 audio_voice: Ryan
 audio_duration: "7:59"
+audio_chapters:
+  - {t: 0, title: "Intro"}
+  - {t: 208, title: "Coding with agents"}
 ---
 
 This Sunday is about how we work with AI: what still matters when you write to a chatbot, how AI answers are changing Google Search, and why running many coding agents at once can feel more productive than it is. Here are six stories, plus one surprise.

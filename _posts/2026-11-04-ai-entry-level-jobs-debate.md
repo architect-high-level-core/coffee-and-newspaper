@@ -14,7 +14,13 @@ image_license_url: "https://www.flickr.com/commons/usage/"
 image_description: "Archive photo from Tyne & Wear Archives & Museums, shared via Flickr Commons and Wikimedia Commons, showing office workers in the 1970s. It is a reminder that office work has been reshaped by technology before. It does not show any company or person named in this article."
 audio: /assets/audio/ai-entry-level-jobs-debate.mp3
 audio_voice: Ryan
-audio_duration: "8:55"
+audio_duration: "8:56"
+audio_chapters:
+  - {t: 0, title: "Intro"}
+  - {t: 59, title: "What Amodei said"}
+  - {t: 183, title: "What the evidence shows so far"}
+  - {t: 294, title: "The counterarguments"}
+  - {t: 394, title: "What young professionals can do"}
 ---
 
 Few AI statements have been quoted as often as this one: AI could eliminate **half of all entry-level white-collar jobs** within a few years. It comes from Dario Amodei, CEO of Anthropic, the company behind the Claude models. In early November 2026 the warning is trending on X again, alongside a broader debate about AI, jobs and skills.
