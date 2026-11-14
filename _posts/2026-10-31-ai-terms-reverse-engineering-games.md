@@ -14,7 +14,17 @@ image_license_url: "https://creativecommons.org/licenses/by-sa/4.0/"
 image_description: "Top-down photo of a Gravis PC GamePad, an early-1990s game controller for DOS computers, fully disassembled and laid out on a white paper towel. On the left are the upper and lower halves of the cream-coloured plastic housing with the purple 'GRAVIS PC GamePad' logo, two grey rubber button membranes and the coloured buttons and direction pad. On the right is the brown printed circuit board connected to a long grey cable that ends in a 15-pin game-port connector. A bottle of isopropyl alcohol and a cleaning cloth sit at the edge of the picture. The photo stands for taking a piece of gaming technology apart to understand how it works. It does not show any software, AI tool or game discussed in this article."
 audio: /assets/audio/ai-terms-reverse-engineering-games.mp3
 audio_voice: Ryan
-audio_duration: "36:20"
+audio_duration: "36:21"
+audio_chapters:
+  - {t: 0, title: "Intro"}
+  - {t: 125, title: "What the X posts say"}
+  - {t: 310, title: "What is actually confirmed"}
+  - {t: 764, title: "What Anthropic's legal documents say"}
+  - {t: 975, title: "How other AI providers handle it"}
+  - {t: 1439, title: "What game EULAs say"}
+  - {t: 1554, title: "The legal frameworks"}
+  - {t: 1895, title: "Practical options"}
+  - {t: 2099, title: "Key takeaways"}
 ---
 
 "Anthropic just hard-blocked game recreations in Claude." Posts like this spread across X in the last days of October 2026. Some went further and claimed that Claude can no longer reverse engineer anything at all. At the same time, publishers are filing takedown notices against a wave of AI-made game decompilations and browser ports.

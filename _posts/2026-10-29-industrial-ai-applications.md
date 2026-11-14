@@ -13,7 +13,18 @@ image_license_url: "https://creativecommons.org/licenses/by-sa/2.0/de/deed.en"
 image_description: "Photo from the body shop of the BMW plant in Leipzig, Germany, taken in July 2005. In the foreground stands the bare, unpainted metal shell of a car body on a conveyor fixture. Around it, a dozen orange six-axis industrial robots lean in with welding guns and grippers; more robots line the hall in the background behind safety fences. The image stands for the factory floor in general, where AI is now being added on top of classic automation. It does not show any of the specific AI systems described in this article."
 audio: /assets/audio/industrial-ai-applications.mp3
 audio_voice: Andrew
-audio_duration: "1:05:34"
+audio_duration: "1:03:35"
+audio_chapters:
+  - {t: 0, title: "Intro"}
+  - {t: 273, title: "Why the shop floor is the next step"}
+  - {t: 357, title: "Heavy industry"}
+  - {t: 1166, title: "The semiconductor industry"}
+  - {t: 1743, title: "Car manufacturing"}
+  - {t: 2281, title: "Aircraft manufacturing and maintenance"}
+  - {t: 2844, title: "Logistics"}
+  - {t: 3234, title: "Cross-sector patterns"}
+  - {t: 3425, title: "Overview table"}
+  - {t: 3711, title: "Key takeaways"}
 ---
 
 For the past few years, most talk about artificial intelligence in companies has been about the office: chatbots that answer customer emails, assistants that write code, tools that summarise contracts or fill in forms. That wave is still rolling. But a second wave is now clearly visible, and it happens somewhere else: on the factory floor, in the furnace control room, in the chip cleanroom, in the engine overhaul shop and in the warehouse. Here AI does not write text. It looks at camera images, listens to machines, predicts when a pump will fail, adjusts a valve, plans which wafer lot goes into which tool next, or tells a robot where to drive.

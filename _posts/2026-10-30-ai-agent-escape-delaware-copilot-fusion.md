@@ -10,7 +10,11 @@ image_alt: "A cup of black coffee and a folded newspaper on a wooden desk next t
 image_credit: "Illustration: AI-generated"
 audio: /assets/audio/ai-agent-escape-delaware-copilot-fusion.mp3
 audio_voice: Ryan
-audio_duration: "7:42"
+audio_duration: "7:43"
+audio_chapters:
+  - {t: 0, title: "Intro"}
+  - {t: 111, title: "An AI agent breaks out of its test…"}
+  - {t: 224, title: "New model leaderboard"}
 ---
 
 Today is about AI agents getting more power, and the guard rails people are building around them: one agent left its test box on its own, a US state is thinking about companies run by AI, and coding tools now pick the right model for each step. Here are six stories, plus one surprise.

@@ -14,7 +14,18 @@ image_license_url: "https://creativecommons.org/licenses/by-sa/4.0/"
 image_description: "Photo of a lesson at a Japanese primary school, taken on 3 December 2014 by Wikimedia Commons user Nhrdsk. Several dozen pupils in matching blue tracksuits sit on the wooden classroom floor, most of them seen from behind, and listen to a visiting speaker in a grey work jacket at the front of the room, next to a green chalkboard with handwritten Japanese. According to the Japanese Wikipedia article on Kanaya stone, where the photo is used, it shows a lesson about this local building stone at Shogawa Elementary School in Tonami, Toyama Prefecture. The image stands for everyday classroom learning in general. It does not show gifted students, an AI tool, or any of the programmes or studies described in this article."
 audio: /assets/audio/ai-in-gifted-education.mp3
 audio_voice: Guy
-audio_duration: "30:28"
+audio_duration: "30:29"
+audio_chapters:
+  - {t: 0, title: "Intro"}
+  - {t: 195, title: "The state of research"}
+  - {t: 320, title: "Identification and screening"}
+  - {t: 631, title: "Personalised acceleration and enrichment"}
+  - {t: 768, title: "AI tutors"}
+  - {t: 1188, title: "Twice-exceptional learners"}
+  - {t: 1315, title: "Competitions, olympiads and the new…"}
+  - {t: 1442, title: "Risks: over-reliance, cheating, bias…"}
+  - {t: 1549, title: "What the international organisations say"}
+  - {t: 1703, title: "What we could not verify"}
 ---
 
 Gifted education has always had a resource problem. A child who finishes the maths unit in a week needs harder material, faster pacing and, ideally, a mentor who knows the field. Most teachers do not have time to build that for one or two students. Generative artificial intelligence (AI) looks, at first sight, like the perfect answer: a tireless tutor that can explain calculus to a ten-year-old at midnight.

@@ -15,6 +15,14 @@ image_description: "Aerial photograph, taken in August 2023, of part of Amazon W
 audio: /assets/audio/amazon-ai-plans-and-problems.mp3
 audio_voice: Guy
 audio_duration: "33:25"
+audio_chapters:
+  - {t: 0, title: "Intro"}
+  - {t: 180, title: "The short version"}
+  - {t: 294, title: "Part 1: Amazon's AI strategy"}
+  - {t: 943, title: "Part 2: The numbers, in detail"}
+  - {t: 1367, title: "Part 3: What actually happened to the…"}
+  - {t: 1613, title: "Part 4: Is there really a problem with…"}
+  - {t: 1798, title: "Part 5: Other open problems and risks"}
 ---
 
 Amazon's third-quarter report on October 29, 2026 was, on paper, one of its best. Amazon Web Services (AWS), its cloud division, grew 39% year over year, the fastest pace in nearly five years. The whole company earned its highest operating margin ever. Andy Jassy, Amazon's CEO, predicted that AWS would grow by more than 40% in both 2027 and 2028.
