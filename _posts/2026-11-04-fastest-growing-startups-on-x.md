@@ -14,7 +14,18 @@ image_license_url: "https://creativecommons.org/publicdomain/zero/1.0/"
 image_description: "Stock photo from Unsplash by the user helloquence, dated 30 January 2016 and shared on Wikimedia Commons under CC0. It shows a close-up of a wooden desk with three open laptops, pencils and a printed sheet covered with hand-drawn diagrams and notes. Two people, seen only as hands and shirt sleeves, point at the sheet. The image stands for early-stage teamwork and planning in general. It does not show any of the companies, founders or products named in this article."
 audio: /assets/audio/fastest-growing-startups-on-x.mp3
 audio_voice: Andrew
-audio_duration: "29:53"
+audio_duration: "28:51"
+audio_chapters:
+  - {t: 0, title: "Intro"}
+  - {t: 190, title: "The whole list at a glance"}
+  - {t: 266, title: "Infrastructure for AI agents and…"}
+  - {t: 548, title: "Compute, inference and model platforms"}
+  - {t: 754, title: "World models and multimodal research…"}
+  - {t: 860, title: "AI products for people and companies"}
+  - {t: 1052, title: "Robotics and physical AI"}
+  - {t: 1151, title: "Security and trust"}
+  - {t: 1246, title: "Outside the AI core"}
+  - {t: 1349, title: "Analyzing the list as a whole"}
 ---
 
 Lists of "hot startups" usually rank companies by money raised or by valuation. On November 1, 2026, Ben Lang ([@benln](https://x.com/benln)) took a different angle. He posted a list of the startups whose X accounts gained followers fastest over the previous 90 days ([original post](https://x.com/benln/status/2116939965536059887)). The list is a single image with 34 entries, each with a one-line description and a location. When we read it on November 3, the post had about 74,000 views, 765 likes and 865 bookmarks. The bookmark count is higher than the like count, which suggests many people saved it as a reference list.
