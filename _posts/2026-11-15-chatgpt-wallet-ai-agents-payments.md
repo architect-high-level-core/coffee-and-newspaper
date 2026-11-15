@@ -12,6 +12,16 @@ image_credit: "Photo: RuinDig/Yuki Uchida, “Cashless-Payment-Devices CreditCar
 image_license: "CC BY 4.0"
 image_license_url: "https://creativecommons.org/licenses/by/4.0/"
 image_description: "Photograph of two cashless payment terminals in Japan, taken on 19 June 2022: a terminal for credit cards, debit cards, tap-to-pay and electronic money (left) and a reader for code-based payments (right). It is used here as a general symbol of card payments. It does not show ChatGPT Wallet, OpenAI or any of the companies named in this article."
+audio: /assets/audio/chatgpt-wallet-ai-agents-payments.mp3
+audio_voice: Andrew
+audio_duration: "11:55"
+audio_chapters:
+  - {t: 0, title: "Intro"}
+  - {t: 55, title: "The short version"}
+  - {t: 134, title: "Key terms in plain English"}
+  - {t: 220, title: "How a ChatGPT Wallet purchase works"}
+  - {t: 444, title: "What changes for shops"}
+  - {t: 545, title: "Open questions and risks"}
 ---
 
 Until now, most AI shopping assistants stopped one step before the checkout: they could search, compare and suggest, but you still typed in your card number yourself. On **Friday, 13 November 2026**, OpenAI moved past that step. It launched **ChatGPT Wallet**, a feature that lets its AI agents, called **“dots”**, pay for things on your behalf ([OpenAI announcement](https://openai.com/index/introducing-chatgpt-wallet/)).
