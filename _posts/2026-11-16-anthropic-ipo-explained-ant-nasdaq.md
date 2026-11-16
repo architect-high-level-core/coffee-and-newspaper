@@ -12,6 +12,17 @@ image_credit: "Photo: ajay_suresh, “Nasdaq MarketSite” (19 September 2021), 
 image_license: "CC BY 2.0"
 image_license_url: "https://creativecommons.org/licenses/by/2.0/"
 image_description: "Photograph of the Nasdaq MarketSite building in Times Square, New York, taken on 19 September 2021. Its cylindrical video façade shows unrelated advertising above the Nasdaq logo. It is used here as a general symbol of the Nasdaq stock exchange. It does not show Anthropic, its IPO or any company named in this article."
+audio: /assets/audio/anthropic-ipo-explained-ant-nasdaq.mp3
+audio_voice: Andrew
+audio_duration: "12:40"
+audio_chapters:
+  - {t: 0, title: "Intro"}
+  - {t: 59, title: "The short version"}
+  - {t: 160, title: "Key terms in plain English"}
+  - {t: 271, title: "What the filings say about the offer"}
+  - {t: 407, title: "How strong is demand?"}
+  - {t: 472, title: "The business behind the IPO"}
+  - {t: 547, title: "What investors are asking"}
 ---
 
 Anthropic, the AI company that makes the **Claude** models, is days away from becoming a listed company. According to its filings and to reporting by CNBC and Reuters, the shares are expected to be **priced on Wednesday, 18 November 2026** and to **start trading on the Nasdaq on Thursday, 19 November**, under the ticker symbol **ANT** ([CNBC](https://www.cnbc.com/2026/11/10/anthropic-sets-price-range-of-70-to-78-in-upcoming-ipo.html)).
