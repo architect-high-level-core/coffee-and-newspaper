@@ -14,7 +14,13 @@ image_license_url: "https://creativecommons.org/publicdomain/zero/1.0/"
 image_description: "Photograph of an open Hopper Cray XE6 compute rack with rows of hot-swappable AMD Opteron modules. Shared on Wikimedia Commons under CC0. It stands for high-performance computing and data-center hardware in general and does not show Anthropic, SpaceX, OpenAI or any product named in this article."
 audio: /assets/audio/ai-capex-voter-backlash-flashprove.mp3
 audio_voice: Guy
-audio_duration: "9:59"
+audio_duration: "10:00"
+audio_chapters:
+  - {t: 0, title: "Intro"}
+  - {t: 104, title: "Anthropic discloses roughly $895…"}
+  - {t: 184, title: "Midterm voters push back on AI data…"}
+  - {t: 275, title: "FlashProve"}
+  - {t: 400, title: "OpenAI’s Pando"}
 ---
 
 Early November 2026 is dominated by a simple tension: companies are locking in enormous spending on AI compute, while voters and communities push back on the power plants and data centers that spending requires. At the same time, labs are shipping quieter but important tools — cryptographic proofs that an answer really came from a named model, and Git systems built for armies of coding agents.

@@ -12,6 +12,17 @@ image_credit: "Illustration: AI-generated"
 audio: /assets/audio/particle-1-openclaw-plugins.mp3
 audio_voice: Guy
 audio_duration: "1:01:08"
+audio_chapters:
+  - {t: 0, title: "Intro"}
+  - {t: 351, title: "Where Particle comes from"}
+  - {t: 966, title: "How Particle-1 was built, in plain words"}
+  - {t: 1163, title: "The numbers, and how to read them"}
+  - {t: 1353, title: "The Particle API"}
+  - {t: 1777, title: "Use cases and benefits in detail"}
+  - {t: 2474, title: "The OpenClaw plugin ecosystem"}
+  - {t: 2688, title: "Security and trust"}
+  - {t: 3059, title: "What early users say"}
+  - {t: 3467, title: "What we could not verify"}
 ---
 
 On 3 November 2026, the OpenClaw project announced on X that a new model called **Particle-1** is "available in OpenClaw". The post says that the company behind it, **@particle_api**, "reports ~45% fewer output tokens than DeepSeek V4.1 Flash with comparable benchmark accuracy" and offers "zero data retention for standard inference". To try it, users should update to OpenClaw v2026.10.10 ([OpenClaw on X](https://x.com/openclaw/status/2117637498902077498)).
