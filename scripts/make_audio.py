@@ -205,6 +205,8 @@ def extract_text(raw, sections=False):
         probe = re.sub(r"[*_]", "", plain).strip()
         if SKIP_LINE.match(probe):                                              # "Original article: ...", credits
             flush(); continue
+        if re.match(r"^[*_].*[*_]$", st) and re.search(r"\b(Photo|Image|Illustration)\s*:", st):   # italic inline-image caption with credit
+            flush(); continue
         if not re.search(r"[A-Za-z]{2}", inline_clean(plain)):
             flush(); continue
         if st.startswith("|"):                                                  # table row -> sentence
