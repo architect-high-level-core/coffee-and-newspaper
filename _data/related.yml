@@ -45,8 +45,8 @@ _posts/2026-10-18-openclaw-small-business-podcast.md:
 - _posts/2026-10-18-openclaw-3d-printer-raspberry-pi.md
 _posts/2026-10-21-ai-space-tech-japan-europe.md:
 - _posts/2026-11-10-ai-chips-data-centers-europe-japan.md
+- _posts/2026-11-17-data-centers-in-space-launch-costs.md
 - _posts/2026-10-13-ai-world-report-google-microsoft-europe-china-japan.md
-- _posts/2026-11-11-ai-energy-data-centers-europe-power.md
 _posts/2026-10-21-php2shell-critical-php-security-update.md:
 - _posts/2026-11-15-chatgpt-wallet-ai-agents-payments.md
 - _posts/2026-11-04-fastest-growing-startups-on-x.md
@@ -158,7 +158,7 @@ _posts/2026-11-04-harness-engineering-ai-agents.md:
 _posts/2026-11-04-japan-chipmakers-ai.md:
 - _posts/2026-11-10-japan-2nm-chip-fabs-rapidus.md
 - _posts/2026-11-10-ai-chips-data-centers-europe-japan.md
-- _posts/2026-10-23-deepseek-v4-1-flash-india-japan-models.md
+- _posts/2026-11-17-lisa-su-amd-portrait.md
 _posts/2026-11-04-midterms-2026-ai-predictions.md:
 - _posts/2026-11-06-ai-capex-voter-backlash-flashprove.md
 - _posts/2026-11-10-ai-trends-jobs-safety-software-factory.md
@@ -181,8 +181,8 @@ _posts/2026-11-07-moonshot-europe-gpu-rental.md:
 - _posts/2026-10-30-ai-agent-escape-delaware-copilot-fusion.md
 _posts/2026-11-08-china-ai-stock-selloff-us-market.md:
 - _posts/2026-11-07-moonshot-europe-gpu-rental.md
+- _posts/2026-11-17-lisa-su-amd-portrait.md
 - _posts/2026-10-13-ai-world-report-google-microsoft-europe-china-japan.md
-- _posts/2026-11-10-japan-2nm-chip-fabs-rapidus.md
 _posts/2026-11-09-decomp-dev-sunset-ai-game-decompilation.md:
 - _posts/2026-10-31-ai-terms-reverse-engineering-games.md
 - _posts/2026-11-02-claude-self-review-game-block-free-tools-agents.md
@@ -200,13 +200,13 @@ _posts/2026-11-10-japan-2nm-chip-fabs-rapidus.md:
 - _posts/2026-11-10-ai-chips-data-centers-europe-japan.md
 - _posts/2026-10-29-industrial-ai-applications.md
 _posts/2026-11-10-tesla-project-crystal-sun-solar.md:
+- _posts/2026-11-17-data-centers-in-space-launch-costs.md
 - _posts/2026-10-29-industrial-ai-applications.md
 - _posts/2026-11-14-nonprofits-lawsuit-freeze-frontier-ai.md
-- _posts/2026-11-06-ai-capex-voter-backlash-flashprove.md
 _posts/2026-11-11-ai-energy-data-centers-europe-power.md:
 - _posts/2026-11-10-ai-chips-data-centers-europe-japan.md
+- _posts/2026-11-17-data-centers-in-space-launch-costs.md
 - _posts/2026-11-07-moonshot-europe-gpu-rental.md
-- _posts/2026-11-13-nvidia-financing-web-ceo-exit.md
 _posts/2026-11-11-claude-fable-5-2-review-berman.md:
 - _posts/2026-11-11-qwen-3-8-max-qwen4-preview.md
 - _posts/2026-11-16-anthropic-ipo-explained-ant-nasdaq.md
@@ -216,12 +216,12 @@ _posts/2026-11-11-qwen-3-8-max-qwen4-preview.md:
 - _posts/2026-10-29-deepseek-latest-news.md
 - _posts/2026-10-29-ai-influencers-and-sources.md
 _posts/2026-11-13-nvidia-financing-web-ceo-exit.md:
+- _posts/2026-11-17-colette-kress-nvidia-interim-ceo-bring-back-jensen.md
 - _posts/2026-11-16-anthropic-ipo-explained-ant-nasdaq.md
 - _posts/2026-10-31-amazon-ai-plans-and-problems.md
-- _posts/2026-11-06-ai-capex-voter-backlash-flashprove.md
 _posts/2026-11-14-nonprofits-lawsuit-freeze-frontier-ai.md:
-- _posts/2026-11-06-ai-capex-voter-backlash-flashprove.md
 - _posts/2026-10-14-ai-news-reddit-gemini-argon-safety-price-war.md
+- _posts/2026-11-06-ai-capex-voter-backlash-flashprove.md
 - _posts/2026-10-29-ai-user-numbers-big-tech.md
 _posts/2026-11-15-chatgpt-wallet-ai-agents-payments.md:
 - _posts/2026-10-29-ai-user-numbers-big-tech.md
@@ -231,3 +231,15 @@ _posts/2026-11-16-anthropic-ipo-explained-ant-nasdaq.md:
 - _posts/2026-10-28-anthropic-ipo-microsoft-buyouts-lean-agents.md
 - _posts/2026-11-11-claude-fable-5-2-review-berman.md
 - _posts/2026-11-13-nvidia-financing-web-ceo-exit.md
+_posts/2026-11-17-colette-kress-nvidia-interim-ceo-bring-back-jensen.md:
+- _posts/2026-11-13-nvidia-financing-web-ceo-exit.md
+- _posts/2026-11-17-lisa-su-amd-portrait.md
+- _posts/2026-10-24-product-hunt-ai-launches-claude-duet-nvidia.md
+_posts/2026-11-17-data-centers-in-space-launch-costs.md:
+- _posts/2026-11-11-ai-energy-data-centers-europe-power.md
+- _posts/2026-10-21-ai-space-tech-japan-europe.md
+- _posts/2026-11-14-nonprofits-lawsuit-freeze-frontier-ai.md
+_posts/2026-11-17-lisa-su-amd-portrait.md:
+- _posts/2026-11-17-colette-kress-nvidia-interim-ceo-bring-back-jensen.md
+- _posts/2026-11-10-japan-2nm-chip-fabs-rapidus.md
+- _posts/2026-11-10-ai-chips-data-centers-europe-japan.md
