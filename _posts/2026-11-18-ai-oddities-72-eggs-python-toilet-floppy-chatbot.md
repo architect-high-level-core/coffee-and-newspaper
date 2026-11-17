@@ -12,6 +12,16 @@ image_credit: "Photo: Krzysztof Golik, “Egg cartons with chicken eggs 03” (6
 image_license: "CC BY-SA 4.0"
 image_license_url: "https://creativecommons.org/licenses/by-sa/4.0/"
 image_description: "Stock photograph of a six-egg carton, one egg cracked open, taken by Krzysztof Golik in 2018. It is an illustration only: it does not show the 72 eggs in the story or any particular brand or shop."
+audio: /assets/audio/ai-oddities-72-eggs-python-toilet-floppy-chatbot.mp3
+audio_voice: Ryan
+audio_duration: "11:34"
+audio_chapters:
+  - {t: 0, title: "Intro"}
+  - {t: 33, title: "The short version"}
+  - {t: 97, title: "eggs nobody ordered"}
+  - {t: 246, title: "A python in the toilet, and a…"}
+  - {t: 362, title: "A chatbot that fits on a floppy disk"}
+  - {t: 563, title: "FAQ"}
 ---
 
 AI news is not always about trillion-dollar valuations and lawsuits. Sometimes it is about eggs. Here are three real stories from the past week, each with a sourced core and a small lesson hiding inside the joke. What is **reported fact**, what is a **claim by the people involved** and what is **our reading** is marked as we go.
