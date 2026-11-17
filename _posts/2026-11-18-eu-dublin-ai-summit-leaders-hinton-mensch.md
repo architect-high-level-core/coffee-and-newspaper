@@ -12,6 +12,19 @@ image_credit: "Photo: Metro Centric, “The Convention Centre Dublin in 2019” 
 image_license: "CC BY 2.0"
 image_license_url: "https://creativecommons.org/licenses/by/2.0/"
 image_description: "Photograph of the Convention Centre Dublin beside the River Liffey, taken in June 2019. DW placed the 13 November 2026 informal European Council meeting in Dublin's Convention Centre. The image is a file photo from 2019, not a picture of the summit."
+audio: /assets/audio/eu-dublin-ai-summit-leaders-hinton-mensch.mp3
+audio_voice: Guy
+audio_duration: "16:47"
+audio_chapters:
+  - {t: 0, title: "Intro"}
+  - {t: 71, title: "The short version"}
+  - {t: 150, title: "What happened in Dublin on 13 November"}
+  - {t: 263, title: "Mensch and Hinton"}
+  - {t: 444, title: "The credibility gap"}
+  - {t: 564, title: "The rulebook"}
+  - {t: 709, title: "Apply AI and a Nordic-Baltic…"}
+  - {t: 814, title: "FAQ"}
+  - {t: 938, title: "What we could not verify"}
 ---
 
 On Friday 13 November 2026, the leaders of the European Union sat down in Dublin and, for the first time, held a strategic discussion devoted to artificial intelligence. Two outside guests spoke to them: Arthur Mensch, chief executive of the French AI company Mistral, and Geoffrey Hinton, the Nobel Prize–winning computer scientist who has become one of the field's best-known warning voices. Five days later, with the Commission's Apply AI Summit just finished and a new advisory statement and a draft compliance template published, it is a fair moment to ask what the week actually changed.
