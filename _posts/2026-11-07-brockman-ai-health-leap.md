@@ -15,6 +15,14 @@ image_description: "Public-domain photograph by Bill Branson for the U.S. Nation
 audio: /assets/audio/brockman-ai-health-leap.mp3
 audio_voice: Andrew
 audio_duration: "15:25"
+audio_chapters:
+  - {t: 0, title: "Intro"}
+  - {t: 100, title: "What Brockman said (and the careful…"}
+  - {t: 244, title: "Brockman is not alone, and that is part…"}
+  - {t: 353, title: "What “AI in health” can already mean in…"}
+  - {t: 581, title: "The calendar nobody can prompt away"}
+  - {t: 664, title: "Separating two bets"}
+  - {t: 726, title: "OpenAI’s own incentives (without…"}
 ---
 
 On 4 November 2026, at the **WSJ Tech** conference organised by *The Wall Street Journal*, OpenAI co-founder and president **Greg Brockman** made two related but unequal claims about artificial intelligence and medicine.

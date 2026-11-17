@@ -12,6 +12,20 @@ image_credit: "Photo: Steve Jurvetson, “Liftoff of SpaceX IFT-5” (13 October
 image_license: "CC BY 2.0"
 image_license_url: "https://creativecommons.org/licenses/by/2.0/"
 image_description: "Photograph of the launch of SpaceX's Starship on its fifth integrated flight test from Starbase, Texas, on 13 October 2024. It is used here as a symbol of the large reusable rockets on which plans for data centers in orbit depend. It does not show a data center satellite or any specific project named in this article."
+audio: /assets/audio/data-centers-in-space-launch-costs.mp3
+audio_voice: Ryan
+audio_duration: "45:15"
+audio_chapters:
+  - {t: 0, title: "Intro"}
+  - {t: 80, title: "The short version"}
+  - {t: 345, title: "Why now: cheaper rockets and Starship"}
+  - {t: 553, title: "Who is building what in 2026"}
+  - {t: 990, title: "The physics"}
+  - {t: 1270, title: "Radiation, latency, repairs and debris"}
+  - {t: 1498, title: "The economics"}
+  - {t: 1803, title: "The environmental balance sheet"}
+  - {t: 2109, title: "Verdict: sensible, premature or…"}
+  - {t: 2465, title: "FAQ"}
 ---
 
 Putting data centers into orbit sounded like science fiction a few years ago. In 2026 it has become one of the most talked-about ideas in technology. SpaceX has asked the US Federal Communications Commission (FCC) for permission to launch **up to one million** satellites that would work as data centers ([FCC public notice](https://docs.fcc.gov/public/attachments/DA-26-113A1.txt)). Blue Origin, Starcloud, Google and Chinese research groups have plans of their own. Supporters see it as the way out of the AI power crunch on Earth. Critics call it premature, expensive and potentially harmful to the upper atmosphere, to orbital safety and to the night sky.
