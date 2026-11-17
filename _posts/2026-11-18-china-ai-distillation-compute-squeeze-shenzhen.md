@@ -12,6 +12,18 @@ image_credit: "Photo: Dinkun Chen, “SHENZHEN BAY (DEEP BAY) (29)” (1 Decembe
 image_license: "CC BY-SA 4.0"
 image_license_url: "https://creativecommons.org/licenses/by-sa/4.0/"
 image_description: "Photograph of towers in the Shenzhen Bay area of Shenzhen, China, taken in December 2024. Shenzhen hosts the APEC summit of 18–19 November 2026. The picture is a file photo and shows no event or company in this article."
+audio: /assets/audio/china-ai-distillation-compute-squeeze-shenzhen.mp3
+audio_voice: Andrew
+audio_duration: "18:48"
+audio_chapters:
+  - {t: 0, title: "Intro"}
+  - {t: 83, title: "The short version"}
+  - {t: 169, title: "What Reuters found, and what…"}
+  - {t: 322, title: "The US case and China's reply"}
+  - {t: 473, title: "How much does distillation explain?"}
+  - {t: 632, title: "The chip squeeze, and DeepSeek's…"}
+  - {t: 793, title: "Cheaper models from Alibaba and Tencent"}
+  - {t: 982, title: "FAQ"}
 ---
 
 For a year, US officials and American AI labs have said that Chinese companies build their models partly by copying answers from American ones. On 17 November 2026, Reuters added documents to that argument: a review of more than 300 Chinese papers, patents, corporate disclosures, recruitment notices and government papers, which it says shows the practice, called *distillation*, has moved from academic experiments into mainstream industrial use in China, with Beijing's encouragement. The story landed at a tense moment. Washington tightened its chip rules on Monday, DeepSeek began rationing its free chatbot because it is short of computing power, Alibaba and Tencent launched cheaper models, and Donald Trump and Xi Jinping are due to meet in Shenzhen this week.
