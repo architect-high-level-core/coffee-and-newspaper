@@ -12,6 +12,20 @@ image_credit: "Photo: Fuzheado, “South by Southwest Conference, Austin, Texas,
 image_license: "CC BY 4.0"
 image_license_url: "https://creativecommons.org/licenses/by/4.0/"
 image_description: "Photograph of Lisa Su, chair and chief executive of Advanced Micro Devices, speaking on stage at the South by Southwest Conference in Austin, Texas, on 11 March 2024. Taken by Fuzheado as part of the WikiPortraits project. The file has been cropped from a vertical portrait to a 3:2 landscape frame and scaled down to 1,920 pixels wide. It shows Su, not any particular AMD product."
+audio: /assets/audio/lisa-su-amd-portrait.mp3
+audio_voice: Ryan
+audio_duration: "31:32"
+audio_chapters:
+  - {t: 0, title: "Intro"}
+  - {t: 109, title: "The short version"}
+  - {t: 262, title: "From Tainan to MIT, then Texas…"}
+  - {t: 460, title: "How she is related to Jensen Huang"}
+  - {t: 706, title: "AMD in 2014"}
+  - {t: 879, title: "Zen, Ryzen, EPYC, chiplets, and TSMC"}
+  - {t: 1066, title: "Consoles, Xilinx and the leap into AI"}
+  - {t: 1327, title: "What the numbers show now, and what is…"}
+  - {t: 1559, title: "FAQ"}
+  - {t: 1745, title: "What we could not verify"}
 ---
 
 Lisa Su is the chair and chief executive of Advanced Micro Devices, the US semiconductor company known as AMD. She was born in Tainan, Taiwan, moved to the United States as a young child, trained as an electrical engineer at MIT, and became CEO on 8 October 2014. AMD was then still a listed company with billions of dollars in sales, but it was losing money, carrying more debt than cash, and was often described in later profiles as close to collapse. A decade later it was one of the most valuable US chip firms, and a challenger — still clearly number two — to Nvidia in AI accelerators.

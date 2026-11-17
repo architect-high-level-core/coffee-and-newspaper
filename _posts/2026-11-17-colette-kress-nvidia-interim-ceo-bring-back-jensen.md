@@ -12,6 +12,15 @@ image_credit: "Photo: SiliconANGLE theCUBE, “Colette Kress” (still from a vi
 image_license: "CC BY 3.0"
 image_license_url: "https://creativecommons.org/licenses/by/3.0/"
 image_description: "Still image of Colette Kress taken from a 2017 SiliconANGLE theCUBE video interview, years before she became Nvidia’s interim CEO. It shows her at an event venue with other people in the background. It does not show Jensen Huang, the petition or any event from November 2026."
+audio: /assets/audio/colette-kress-nvidia-interim-ceo-bring-back-jensen.mp3
+audio_voice: Guy
+audio_duration: "10:29"
+audio_chapters:
+  - {t: 0, title: "Intro"}
+  - {t: 65, title: "The short version"}
+  - {t: 147, title: "Who is Colette Kress?"}
+  - {t: 288, title: "The campaign to bring Huang back"}
+  - {t: 568, title: "FAQ"}
 ---
 
 The most valuable chipmaker in the world is, for now, run by its finance chief. On **12 November 2026**, Nvidia announced that co-founder **Jensen Huang** had resigned as president, CEO and board member, and that **Colette Kress**, chief financial officer since 2013, would serve as **interim CEO** ([Nvidia newsroom](https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition), [SEC Form 8-K](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000082/nvda-20261111.htm)).
