@@ -12,6 +12,20 @@ image_credit: "Photo: Markus Spiske, “Code on computer monitor” (14 February
 image_license: "CC0 1.0"
 image_license_url: "https://creativecommons.org/publicdomain/zero/1.0/"
 image_description: "Generic stock photograph of source code on a computer screen, taken by Markus Spiske in 2017 and released into the public domain under CC0. It is an illustration only: it does not show MAI Code 2, GitHub Copilot or any Microsoft product."
+audio: /assets/audio/microsoft-ignite-mai-code-2-autopilot-ai-price-war.mp3
+audio_voice: Ryan
+audio_duration: "20:48"
+audio_chapters:
+  - {t: 0, title: "Intro"}
+  - {t: 82, title: "The short version and key terms"}
+  - {t: 220, title: "What Microsoft announced at Ignite"}
+  - {t: 338, title: "MAI Code 2"}
+  - {t: 613, title: "What developers and analysts say"}
+  - {t: 735, title: "The same day"}
+  - {t: 846, title: "Autopilot, Agent 365 and the meter"}
+  - {t: 978, title: "Microsoft, OpenAI and the road to its…"}
+  - {t: 1066, title: "FAQ"}
+  - {t: 1163, title: "What we could not verify"}
 ---
 
 On Tuesday, 17 November 2026, Microsoft opened its Ignite conference in San Francisco with a message that was less about the smartest AI and more about the cheapest AI that is good enough. CEO Satya Nadella called Copilot "the new OS for work". Microsoft's AI division announced a family of new models, among them **MAI Code 2**, a coding model that Microsoft says reaches 98% of the quality of OpenAI's GPT-6.1 Sol at 40% of the cost. On the same day, OpenAI released GPT-6.2. For anyone who pays for AI coding tools or Copilot seats, the pricing story matters more than any single benchmark score.
