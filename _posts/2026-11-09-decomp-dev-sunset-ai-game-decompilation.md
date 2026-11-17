@@ -15,6 +15,11 @@ image_description: "Top-down photo of a Gravis PC GamePad, an early-1990s game c
 audio: /assets/audio/decomp-dev-sunset-ai-game-decompilation.mp3
 audio_voice: Andrew
 audio_duration: "8:44"
+audio_chapters:
+  - {t: 0, title: "Intro"}
+  - {t: 169, title: "What has changed"}
+  - {t: 256, title: "The three problems named in the…"}
+  - {t: 382, title: "Why this matters beyond games"}
 ---
 
 One of the best-known hubs of the game decompilation scene is stepping back. **decomp.dev**, a website that tracked the progress of dozens of community projects rebuilding the source code of classic games, has disabled its main index and the option to add new projects. Its administrator, who posts as **@encounter**, names AI as the reason, but not in the way you might expect.

@@ -14,7 +14,18 @@ image_license_url: "https://creativecommons.org/licenses/by/4.0/"
 image_description: "Hangzhou, home to Chinese AI developer DeepSeek. An illustrative city photograph, not a picture of an exchange, a named company's premises or the reported selloff."
 audio: /assets/audio/china-ai-stock-selloff-us-market.mp3
 audio_voice: Andrew
-audio_duration: "24:12"
+audio_duration: "24:13"
+audio_chapters:
+  - {t: 0, title: "Intro"}
+  - {t: 116, title: "What actually fell, and when?"}
+  - {t: 308, title: "“Chinese AI stocks” is not one asset…"}
+  - {t: 425, title: "Valuations"}
+  - {t: 549, title: "The commercial problem"}
+  - {t: 682, title: "Chip constraints create a cost squeeze"}
+  - {t: 905, title: "Profitability and funding"}
+  - {t: 1053, title: "What named strategists say about the…"}
+  - {t: 1193, title: "Four channels from China’s problems to…"}
+  - {t: 1301, title: "What would confirm, or challenge, the…"}
 ---
 
 A real selloff has hit China’s AI-related shares. But the simplest version of the story—China’s artificial-intelligence bubble bursts, then brings down Wall Street—gets ahead of the evidence.
