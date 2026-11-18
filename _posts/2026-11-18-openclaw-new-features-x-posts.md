@@ -9,6 +9,19 @@ tags: [AI, OpenClaw, AI agents, open source, Peter Steinberger, Vincent Koc, Ope
 image: /assets/img/2026-11-18-openclaw-new-features-x-posts-header-lobster.jpg
 image_alt: "Illustration of a friendly red lobster, the OpenClaw mascot, standing on a desk next to a glowing laptop with floating release-note cards and a green checkmark"
 image_credit: "Illustration: AI-generated"
+audio: /assets/audio/openclaw-new-features-x-posts.mp3
+audio_voice: Andrew
+audio_duration: "19:51"
+audio_chapters:
+  - {t: 0, title: "Intro"}
+  - {t: 77, title: "The short version"}
+  - {t: 153, title: "What the release notes confirm"}
+  - {t: 351, title: "New models without a new release"}
+  - {t: 488, title: "One shared agent for teams, and…"}
+  - {t: 624, title: "Behind the scenes"}
+  - {t: 747, title: "Security"}
+  - {t: 922, title: "What users and critics say on X"}
+  - {t: 1105, title: "What we could not verify"}
 ---
 
 OpenClaw is one of the most talked-about open-source AI agents. An **AI agent** is a program that does not just answer questions but acts for you: it runs commands, reads messages, writes code and runs tasks on a schedule. OpenClaw runs as a **Gateway**, an always-on program on your own computer or server that connects chat apps such as Telegram or Slack to AI models ([OpenClaw docs](https://docs.openclaw.ai/)). Its code is MIT-licensed on GitHub ([repository](https://github.com/openclaw/openclaw)), and its X profile describes it as a 501(c)(3) nonprofit foundation ([@openclaw](https://x.com/openclaw)).
