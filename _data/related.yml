@@ -210,7 +210,7 @@ _posts/2026-11-11-ai-energy-data-centers-europe-power.md:
 _posts/2026-11-11-claude-fable-5-2-review-berman.md:
 - _posts/2026-11-18-openai-gpt-6-2-astra-vs-anthropic-claude-fable-5-2.md
 - _posts/2026-11-11-qwen-3-8-max-qwen4-preview.md
-- _posts/2026-11-16-anthropic-ipo-explained-ant-nasdaq.md
+- _posts/2026-10-29-ai-influencers-and-sources.md
 _posts/2026-11-11-qwen-3-8-max-qwen4-preview.md:
 - _posts/2026-11-11-claude-fable-5-2-review-berman.md
 - _posts/2026-11-18-china-ai-distillation-compute-squeeze-shenzhen.md
@@ -228,9 +228,9 @@ _posts/2026-11-15-chatgpt-wallet-ai-agents-payments.md:
 - _posts/2026-10-29-ai-user-numbers-big-tech.md
 - _posts/2026-11-18-openai-gpt-6-2-astra-vs-anthropic-claude-fable-5-2.md
 _posts/2026-11-16-anthropic-ipo-explained-ant-nasdaq.md:
+- _posts/2026-11-20-anthropic-first-trading-day-ant-market-reaction.md
 - _posts/2026-10-28-anthropic-ipo-microsoft-buyouts-lean-agents.md
 - _posts/2026-11-11-claude-fable-5-2-review-berman.md
-- _posts/2026-11-13-nvidia-financing-web-ceo-exit.md
 _posts/2026-11-17-colette-kress-nvidia-interim-ceo-bring-back-jensen.md:
 - _posts/2026-11-13-nvidia-financing-web-ceo-exit.md
 - _posts/2026-11-17-lisa-su-amd-portrait.md
@@ -267,3 +267,7 @@ _posts/2026-11-18-openclaw-new-features-x-posts.md:
 - _posts/2026-10-18-dripcouncil-basementboys-openclaw.md
 - _posts/2026-11-15-chatgpt-wallet-ai-agents-payments.md
 - _posts/2026-11-18-microsoft-ignite-mai-code-2-autopilot-ai-price-war.md
+_posts/2026-11-20-anthropic-first-trading-day-ant-market-reaction.md:
+- _posts/2026-11-16-anthropic-ipo-explained-ant-nasdaq.md
+- _posts/2026-10-28-anthropic-ipo-microsoft-buyouts-lean-agents.md
+- _posts/2026-11-11-claude-fable-5-2-review-berman.md
