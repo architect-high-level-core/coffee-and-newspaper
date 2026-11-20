@@ -12,6 +12,18 @@ image_credit: "Photo: forextime.com, “Trading apps on an iPhone screen” (1 M
 image_license: "CC BY 2.0"
 image_license_url: "https://creativecommons.org/licenses/by/2.0/"
 image_description: "Stock photograph from 2021 of a hand holding a smartphone with a folder of trading apps. It is used here as a general symbol of retail investors buying and selling shares. It does not show Anthropic, the ANT share or any trading on 19 November 2026, and the apps shown have no connection with this article."
+audio: /assets/audio/anthropic-first-trading-day-ant-market-reaction.mp3
+audio_voice: Andrew
+audio_duration: "10:37"
+audio_chapters:
+  - {t: 0, title: "Intro"}
+  - {t: 54, title: "The short version"}
+  - {t: 133, title: "Key terms in plain English"}
+  - {t: 200, title: "From pricing to the opening bell"}
+  - {t: 274, title: "How ANT traded on day one"}
+  - {t: 357, title: "The market reaction"}
+  - {t: 453, title: "Why the market fell on Anthropic's big…"}
+  - {t: 569, title: "Facts versus predictions"}
 ---
 
 Anthropic, the company behind the **Claude** AI models, is now a listed company. On **Thursday, 19 November 2026**, its shares started trading on the Nasdaq under the ticker **ANT**, one day after the company priced what is now the **largest initial public offering (IPO) on record**.
