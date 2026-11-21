@@ -12,6 +12,17 @@ image_credit: "Photo: Acediscovery, “Wall-Street-Sign-New-York” (16 May 2007
 image_license: "CC BY 4.0"
 image_license_url: "https://creativecommons.org/licenses/by/4.0/"
 image_description: "Street sign for Wall Street in New York City, photographed in May 2007. It is used here as a general symbol of the US stock market. Anthropic is listed on the Nasdaq, not on the New York Stock Exchange on Wall Street, and the photo does not show anything connected with the ANT share."
+audio: /assets/audio/anthropic-ant-second-day-lockup-greenshoe-openai.mp3
+audio_voice: Guy
+audio_duration: "13:45"
+audio_chapters:
+  - {t: 0, title: "Intro"}
+  - {t: 52, title: "The short version"}
+  - {t: 199, title: "How ANT traded on day two"}
+  - {t: 325, title: "What analysts and media say"}
+  - {t: 399, title: "The greenshoe"}
+  - {t: 500, title: "The lock-up"}
+  - {t: 673, title: "What the listing means for OpenAI and…"}
 ---
 
 Two days, two very different moods. On Thursday, **Anthropic** (Nasdaq: **ANT**), the maker of the **Claude** AI models, closed its first trading day 17% above its offer price. On **Friday, 20 November 2026**, the share gave back much of that gain and briefly came within a few cents of the **$83** IPO price.
