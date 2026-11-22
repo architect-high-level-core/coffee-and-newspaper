@@ -12,6 +12,20 @@ image_credit: "Screenshot: MarinSile, “FreeCAD wiki Arch” (3 June 2018), CC 
 image_license: "CC BY-SA 4.0"
 image_license_url: "https://creativecommons.org/licenses/by-sa/4.0/"
 image_description: "A 2018 screenshot of the open-source CAD program FreeCAD with the Arch workbench open. It shows a 3D architectural detail of a small multi-storey structure with dimension lines, and the built-in Python console at the bottom. That Python interface is what most FreeCAD MCP servers use to let an AI assistant create and edit objects. The screenshot predates MCP and does not show an AI tool in use."
+audio: /assets/audio/local-mcp-gateways-ai-open-cad-freecad.mp3
+audio_voice: Ryan
+audio_duration: "16:02"
+audio_chapters:
+  - {t: 0, title: "Intro"}
+  - {t: 63, title: "The short version"}
+  - {t: 146, title: "Key terms in plain English"}
+  - {t: 239, title: "How MCP connects an assistant to a CAD…"}
+  - {t: 304, title: "FreeCAD: the most complete example"}
+  - {t: 428, title: "OpenSCAD, CadQuery and build123d"}
+  - {t: 510, title: "2D drawings"}
+  - {t: 649, title: "Gateways"}
+  - {t: 738, title: "The security side"}
+  - {t: 829, title: "Reverse engineering as inspiration, not…"}
 ---
 
 For years, "AI for CAD" mostly meant a chatbot that wrote a script you then had to paste somewhere yourself. That is changing. With the **Model Context Protocol (MCP)**, an AI assistant can call tools directly, and a growing number of open-source projects use it to connect assistants to **FreeCAD**, **OpenSCAD**, **CadQuery**, **build123d** and the DXF library **ezdxf**, all running on your own computer.
