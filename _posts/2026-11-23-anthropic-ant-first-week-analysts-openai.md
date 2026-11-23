@@ -12,6 +12,18 @@ image_credit: "Photo: ajay_suresh, “Nasdaq MarketSite” (19 September 2021), 
 image_license: "CC BY 2.0"
 image_license_url: "https://creativecommons.org/licenses/by/2.0/"
 image_description: "The Nasdaq MarketSite building at Times Square in New York, photographed in September 2021. Anthropic's shares trade on the Nasdaq under the ticker ANT, and the company's CEO appeared at the MarketSite on its first trading day. The photo itself was taken five years earlier and shows an unrelated advertisement, not Anthropic or the ANT listing."
+audio: /assets/audio/anthropic-ant-first-week-analysts-openai.mp3
+audio_voice: Guy
+audio_duration: "14:19"
+audio_chapters:
+  - {t: 0, title: "Intro"}
+  - {t: 54, title: "The short version"}
+  - {t: 135, title: "ANT share price after week one"}
+  - {t: 236, title: "How big is Anthropic now?"}
+  - {t: 336, title: "Anthropic analyst ratings and price…"}
+  - {t: 530, title: "When the underwriting banks may publish…"}
+  - {t: 595, title: "What Anthropic's listing means for…"}
+  - {t: 796, title: "Facts versus predictions"}
 ---
 
 Anthropic's first week as a public company lasted only two trading days, but it packed in a lot: a record IPO, a 17% first-day jump, a sharp fall the next day and a wave of analyst reports. On **Friday, 20 November 2026**, **Anthropic** (Nasdaq: **ANT**), the maker of the **Claude** AI models, closed at **$88.91**.
