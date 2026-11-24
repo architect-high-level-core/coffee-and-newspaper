@@ -12,6 +12,15 @@ image_credit: "Image: Michael Gaylard, “Digital Abstraction Neural Network Glo
 image_license: "CC BY 4.0"
 image_license_url: "https://creativecommons.org/licenses/by/4.0/"
 image_description: "An abstract, glowing network of lines and nodes, used here as a symbolic illustration of AI systems. It does not show any of the products or research described in the article."
+audio: /assets/audio/ai-news-week-claude-ship-shirudo-deepmind-quantum.mp3
+audio_voice: Andrew
+audio_duration: "8:19"
+audio_chapters:
+  - {t: 0, title: "Intro"}
+  - {t: 47, title: "The short version"}
+  - {t: 107, title: "Anthropic's Claude Ship"}
+  - {t: 216, title: "OpenAI and Cisco's Shirudo"}
+  - {t: 330, title: "Google DeepMind"}
 ---
 
 Monday, 23 November 2026, brought three AI announcements that point in the same direction: **AI agents are moving from suggesting work to doing, checking and approving it**. Anthropic now lets agents approve routine code changes, OpenAI and Cisco want AI to help protect running servers, and Google DeepMind used teams of AI agents to improve quantum algorithms and prove the results mathematically.
