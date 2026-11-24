@@ -5,8 +5,8 @@ _posts/2026-10-10-ai-in-cad-rea-autocad-revit-archicad.md:
 - _posts/2026-10-16-ai-agents-rules-tools-news.md
 _posts/2026-10-11-ai-humanizers-detectors-watermarks.md:
 - _posts/2026-10-31-ai-terms-reverse-engineering-games.md
+- _posts/2026-11-24-ai-news-week-claude-ship-shirudo-deepmind-quantum.md
 - _posts/2026-11-23-anthropic-ant-first-week-analysts-openai.md
-- _posts/2026-11-21-anthropic-ant-second-day-lockup-greenshoe-openai.md
 _posts/2026-10-12-ai-how-to-books-assistants-agents.md:
 - _posts/2026-10-29-ai-influencers-and-sources.md
 - _posts/2026-10-13-ai-world-report-google-microsoft-europe-china-japan.md
@@ -18,7 +18,7 @@ _posts/2026-10-13-ai-world-report-google-microsoft-europe-china-japan.md:
 _posts/2026-10-14-ai-news-reddit-gemini-argon-safety-price-war.md:
 - _posts/2026-10-29-ai-user-numbers-big-tech.md
 - _posts/2026-11-14-nonprofits-lawsuit-freeze-frontier-ai.md
-- _posts/2026-10-27-ai-tech-news-roundup.md
+- _posts/2026-11-24-ai-news-week-claude-ship-shirudo-deepmind-quantum.md
 _posts/2026-10-16-ai-agents-rules-tools-news.md:
 - _posts/2026-11-02-claude-self-review-game-block-free-tools-agents.md
 - _posts/2026-10-18-dripcouncil-basementboys-openclaw.md
@@ -78,7 +78,7 @@ _posts/2026-10-24-product-hunt-ai-launches-claude-duet-nvidia.md:
 _posts/2026-10-25-ai-video-creation-agents.md:
 - _posts/2026-11-01-prompting-google-ai-agents-game-testing.md
 - _posts/2026-11-04-particle-1-openclaw-plugins.md
-- _posts/2026-11-18-openclaw-new-features-x-posts.md
+- _posts/2026-11-24-ai-news-week-claude-ship-shirudo-deepmind-quantum.md
 _posts/2026-10-26-ai-agents-phone-sms-chat-email.md:
 - _posts/2026-10-18-dripcouncil-basementboys-openclaw.md
 - _posts/2026-11-18-openclaw-new-features-x-posts.md
@@ -88,13 +88,13 @@ _posts/2026-10-27-ai-tech-news-roundup.md:
 - _posts/2026-11-02-claude-self-review-game-block-free-tools-agents.md
 - _posts/2026-11-06-ai-capex-voter-backlash-flashprove.md
 _posts/2026-10-28-anthropic-ipo-microsoft-buyouts-lean-agents.md:
-- _posts/2026-10-27-ai-tech-news-roundup.md
 - _posts/2026-11-01-prompting-google-ai-agents-game-testing.md
+- _posts/2026-10-27-ai-tech-news-roundup.md
 - _posts/2026-11-02-claude-self-review-game-block-free-tools-agents.md
 _posts/2026-10-29-ai-in-archaeology.md:
+- _posts/2026-11-24-ai-news-week-claude-ship-shirudo-deepmind-quantum.md
 - _posts/2026-10-31-amazon-ai-plans-and-problems.md
 - _posts/2026-10-31-ai-in-gifted-education.md
-- _posts/2026-10-28-anthropic-ipo-microsoft-buyouts-lean-agents.md
 _posts/2026-10-29-ai-influencers-and-sources.md:
 - _posts/2026-10-29-deepseek-latest-news.md
 - _posts/2026-11-11-claude-fable-5-2-review-berman.md
@@ -102,7 +102,7 @@ _posts/2026-10-29-ai-influencers-and-sources.md:
 _posts/2026-10-29-ai-user-numbers-big-tech.md:
 - _posts/2026-10-31-ai-terms-reverse-engineering-games.md
 - _posts/2026-10-14-ai-news-reddit-gemini-argon-safety-price-war.md
-- _posts/2026-10-29-deepseek-latest-news.md
+- _posts/2026-11-24-ai-news-week-claude-ship-shirudo-deepmind-quantum.md
 _posts/2026-10-29-deepseek-latest-news.md:
 - _posts/2026-10-23-deepseek-v4-1-flash-india-japan-models.md
 - _posts/2026-10-29-ai-influencers-and-sources.md
@@ -246,7 +246,7 @@ _posts/2026-11-17-lisa-su-amd-portrait.md:
 _posts/2026-11-18-ai-oddities-72-eggs-python-toilet-floppy-chatbot.md:
 - _posts/2026-11-16-anthropic-ipo-explained-ant-nasdaq.md
 - _posts/2026-11-11-claude-fable-5-2-review-berman.md
-- _posts/2026-11-02-claude-self-review-game-block-free-tools-agents.md
+- _posts/2026-11-24-ai-news-week-claude-ship-shirudo-deepmind-quantum.md
 _posts/2026-11-18-china-ai-distillation-compute-squeeze-shenzhen.md:
 - _posts/2026-11-08-china-ai-stock-selloff-us-market.md
 - _posts/2026-11-11-qwen-3-8-max-qwen4-preview.md
@@ -261,8 +261,8 @@ _posts/2026-11-18-microsoft-ignite-mai-code-2-autopilot-ai-price-war.md:
 - _posts/2026-10-28-anthropic-ipo-microsoft-buyouts-lean-agents.md
 _posts/2026-11-18-openai-gpt-6-2-astra-vs-anthropic-claude-fable-5-2.md:
 - _posts/2026-11-11-claude-fable-5-2-review-berman.md
+- _posts/2026-11-24-ai-news-week-claude-ship-shirudo-deepmind-quantum.md
 - _posts/2026-11-18-microsoft-ignite-mai-code-2-autopilot-ai-price-war.md
-- _posts/2026-11-15-chatgpt-wallet-ai-agents-payments.md
 _posts/2026-11-18-openclaw-new-features-x-posts.md:
 - _posts/2026-10-18-dripcouncil-basementboys-openclaw.md
 - _posts/2026-11-15-chatgpt-wallet-ai-agents-payments.md
@@ -283,3 +283,7 @@ _posts/2026-11-23-anthropic-ant-first-week-analysts-openai.md:
 - _posts/2026-11-20-anthropic-first-trading-day-ant-market-reaction.md
 - _posts/2026-11-21-anthropic-ant-second-day-lockup-greenshoe-openai.md
 - _posts/2026-11-16-anthropic-ipo-explained-ant-nasdaq.md
+_posts/2026-11-24-ai-news-week-claude-ship-shirudo-deepmind-quantum.md:
+- _posts/2026-10-29-ai-user-numbers-big-tech.md
+- _posts/2026-11-23-anthropic-ant-first-week-analysts-openai.md
+- _posts/2026-10-27-ai-tech-news-roundup.md
