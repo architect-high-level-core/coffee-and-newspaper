@@ -12,6 +12,15 @@ image_credit: "Image: Trougnouf (Benoit Brummer), “Berlaymont building (DSCF75
 image_license: "CC BY 4.0"
 image_license_url: "https://creativecommons.org/licenses/by/4.0/"
 image_description: "The Berlaymont building in Brussels, seat of the European Commission, whose AI Office is responsible for much of the AI Act's implementation. The photo is a symbolic illustration of EU policy-making."
+audio: /assets/audio/ai-regulation-eu-us-ai-act-preemption.mp3
+audio_voice: Andrew
+audio_duration: "12:40"
+audio_chapters:
+  - {t: 0, title: "Intro"}
+  - {t: 44, title: "The short version"}
+  - {t: 116, title: "Europe: the AI Act gets its machinery"}
+  - {t: 397, title: "United States"}
+  - {t: 696, title: "What it means"}
 ---
 
 Two very different regulatory stories are unfolding on either side of the Atlantic. In Brussels, the EU AI Act is moving from law on paper to practical machinery: rules for test environments, templates and enforcement plans. In Washington, the 3 November midterm election has reshuffled the fight over who gets to regulate AI at all – the federal government or the states.
