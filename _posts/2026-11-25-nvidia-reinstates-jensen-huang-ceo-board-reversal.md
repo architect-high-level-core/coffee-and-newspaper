@@ -23,6 +23,18 @@ faq:
     answer: "No. Nvidia said an independent committee of directors, with outside counsel, will take its investigation to a conclusion, and that Huang supports it and will cooperate. The company also created a National Security and Export Control Committee and said it is searching for a chief compliance officer."
   - question: "When is Huang due to testify before Congress?"
     answer: "As of 23 November 2026, CNBC reported a closed-door House interview on 1 December 2026 and a public Senate Banking Committee hearing on 3 December 2026, titled “Protecting America’s AI Advantage: Oversight of U.S. Export Controls.” Those dates were set before his return; whether they change has not been confirmed by Huang’s representatives in the reports we reviewed."
+audio: /assets/audio/nvidia-reinstates-jensen-huang-ceo-board-reversal.mp3
+audio_voice: Ryan
+audio_duration: "14:40"
+audio_chapters:
+  - {t: 0, title: "Intro"}
+  - {t: 65, title: "The short version"}
+  - {t: 162, title: "Did Nvidia reinstate Jensen Huang as…"}
+  - {t: 261, title: "What happened between the resignation…"}
+  - {t: 405, title: "Why did the board change its decision?"}
+  - {t: 522, title: "What is still unfinished?"}
+  - {t: 644, title: "What does the reversal mean for…"}
+  - {t: 715, title: "FAQ"}
 ---
 
 Eleven days after Nvidia announced that co-founder **Jensen Huang** had resigned, the company brought him back. On **23 November 2026**, Nvidia said its board had unanimously reinstated Huang as president, chief executive officer and a board director, effective immediately. The reversal came only days after chair **Harvey C. Jones** and then-interim CEO **Colette Kress** had said the board would not reinstate him.

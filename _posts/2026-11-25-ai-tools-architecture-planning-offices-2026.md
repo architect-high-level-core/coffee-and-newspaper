@@ -23,6 +23,17 @@ faq:
     answer: "Not on the evidence of current tools or of RIBA’s survey. 77% of RIBA respondents said AI can never replace human creativity, and RIBA argues that professional oversight remains essential for safe buildings. Vendor tools still need a person to set standards, check native model changes and take responsibility."
   - question: "What should a firm ask before buying an AI tool?"
     answer: "Does it change native BIM elements or only draw on top? Can you undo it, and does it report what it checked? How do office standards get in? Does it reach the second application, such as AutoCAD or a PDF? Where does project data go, and is it used for training? Then test it on your own file, not the vendor’s demo."
+audio: /assets/audio/ai-tools-architecture-planning-offices-2026.mp3
+audio_voice: Guy
+audio_duration: "14:01"
+audio_chapters:
+  - {t: 0, title: "Intro"}
+  - {t: 63, title: "The short version"}
+  - {t: 157, title: "How widely are architecture offices…"}
+  - {t: 298, title: "What can Autodesk Assistant and Forma…"}
+  - {t: 448, title: "Which other tools do offices use for…"}
+  - {t: 627, title: "What should a practice trust, and what…"}
+  - {t: 703, title: "FAQ"}
 ---
 
 AI has arrived in architecture and planning offices, but it has not, on the evidence, taken over design. It is being used to speed up pictures, schedules, sheets and first-pass checks. Whether that produces better buildings is a different, and so far less convincing, story.

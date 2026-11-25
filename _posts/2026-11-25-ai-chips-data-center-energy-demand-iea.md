@@ -23,6 +23,17 @@ faq:
     answer: "In the near term the IEA says physical bottlenecks — grid connections, transformers, gas turbines, and advanced chips and memory — are slowing how fast new sites can be turned on, even as investment soars. The chips set how much power a filled rack needs; the grid and supply chain determine how many racks can actually be plugged in."
   - question: "Does a more efficient chip mean less electricity overall?"
     answer: "Not necessarily. The IEA says energy use per AI task has been falling very quickly, but more people are using AI and new tasks such as video, reasoning and software agents can use hundreds or thousands of times more energy per request than a short text answer. Efficiency and demand are moving in opposite directions."
+audio: /assets/audio/ai-chips-data-center-energy-demand-iea.mp3
+audio_voice: Andrew
+audio_duration: "14:23"
+audio_chapters:
+  - {t: 0, title: "Intro"}
+  - {t: 61, title: "The short version"}
+  - {t: 153, title: "Why do AI chips use so much electricity?"}
+  - {t: 360, title: "How much electricity do data centers…"}
+  - {t: 507, title: "If demand is so high, why is growth…"}
+  - {t: 644, title: "Does more data-center demand always…"}
+  - {t: 726, title: "FAQ"}
 ---
 
 AI systems do not run on slogans. They run on **chips** packed into **data centers**, and those buildings draw a continuous supply of electricity. The more capable the chip, the more densely it is packed, and the more hours it spends at high load, the larger the power bill becomes. This article asks why AI chips drive data-center energy demand, what official hardware ratings and energy-agency figures actually say in late 2026, and where forecasts still disagree with what can be measured.
