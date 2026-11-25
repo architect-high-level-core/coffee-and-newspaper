@@ -23,6 +23,17 @@ faq:
     answer: "Krutrim-2, a 12-billion-parameter model from Ola Krutrim, remains publicly documented on Hugging Face and reports strong results on Indic tasks. Some 2026 secondary reports said the consumer Kruti assistant had disappeared and that a planned Krutrim 3 model had been halted. We could not confirm those later product changes from a primary company statement."
   - question: "Do Indian models beat GPT or Gemini?"
     answer: "Not on general intelligence or coding benchmarks published by Artificial Analysis for Sarvam 105B and 30B. Their relative strengths are Indian languages, scripts, voice and, in one 2026 preprint, romanised code-mixed instructions. For hard reasoning and agentic coding, global models still lead in the independent scores we reviewed."
+audio: /assets/audio/strongest-ai-models-india-sarvam-bharatgen-krutrim.mp3
+audio_voice: Andrew
+audio_duration: "14:35"
+audio_chapters:
+  - {t: 0, title: "Intro"}
+  - {t: 48, title: "The short version"}
+  - {t: 127, title: "Which Indian AI model scores highest on…"}
+  - {t: 345, title: "What is BharatGen’s Param2, and how…"}
+  - {t: 491, title: "Where does Krutrim-2 stand?"}
+  - {t: 592, title: "When do Indian models do better than…"}
+  - {t: 738, title: "FAQ"}
 ---
 
 India now has public language models that were trained in India, released with open weights, and scored by an independent benchmark laboratory. That is a genuine change from a few years ago, when “Indian AI” often meant a wrapper around a foreign model. It does not mean that the strongest Indian models have caught the global frontier.

@@ -23,6 +23,19 @@ faq:
     answer: "No. Masakhane is a research community that has built datasets and translation systems for many African languages. It is not a single consumer chatbot or foundation model."
   - question: "Do African models outperform GPT or Gemini on African languages?"
     answer: "Not at a general frontier level, on the evidence we could check. Independent tests found that N-ATLaS improved on Llama-3-8B-Instruct for Yoruba, Igbo and Hausa. A 2026 overview of the DataLens Africa leaderboard reported that Google’s Gemini family still led on African-language and medical benchmarks as of September 2026."
+audio: /assets/audio/african-ai-models-inkubalm-natlas-masakhane.mp3
+audio_voice: Guy
+audio_duration: "15:37"
+audio_chapters:
+  - {t: 0, title: "Intro"}
+  - {t: 56, title: "The short version"}
+  - {t: 140, title: "Are there African AI models?"}
+  - {t: 207, title: "What is Lelapa AI’s InkubaLM, and was…"}
+  - {t: 335, title: "What is N-ATLaS, and did Nigeria and…"}
+  - {t: 510, title: "Is Masakhane an African language model?"}
+  - {t: 585, title: "What other African models have been…"}
+  - {t: 680, title: "How do African models compare with…"}
+  - {t: 783, title: "FAQ"}
 ---
 
 Yes, there are African AI models. They are real, they have names, and some of their weights are public. What they are *not*, on the evidence available in late 2026, is a set of frontier-scale systems trained entirely from scratch on African data and then shown to beat the best global models overall.
