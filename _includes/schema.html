@@ -25,6 +25,11 @@
 {"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":{{ site.title | jsonify }},"item":{{ s_root | jsonify }}},{"@type":"ListItem","position":2,"name":{{ page.title | jsonify }},"item":{{ seo_url | jsonify }}}]}
 ]}
 </script>
+{%- if page.faq and page.faq.size > 0 -%}
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{% for item in page.faq %}{"@type":"Question","name":{{ item.question | jsonify }},"acceptedAnswer":{"@type":"Answer","text":{{ item.answer | jsonify }}}}{% unless forloop.last %},{% endunless %}{% endfor %}]}
+</script>
+{%- endif -%}
 {%- elsif is_home %}
 <script type="application/ld+json">
 {"@context":"https://schema.org","@graph":[
