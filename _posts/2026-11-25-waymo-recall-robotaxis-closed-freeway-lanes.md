@@ -23,6 +23,17 @@ faq:
     answer: "No. In June 2026 Waymo issued a similar recall covering nearly 3,900 robotaxis that had driven past ramp-closure signs or between cones into construction zones. The November action is a new recall, not a re-announcement of the June one."
   - question: "What happens in a robotaxi software recall?"
     answer: "In practice it is usually a required software update, reported to NHTSA, to change how the driving system behaves. Waymo said it was still working on the remedy for the closed-lane recall at the time of the 24 November filing. Until that update is completed, the operational restrictions already in place, including the California freeway ban, are the main immediate control."
+audio: /assets/audio/waymo-recall-robotaxis-closed-freeway-lanes.mp3
+audio_voice: Guy
+audio_duration: "10:36"
+audio_chapters:
+  - {t: 0, title: "Intro"}
+  - {t: 51, title: "The short version"}
+  - {t: 124, title: "Why did Waymo recall nearly 4,500…"}
+  - {t: 243, title: "How does this relate to California’s…"}
+  - {t: 338, title: "Which other Waymo investigations should…"}
+  - {t: 413, title: "What does this tell us about robotaxis…"}
+  - {t: 500, title: "FAQ"}
 ---
 
 Alphabet’s autonomous-taxi unit **Waymo** has issued a new U.S. safety recall covering almost its entire robotaxi fleet. The reason, the company told regulators, was not a crash in the incidents at issue, but a repeated failure to stay out of **closed freeway lanes**.

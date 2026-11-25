@@ -23,6 +23,16 @@ faq:
     answer: "Among larger public events on Devpost in late November 2026 are Google’s #BuildHybridAI 2026, with US$30,000 in prizes and a 30 November deadline; the AWS MSP AI Hackathon, with US$64,000 in prizes and an 11 December deadline; and smaller student events such as AI OpenBuild, with a 10 December deadline."
   - question: "How many people took part in the San Francisco Grokathon?"
     answer: "We could not reconcile the figures. The official Devpost page lists 16 participants and says the event was invitation-only. A later recap said 220 people took part. Until an official attendance statement is published, both numbers should be treated as unverified against each other."
+audio: /assets/audio/xai-ai-hackathons-grokathon-2026.mp3
+audio_voice: Andrew
+audio_duration: "11:51"
+audio_chapters:
+  - {t: 0, title: "Intro"}
+  - {t: 77, title: "The short version"}
+  - {t: 155, title: "What was the official xAI, or SpaceXSI…"}
+  - {t: 304, title: "Are more Grok hackathons coming, and…"}
+  - {t: 425, title: "What other AI hackathons are open or…"}
+  - {t: 591, title: "FAQ"}
 ---
 
 Hackathons are short, intense building contests: a team has a day or a few weeks to ship a working prototype, then presents it to judges. In 2026 the format is one of the main ways AI companies put new models in front of developers. This article asks which events **xAI** and other organisations have actually run or announced, what the prizes were, and which results can be checked against a primary page.

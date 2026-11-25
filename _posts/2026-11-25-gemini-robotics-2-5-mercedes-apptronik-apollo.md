@@ -23,6 +23,17 @@ faq:
     answer: "Not on the evidence published. DeepMind and Apptronik describe a proof-of-concept on a repetitive kitting task, and say the aim is to take on monotonous work so technicians can do more complex jobs. No independent report we reviewed gives a number of robots deployed, a production timetable, or a job impact."
   - question: "How reliable and safe is the model, according to DeepMind?"
     answer: "DeepMind says Gemini Robotics 2.5 achieved a 30% to 100% higher success rate than previous baselines, depending on the task, and completed tasks 20% to 30% faster, across more than 200 distinct tasks. It also reports safety improvements and a 99.5% score on a new jailbreak benchmark, ASIMOV-Jailbreak. All of those numbers are the company’s."
+audio: /assets/audio/gemini-robotics-2-5-mercedes-apptronik-apollo.mp3
+audio_voice: Andrew
+audio_duration: "11:12"
+audio_chapters:
+  - {t: 0, title: "Intro"}
+  - {t: 64, title: "The short version"}
+  - {t: 142, title: "What is Gemini Robotics 2.5?"}
+  - {t: 276, title: "Did the model work on a Mercedes-Benz…"}
+  - {t: 390, title: "What does DeepMind say about safety?"}
+  - {t: 479, title: "What can be concluded, and what cannot?"}
+  - {t: 544, title: "FAQ"}
 ---
 
 Factory robots have been welding and painting car bodies for decades. What is new is the attempt to give a humanoid robot a **general** ability to see a messy bin of parts, follow a changing plan, and use its hands — without a specialist program for every movement.
