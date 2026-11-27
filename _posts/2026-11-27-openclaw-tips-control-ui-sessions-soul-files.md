@@ -22,6 +22,19 @@ faq:
     answer: "Use a messaging channel when you are away from the desk, when you need to forward a message in place, or when a non-technical person should talk to a tightly scoped agent. Use the Control UI when you need to see many sessions, code, a browser view, files or approvals."
   - question: "What are OpenClaw sub-agents for?"
     answer: "Sub-agents are short-lived helper runs that a named agent can start for parallel work, such as several code changes at once. Official docs say each sub-agent has its own session, is isolated by default and does not get session or message tools unless you change that. You usually talk to the named agent, not to each helper."
+audio: /assets/audio/openclaw-tips-control-ui-sessions-soul-files.mp3
+audio_voice: Guy
+audio_duration: "21:50"
+audio_chapters:
+  - {t: 0, title: "Intro"}
+  - {t: 101, title: "The short version"}
+  - {t: 180, title: "What is the OpenClaw window, and when…"}
+  - {t: 328, title: "Should you run one agent or many?"}
+  - {t: 503, title: "How do sessions, snoozing and…"}
+  - {t: 663, title: "What can people actually use OpenClaw…"}
+  - {t: 853, title: "How do you keep an agent from doing…"}
+  - {t: 1105, title: "FAQ"}
+  - {t: 1216, title: "What we could not verify"}
 ---
 OpenClaw is a self-hosted AI agent: not only a chatbot, but a program that can run commands, read files, send messages and do work on a schedule. You run a **Gateway** on your own computer or server, then talk to it from a browser dashboard, a terminal, or apps such as WhatsApp, Telegram, Discord or Slack. The project is MIT-licensed ([GitHub](https://github.com/openclaw/openclaw)) and documented at [docs.openclaw.ai](https://docs.openclaw.ai/).
 
