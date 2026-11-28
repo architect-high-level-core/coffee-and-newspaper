@@ -88,8 +88,8 @@ _posts/2026-10-27-ai-tech-news-roundup.md:
 - _posts/2026-11-02-claude-self-review-game-block-free-tools-agents.md
 - _posts/2026-11-06-ai-capex-voter-backlash-flashprove.md
 _posts/2026-10-28-anthropic-ipo-microsoft-buyouts-lean-agents.md:
-- _posts/2026-11-01-prompting-google-ai-agents-game-testing.md
 - _posts/2026-10-27-ai-tech-news-roundup.md
+- _posts/2026-11-01-prompting-google-ai-agents-game-testing.md
 - _posts/2026-11-02-claude-self-review-game-block-free-tools-agents.md
 _posts/2026-10-29-ai-in-archaeology.md:
 - _posts/2026-10-31-amazon-ai-plans-and-problems.md
@@ -146,7 +146,7 @@ _posts/2026-11-04-ai-entry-level-jobs-debate.md:
 _posts/2026-11-04-deutsche-ki-modelle.md:
 - _posts/2026-11-18-openclaw-new-features-x-posts.md
 - _posts/2026-11-22-local-mcp-gateways-ai-open-cad-freecad.md
-- _posts/2026-11-14-nonprofits-lawsuit-freeze-frontier-ai.md
+- _posts/2026-11-09-decomp-dev-sunset-ai-game-decompilation.md
 _posts/2026-11-04-fastest-growing-startups-on-x.md:
 - _posts/2026-11-03-voice-ai-gemini-blender-agent-teams.md
 - _posts/2026-10-23-personal-agents-market-map-explained.md
@@ -276,9 +276,9 @@ _posts/2026-11-21-anthropic-ant-second-day-lockup-greenshoe-openai.md:
 - _posts/2026-11-20-anthropic-first-trading-day-ant-market-reaction.md
 - _posts/2026-11-16-anthropic-ipo-explained-ant-nasdaq.md
 _posts/2026-11-22-local-mcp-gateways-ai-open-cad-freecad.md:
+- _posts/2026-11-28-open-weight-ai-models-local-ai-guide.md
 - _posts/2026-10-10-ai-in-cad-rea-autocad-revit-archicad.md
 - _posts/2026-10-16-ai-agents-rules-tools-news.md
-- _posts/2026-11-18-openclaw-new-features-x-posts.md
 _posts/2026-11-23-anthropic-ant-first-week-analysts-openai.md:
 - _posts/2026-11-20-anthropic-first-trading-day-ant-market-reaction.md
 - _posts/2026-11-21-anthropic-ant-second-day-lockup-greenshoe-openai.md
@@ -327,3 +327,7 @@ _posts/2026-11-27-openclaw-tips-control-ui-sessions-soul-files.md:
 - _posts/2026-11-18-openclaw-new-features-x-posts.md
 - _posts/2026-11-04-particle-1-openclaw-plugins.md
 - _posts/2026-10-26-ai-agents-phone-sms-chat-email.md
+_posts/2026-11-28-open-weight-ai-models-local-ai-guide.md:
+- _posts/2026-11-22-local-mcp-gateways-ai-open-cad-freecad.md
+- _posts/2026-10-23-ai-agents-monitoring-flint-engineering-ai.md
+- _posts/2026-11-02-claude-self-review-game-block-free-tools-agents.md
