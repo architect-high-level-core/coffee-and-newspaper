@@ -23,6 +23,16 @@ faq:
     answer: "Quantization stores a model’s numbers with fewer bits, for example 4 or 8 bits instead of 16. That shrinks the file and memory need a lot, at the cost of some quality. Ollama lists gemma4:12b at about 7.7 GB in its default form and about 24 GB in full 16-bit (bf16) precision."
   - question: "Is local AI fully private?"
     answer: "Running the model on your own computer means your prompts do not have to go to a cloud provider. But privacy still depends on the software around it: tools that browse the web, plug-ins and MCP servers can send data out, read local files or run code. LM Studio’s own documentation warns never to install MCP servers from untrusted sources."
+audio: /assets/audio/open-weight-ai-models-local-ai-guide.mp3
+audio_voice: Andrew
+audio_duration: "10:24"
+audio_chapters:
+  - {t: 0, title: "Intro"}
+  - {t: 38, title: "Open-weight vs open-source AI"}
+  - {t: 115, title: "Which open models people run locally in…"}
+  - {t: 222, title: "The common tools"}
+  - {t: 304, title: "How much hardware do you need?"}
+  - {t: 485, title: "Local MCP servers"}
 ---
 
 Most people meet AI through a website or an app: you type, a company’s data centre computes, an answer comes back. A growing number of people do something different. They download an AI model and run it **on their own laptop or desktop**, with no internet connection needed once the model is on the disk. This guide explains what that involves as of late November 2026 — the terms, the models, the tools, the hardware and the trade-offs — and keeps facts separate from opinion.
